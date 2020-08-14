@@ -1,3 +1,6 @@
 [submodule "Koda/gym"]
 	path = Koda/gym
 	url = https://github.com/AnejSvete/gym
+[submodule "Koda/spinningup"]
+	path = Koda/spinningup
+	url = https://github.com/AnejSvete/spinningup
