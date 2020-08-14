@@ -1,0 +1,831 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\sloppy
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language slovene
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style german
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Izpeljava enačb za sistem vozička s palico na neravni površini
+\end_layout
+
+\begin_layout Author
+Anej Svete
+\end_layout
+
+\begin_layout Section
+Uvod
+\end_layout
+
+\begin_layout Standard
+S pomočjo Lagrangeeve formulacije gibalnih enačb izpeljem enačbe dinamike
+ v sistemu vozička s palico na neravni površini.
+ Enačbe so zastavljene, za izpeljavo diferencialnih enačb pa sem uporabil
+ Mathematico.
+\end_layout
+
+\begin_layout Standard
+Najprej predstavim enačbe za originalni problem, nato pa izpeljem še enačbe
+ za razširjeno različico na podlagi posplošenih koordinat 
+\emph on
+s 
+\emph default
+in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, kjer je 
+\emph on
+s
+\emph default
+ parameter, odvisen od časa in implicitno namesto pozicije 
+\emph on
+x 
+\emph default
+določa krivuljo.
+ V zadnjem delu so predstavljene še enačbe, kjer je krivulja terena določena
+ s pozicijo 
+\emph on
+x
+\emph default
+, kar poenostavi dobljene enačbe.
+\end_layout
+
+\begin_layout Standard
+Za pomoč pri izpeljavi se zahvaljujem asistentu Juretu Slaku s FMF UL in
+ IJS.
+\end_layout
+
+\begin_layout Section
+Enačbe prvotnega problema, kot jih vrne Mathematica
+\end_layout
+
+\begin_layout Standard
+Enačbi, ki ju na podlagi Lagrangeeve formulacije gibalnih enačb vrne Mathematica
+, nista povsem enaki tistim, ki se pogosto pojavljajo v literaturi, zato
+ dodajam tudi te.
+ Služijo tudi za primerjavo kompleksnosti v primerjavi z izpeljanim problemom.
+ Enačbi sta:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ddot{x}=\frac{F+m\sin\left(\Theta\right)\left(-g\cos\left(\Theta\right)+l\dot{\Theta}^{2}\right)}{m+M-m\cos(\Theta)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ddot{\Theta}=-\frac{\left(\cos\left(\Theta\right)F+\sin\left(\Theta\right)\right)\left(-g\left(m+M\right)+lm\cos\left(\Theta\right)\dot{\Theta}^{2}\right)}{l\left(m+M-m\cos\left(\Theta\right)^{2}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Gibanje, parametrizirano s 
+\emph on
+s 
+\emph default
+in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Za posplošeni koordinati vzamemo 
+\emph on
+
+\begin_inset Formula $s$
+\end_inset
+
+
+\emph default
+ in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+ in ne 
+\emph on
+
+\begin_inset Formula $x$
+\end_inset
+
+
+\emph default
+ ter 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, kjer je 
+\emph on
+s 
+\emph default
+parameter, ki implicitno preko funkcije 
+\emph on
+x 
+\emph default
+določa absciso telesa in omogoča, da je teren parametrična krivulja na ravnini,
+ torej da krivulja, po kateri potuje voziček, ni nujno funkcija pozicije
+ na osi 
+\emph on
+x
+\emph default
+.
+ To omogoča izris poljubne poti, s čimer lahko problem poljubno otežimo.
+\end_layout
+
+\begin_layout Standard
+Za lažjo izpeljavo vpeljemo podobne predpostavke kot pri prvotnem sistemu,
+ le da tokrat obravnavamo voziček še kot točkasto telo, da lahko zanemarimo
+ vrtilno količino togega telesa pri premikanju.
+ Kot prej je vsa masa palice skoncentrirana na vrhu, torej jo obravnavamo
+ kot točkasto telo.
+\end_layout
+
+\begin_layout Standard
+Konstante so 
+\emph on
+M 
+\emph default
+- masa vozička, 
+\emph on
+m
+\emph default
+ - masa palice, 
+\emph on
+l
+\emph default
+ - dolžina palice in F - 
+\emph on
+moč potiska
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x\left(s\right)$
+\end_inset
+
+ predstavlja lokacijo vozička na abscisni osi, 
+\begin_inset Formula $y\left(s\right)$
+\end_inset
+
+ pa enačbo krivulje terena, po katerem se giblje voziček in s tem višino
+ trenutne pozicije.
+ Z 
+\begin_inset Formula $\left(x_{1}\left(s,\Theta\right),y_{1}\left(s,\Theta\right)\right)$
+\end_inset
+
+ označimo lokacijo vozička (ki je v tem primeru torej točka) v odvisnosti
+ od 
+\begin_inset Formula $s$
+\end_inset
+
+ in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, z 
+\begin_inset Formula $\left(x_{2}\left(s,\Theta\right),y_{2}\left(s,\Theta\right)\right)$
+\end_inset
+
+ pa lokacijo vrha palice.
+ 
+\end_layout
+
+\begin_layout Standard
+Z 
+\begin_inset Formula $x\left(s\right)$
+\end_inset
+
+ in 
+\begin_inset Formula $y\left(s\right)$
+\end_inset
+
+ torej lahko izrazimo lokaciji na sledeči način:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{1}\left(s,\Theta\right)=x\left(s\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{1}\left(s,\Theta\right)=y\left(s\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{2}\left(s,\Theta\right)=x\left(s\right)+l\sin\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{2}\left(s,\Theta\right)=y\left(s\right)+l\cos\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Odvodi teh funkcij po času so torej:
+\begin_inset Formula 
+\[
+\dot{x}_{1}\left(s,\Theta\right)=\dot{x}\left(s\right)\dot{s}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{y}_{1}\left(s,\Theta\right)=\dot{y}\left(s\right)\dot{s}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{x}_{2}\left(s,\Theta\right)=\dot{x}\left(s\right)\dot{s}+l\dot{\Theta}cos\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{y}_{2}\left(s,\Theta\right)=\dot{y}\left(s\right)\dot{s}-l\dot{\Theta}sin\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kinetična energija sistema je 
+\begin_inset Formula 
+\[
+T=T_{voziček}+T_{palica}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{1}{2}M\left(\left(\dot{x}\left(s\right)\dot{s}\right)^{2}+\left(\dot{y}\left(s\right)\dot{s}\right)^{2}\right)+\frac{1}{2}m\left(\left(\dot{x}\left(s\right)\dot{s}+l\dot{\Theta}\cos\left(\Theta\right)\right)^{2}+\left(\dot{y}\left(s\right)\dot{s}-l\dot{\Theta}\sin\left(\Theta\right)\right)^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Potencialna pa 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V=V_{voziček}+V_{palica}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=-gMy\left(s\right)-gm\left(y\left(s\right)+l\cos\left(\Theta\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ti dve enačbi vstavimo v Lagrangeevo formulacijo gibalnih enačb 
+\begin_inset Formula $\mathcal{L}=T-V$
+\end_inset
+
+ in dobimo: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{s}}-\frac{\partial\mathcal{L}}{\partial s}=F
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{\Theta}}-\frac{\partial\mathcal{L}}{\partial\Theta}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ti dve enačbi rešimo z Mathematico in izrazimo 
+\begin_inset Formula $\ddot{s}$
+\end_inset
+
+ ter 
+\begin_inset Formula $\ddot{\Theta}$
+\end_inset
+
+ na sledeči način: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ddot{s}=\frac{f_{1}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)}{g_{1}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ddot{\Theta}=\frac{f_{2}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)}{g_{2}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)}
+\]
+
+\end_inset
+
+ Tu so:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+f_{1}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)=\\
+-2F\\
++\ddot{y}\left(s\right)\left(g\left(m+2M+m\cos\left(2\ddot{\Theta}\right)\right)-2lm\cos(\Theta)\dot{\Theta}^{2}\right)\\
++\ddot{y}\left(s\right)\dot{s}^{2}\left(m\sin(2\Theta)\ddot{x}(s)+\left(m+2M+m\cos\left(2\Theta\right)\right)\ddot{y}\left(s\right)\right)\\
++\dot{x}\left(s\right)\left(gm\sin\left(2\Theta\right)-2lm\sin\left(\Theta\right)\dot{\Theta}^{2}\right)\\
++\dot{x}\left(s\right)\dot{s}^{2}\left(\left(m+2M-m\cos\left(2\Theta\right)\right)\ddot{x}\left(s\right)+m\sin(2\Theta)\ddot{y}\left(s\right)\right)\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+g_{1}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)=\\
+\left(-m-2M+m\cos\left(2\Theta\right)\right)\dot{x}\left(s\right)^{2}\\
+-2m\sin\left(2\Theta\right)\dot{x}\left(s\right)\dot{y}\left(s\right)\\
+-\left(m+2M+m\cos\left(2\Theta\right)\right)\dot{y}\left(s\right)^{2}\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+f_{2}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)=\\
+F\left(\cos\left(\Theta\right)\dot{x}\left(s\right)-\sin\left(\Theta\right)\dot{y}\left(s\right)\right)\\
++\left(\sin\left(\Theta\right)\dot{x}\left(s\right)+\cos\left(\Theta\right)\dot{y}\left(s\right)\right)\dot{y}\left(s\right)\left(-\left(lm\sin\left(\Theta\right)\dot{\Theta}^{2}\right)+\left(m+M\right)\dot{s}^{2}\ddot{x}\left(s\right)\right)\\
++\left(\sin\left(\Theta\right)\dot{x}\left(s\right)+\cos\left(\Theta\right)\dot{y}\left(s\right)\right)\dot{x}\left(s\right)\left(lm\cos\left(\Theta\right)\dot{\Theta}^{2}+\left(m+M\right)\left(-g-\dot{s}^{2}\ddot{y}\left(s\right)\right)\right)\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+g_{2}\left(\Theta,\dot{\Theta},s,\dot{s},x,\dot{x},\ddot{x},y,\dot{y},\ddot{y}\right)=\\
+l\left(-m-M+m\cos\left(\Theta\right)^{2}\right)\dot{x}\left(s\right)^{2}\\
+-lm\sin\left(2\Theta\right)\dot{x}\left(s\right)\dot{y}\left(s\right)\\
+-\frac{1}{2}l\left(m+2M+m\cos\left(2\Theta\right)\right)\dot{y}\left(s\right)^{2}\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kot omenjeno sta dobljeni enačbi precej kompleksnejši od originalnih.
+ Zato se lahko omejimo na terene, kjer je višina funkcija abscise, da dobimo
+ enostavnejše enačbe.
+ To je predstavljeno v naslednjem razdelku.
+\end_layout
+
+\begin_layout Section
+Gibanje, parametrizirano z 
+\emph on
+x 
+\emph default
+in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Predpostavke in nastavek okolja so enaki kot v prejšnjem razdelku, le da
+ tu za posplošeni koordinati vzamemo neposredno
+\emph on
+ x
+\emph default
+ in 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, kjer je 
+\emph on
+x 
+\emph default
+eksplicitno določa absciso telesa.
+ S tem se dobljene enačbe poenostavijo, toda še vedno so precej obsežnejše
+ od originalnih.
+\end_layout
+
+\begin_layout Standard
+Tokrat 
+\begin_inset Formula $x$
+\end_inset
+
+ predstavlja lokacijo vozička na abscisni osi, 
+\begin_inset Formula $y\left(x\right)$
+\end_inset
+
+ pa ima isto vlogo kot prej.
+ Tudi 
+\begin_inset Formula $x_{1},x_{2},y_{1},y_{2}$
+\end_inset
+
+ pomenijo isto kot prej.
+\end_layout
+
+\begin_layout Standard
+Z 
+\begin_inset Formula $x$
+\end_inset
+
+ in 
+\begin_inset Formula $y\left(x\right)$
+\end_inset
+
+ lokaciji izrazimo na sledeči način:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{1}\left(x,\Theta\right)=x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{1}\left(x,\Theta\right)=y\left(x\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x_{2}\left(x,\Theta\right)=x+l\sin\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{2}\left(x,\Theta\right)=y\left(x\right)+l\cos\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Odvodi teh funkcij po času so torej:
+\begin_inset Formula 
+\[
+\dot{x}_{1}\left(x,\Theta\right)=\dot{x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{y}_{1}\left(x,\Theta\right)=\dot{y}\left(x\right)\dot{x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{x}_{2}\left(x,\Theta\right)=\dot{x}+l\dot{\Theta}cos\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dot{y}_{2}\left(x,\Theta\right)=\dot{y}\left(x\right)\dot{x}-l\dot{\Theta}sin\left(\Theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kinetična energija sistema je 
+\begin_inset Formula 
+\[
+T=T_{voziček}+T_{palica}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{1}{2}M\left(\dot{x}^{2}+\left(\dot{y}\left(x\right)\dot{x}\right)^{2}\right)+\frac{1}{2}m\left(\left(\dot{x}+l\dot{\Theta}\cos\left(\Theta\right)\right)^{2}+\left(\dot{y}\left(x\right)\dot{x}-l\dot{\Theta}\sin\left(\Theta\right)\right)^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Potencialna pa 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V=V_{voziček}+V_{palica}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=-gMy\left(x\right)-gm\left(y\left(x\right)+l\cos\left(\Theta\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ti dve enačbi vstavimo v Lagrangeevo formulacijo gibalnih enačb 
+\begin_inset Formula $\mathcal{L}=T-V$
+\end_inset
+
+ in dobimo: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{s}}-\frac{\partial\mathcal{L}}{\partial s}=F
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{\Theta}}-\frac{\partial\mathcal{L}}{\partial\Theta}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ti dve enačbi rešimo z Mathematico in izrazimo 
+\begin_inset Formula $\ddot{s}$
+\end_inset
+
+ ter 
+\begin_inset Formula $\ddot{\Theta}$
+\end_inset
+
+ na sledeči način: 
+\begin_inset Formula 
+\begin{equation}
+\ddot{x}=\frac{f_{1}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)}{g_{1}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\ddot{\Theta}=\frac{f_{2}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)}{g_{2}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)}
+\end{equation}
+
+\end_inset
+
+ Tu so:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+f_{1}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)=\\
+2F\\
++2lm\dot{\Theta}^{2}\left(\sin\left(\Theta\right)+\cos\left(\Theta\right)\dot{y}\left(x\right)\right)\\
++\left(m\sin\left(2\Theta\right)+\left(m+2M+m\cos\left(2\Theta\right)\right)\dot{y}\left(x\right)\right)\left(g-\dot{x}^{2}\ddot{y}\left(x\right)\right)\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+g_{1}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)=\\
+m+2M-m\cos\left(2\Theta\right)\\
++2m\sin\left(2\Theta\right)\dot{y}\left(x\right)\\
++\left(m+2M+m\cos\left(2\Theta\right)\right)\dot{y}\left(x\right)^{2}\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+f_{2}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)=\\
+-2\left(F\left(\cos\left(\Theta\right)-\sin\left(\Theta\right)\dot{y}\left(x\right)\right)-\left(\sin\left(\Theta\right)+\cos\left(\Theta\right)\dot{y}\left(x\right)\right)\right)\\
+\cdot\left(lm\dot{\Theta}^{2}\left(-\cos\left(\Theta\right)+\sin\left(\Theta\right)\dot{y}\left(x\right)\right)-\left(m+M\right)\left(g-\dot{x}^{2}\ddot{y}\left(x\right)\right)\right)\\
+\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
+g_{2}\left(\Theta,\dot{\Theta},x,\dot{x},y,\dot{y},\ddot{y}\right)=\\
+l\left(m+2M-m\cos\left(2\Theta\right)+\sin\left(2\Theta\right)\dot{y}\left(x\right)\right)\\
++l\left(m+2M+m\cos\left(2\Theta\right)\right)\dot{y}\left(x\right)^{2}\\
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
