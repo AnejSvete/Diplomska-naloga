@@ -1,0 +1,5022 @@
+
+On evaluation 7 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed491213/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942283/progress.txt
+Episode 0 	 EpRet -0.078 	 EpLen 500
+Episode 1 	 EpRet -0.100 	 EpLen 500
+Episode 2 	 EpRet -0.084 	 EpLen 500
+Episode 3 	 EpRet -0.155 	 EpLen 500
+Episode 4 	 EpRet -0.094 	 EpLen 500
+Episode 5 	 EpRet -0.091 	 EpLen 500
+Episode 6 	 EpRet -0.082 	 EpLen 500
+Episode 7 	 EpRet -0.091 	 EpLen 500
+Episode 8 	 EpRet -0.157 	 EpLen 500
+Episode 9 	 EpRet -0.092 	 EpLen 500
+Episode 10 	 EpRet -0.096 	 EpLen 500
+Episode 11 	 EpRet -0.089 	 EpLen 500
+Episode 12 	 EpRet -0.115 	 EpLen 500
+Episode 13 	 EpRet -0.099 	 EpLen 500
+Episode 14 	 EpRet -0.096 	 EpLen 500
+Episode 15 	 EpRet -0.097 	 EpLen 500
+Episode 16 	 EpRet -0.101 	 EpLen 500
+Episode 17 	 EpRet -0.090 	 EpLen 500
+Episode 18 	 EpRet -0.093 	 EpLen 500
+Episode 19 	 EpRet -0.104 	 EpLen 500
+Episode 20 	 EpRet -0.092 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.087 	 EpLen 500
+Episode 23 	 EpRet -0.090 	 EpLen 500
+Episode 24 	 EpRet -0.097 	 EpLen 500
+Episode 25 	 EpRet -0.093 	 EpLen 500
+Episode 26 	 EpRet -0.088 	 EpLen 500
+Episode 27 	 EpRet -0.151 	 EpLen 500
+Episode 28 	 EpRet -0.091 	 EpLen 500
+Episode 29 	 EpRet -0.101 	 EpLen 500
+Episode 30 	 EpRet -0.087 	 EpLen 500
+Episode 31 	 EpRet -0.126 	 EpLen 500
+Episode 32 	 EpRet -0.096 	 EpLen 500
+Episode 33 	 EpRet -0.092 	 EpLen 500
+Episode 34 	 EpRet -0.102 	 EpLen 500
+Episode 35 	 EpRet -0.106 	 EpLen 500
+Episode 36 	 EpRet -0.088 	 EpLen 500
+Episode 37 	 EpRet -0.086 	 EpLen 500
+Episode 38 	 EpRet -0.089 	 EpLen 500
+Episode 39 	 EpRet -0.109 	 EpLen 500
+Episode 40 	 EpRet -0.078 	 EpLen 500
+Episode 41 	 EpRet -0.152 	 EpLen 500
+Episode 42 	 EpRet -0.105 	 EpLen 500
+Episode 43 	 EpRet -0.093 	 EpLen 500
+Episode 44 	 EpRet -0.089 	 EpLen 500
+Episode 45 	 EpRet -0.081 	 EpLen 500
+Episode 46 	 EpRet -0.112 	 EpLen 500
+Episode 47 	 EpRet -0.091 	 EpLen 500
+Episode 48 	 EpRet -0.090 	 EpLen 500
+Episode 49 	 EpRet -0.087 	 EpLen 500
+Episode 50 	 EpRet -0.090 	 EpLen 500
+Episode 51 	 EpRet -0.095 	 EpLen 500
+Episode 52 	 EpRet -0.110 	 EpLen 500
+Episode 53 	 EpRet -0.092 	 EpLen 500
+Episode 54 	 EpRet -0.088 	 EpLen 500
+Episode 55 	 EpRet -0.084 	 EpLen 500
+Episode 56 	 EpRet -0.125 	 EpLen 500
+Episode 57 	 EpRet -0.078 	 EpLen 500
+Episode 58 	 EpRet -0.084 	 EpLen 500
+Episode 59 	 EpRet -0.098 	 EpLen 500
+Episode 60 	 EpRet -0.098 	 EpLen 500
+Episode 61 	 EpRet -0.085 	 EpLen 500
+Episode 62 	 EpRet -0.154 	 EpLen 500
+Episode 63 	 EpRet -0.110 	 EpLen 500
+Episode 64 	 EpRet -0.111 	 EpLen 500
+Episode 65 	 EpRet -0.095 	 EpLen 500
+Episode 66 	 EpRet -0.081 	 EpLen 500
+Episode 67 	 EpRet -0.085 	 EpLen 500
+Episode 68 	 EpRet -0.080 	 EpLen 500
+Episode 69 	 EpRet -0.110 	 EpLen 500
+Episode 70 	 EpRet -0.113 	 EpLen 500
+Episode 71 	 EpRet -0.083 	 EpLen 500
+Episode 72 	 EpRet -0.094 	 EpLen 500
+Episode 73 	 EpRet -0.090 	 EpLen 500
+Episode 74 	 EpRet -0.082 	 EpLen 500
+Episode 75 	 EpRet -0.092 	 EpLen 500
+Episode 76 	 EpRet -0.099 	 EpLen 500
+Episode 77 	 EpRet -0.098 	 EpLen 500
+Episode 78 	 EpRet -0.121 	 EpLen 500
+Episode 79 	 EpRet -0.097 	 EpLen 500
+Episode 80 	 EpRet -0.080 	 EpLen 500
+Episode 81 	 EpRet -0.109 	 EpLen 500
+Episode 82 	 EpRet -0.144 	 EpLen 500
+Episode 83 	 EpRet -0.086 	 EpLen 500
+Episode 84 	 EpRet -0.090 	 EpLen 500
+Episode 85 	 EpRet -0.152 	 EpLen 500
+Episode 86 	 EpRet -0.092 	 EpLen 500
+Episode 87 	 EpRet -0.102 	 EpLen 500
+Episode 88 	 EpRet -0.114 	 EpLen 500
+Episode 89 	 EpRet -0.081 	 EpLen 500
+Episode 90 	 EpRet -0.114 	 EpLen 500
+Episode 91 	 EpRet -0.096 	 EpLen 500
+Episode 92 	 EpRet -0.089 	 EpLen 500
+Episode 93 	 EpRet -0.096 	 EpLen 500
+Episode 94 	 EpRet -0.124 	 EpLen 500
+Episode 95 	 EpRet -0.087 	 EpLen 500
+Episode 96 	 EpRet -0.092 	 EpLen 500
+Episode 97 	 EpRet -0.081 	 EpLen 500
+Episode 98 	 EpRet -0.094 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.099 |
+|        StdEpRet |          0.0181 |
+|        MaxEpRet |          -0.078 |
+|        MinEpRet |          -0.157 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 8 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed734018/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942376/progress.txt
+Episode 0 	 EpRet -0.145 	 EpLen 500
+Episode 1 	 EpRet -0.089 	 EpLen 500
+Episode 2 	 EpRet -0.205 	 EpLen 500
+Episode 3 	 EpRet -0.139 	 EpLen 500
+Episode 4 	 EpRet -0.115 	 EpLen 500
+Episode 5 	 EpRet -0.140 	 EpLen 500
+Episode 6 	 EpRet -0.104 	 EpLen 500
+Episode 7 	 EpRet -0.125 	 EpLen 500
+Episode 8 	 EpRet -0.127 	 EpLen 500
+Episode 9 	 EpRet -0.128 	 EpLen 500
+Episode 10 	 EpRet -0.675 	 EpLen 500
+Episode 11 	 EpRet -0.143 	 EpLen 500
+Episode 12 	 EpRet -0.152 	 EpLen 500
+Episode 13 	 EpRet -0.184 	 EpLen 500
+Episode 14 	 EpRet -0.129 	 EpLen 500
+Episode 15 	 EpRet -0.146 	 EpLen 500
+Episode 16 	 EpRet -0.127 	 EpLen 500
+Episode 17 	 EpRet -0.160 	 EpLen 500
+Episode 18 	 EpRet -0.160 	 EpLen 500
+Episode 19 	 EpRet -0.126 	 EpLen 500
+Episode 20 	 EpRet -0.177 	 EpLen 500
+Episode 21 	 EpRet -0.118 	 EpLen 500
+Episode 22 	 EpRet -0.173 	 EpLen 500
+Episode 23 	 EpRet -0.147 	 EpLen 500
+Episode 24 	 EpRet -0.150 	 EpLen 500
+Episode 25 	 EpRet -0.142 	 EpLen 500
+Episode 26 	 EpRet -0.121 	 EpLen 500
+Episode 27 	 EpRet -0.133 	 EpLen 500
+Episode 28 	 EpRet -0.115 	 EpLen 500
+Episode 29 	 EpRet -0.134 	 EpLen 500
+Episode 30 	 EpRet -0.148 	 EpLen 500
+Episode 31 	 EpRet -0.190 	 EpLen 500
+Episode 32 	 EpRet -0.232 	 EpLen 500
+Episode 33 	 EpRet -0.168 	 EpLen 500
+Episode 34 	 EpRet -0.156 	 EpLen 500
+Episode 35 	 EpRet -0.163 	 EpLen 500
+Episode 36 	 EpRet -0.138 	 EpLen 500
+Episode 37 	 EpRet -0.140 	 EpLen 500
+Episode 38 	 EpRet -0.139 	 EpLen 500
+Episode 39 	 EpRet -0.148 	 EpLen 500
+Episode 40 	 EpRet -0.125 	 EpLen 500
+Episode 41 	 EpRet -0.142 	 EpLen 500
+Episode 42 	 EpRet -0.104 	 EpLen 500
+Episode 43 	 EpRet -0.123 	 EpLen 500
+Episode 44 	 EpRet -0.117 	 EpLen 500
+Episode 45 	 EpRet -0.173 	 EpLen 500
+Episode 46 	 EpRet -0.160 	 EpLen 500
+Episode 47 	 EpRet -0.104 	 EpLen 500
+Episode 48 	 EpRet -0.147 	 EpLen 500
+Episode 49 	 EpRet -0.153 	 EpLen 500
+Episode 50 	 EpRet -0.212 	 EpLen 500
+Episode 51 	 EpRet -0.166 	 EpLen 500
+Episode 52 	 EpRet -0.137 	 EpLen 500
+Episode 53 	 EpRet -0.127 	 EpLen 500
+Episode 54 	 EpRet -0.163 	 EpLen 500
+Episode 55 	 EpRet -0.119 	 EpLen 500
+Episode 56 	 EpRet -0.128 	 EpLen 500
+Episode 57 	 EpRet -0.139 	 EpLen 500
+Episode 58 	 EpRet -0.624 	 EpLen 500
+Episode 59 	 EpRet -0.119 	 EpLen 500
+Episode 60 	 EpRet -0.141 	 EpLen 500
+Episode 61 	 EpRet -0.138 	 EpLen 500
+Episode 62 	 EpRet -0.124 	 EpLen 500
+Episode 63 	 EpRet -0.174 	 EpLen 500
+Episode 64 	 EpRet -0.133 	 EpLen 500
+Episode 65 	 EpRet -0.143 	 EpLen 500
+Episode 66 	 EpRet -0.139 	 EpLen 500
+Episode 67 	 EpRet -0.146 	 EpLen 500
+Episode 68 	 EpRet -0.134 	 EpLen 500
+Episode 69 	 EpRet -0.130 	 EpLen 500
+Episode 70 	 EpRet -0.135 	 EpLen 500
+Episode 71 	 EpRet -0.129 	 EpLen 500
+Episode 72 	 EpRet -0.166 	 EpLen 500
+Episode 73 	 EpRet -0.137 	 EpLen 500
+Episode 74 	 EpRet -0.117 	 EpLen 500
+Episode 75 	 EpRet -0.138 	 EpLen 500
+Episode 76 	 EpRet -0.169 	 EpLen 500
+Episode 77 	 EpRet -0.105 	 EpLen 500
+Episode 78 	 EpRet -0.138 	 EpLen 500
+Episode 79 	 EpRet -0.138 	 EpLen 500
+Episode 80 	 EpRet -0.161 	 EpLen 500
+Episode 81 	 EpRet -0.142 	 EpLen 500
+Episode 82 	 EpRet -0.138 	 EpLen 500
+Episode 83 	 EpRet -0.135 	 EpLen 500
+Episode 84 	 EpRet -0.138 	 EpLen 500
+Episode 85 	 EpRet -0.122 	 EpLen 500
+Episode 86 	 EpRet -0.140 	 EpLen 500
+Episode 87 	 EpRet -0.654 	 EpLen 500
+Episode 88 	 EpRet -0.111 	 EpLen 500
+Episode 89 	 EpRet -0.137 	 EpLen 500
+Episode 90 	 EpRet -0.171 	 EpLen 500
+Episode 91 	 EpRet -0.135 	 EpLen 500
+Episode 92 	 EpRet -0.134 	 EpLen 500
+Episode 93 	 EpRet -0.132 	 EpLen 500
+Episode 94 	 EpRet -0.146 	 EpLen 500
+Episode 95 	 EpRet -0.120 	 EpLen 500
+Episode 96 	 EpRet -0.109 	 EpLen 500
+Episode 97 	 EpRet -0.123 	 EpLen 500
+Episode 98 	 EpRet -0.146 	 EpLen 500
+Episode 99 	 EpRet -0.147 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.156 |
+|        StdEpRet |            0.09 |
+|        MaxEpRet |          -0.089 |
+|        MinEpRet |          -0.675 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 9 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed659782/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942468/progress.txt
+Episode 0 	 EpRet -0.130 	 EpLen 500
+Episode 1 	 EpRet -0.127 	 EpLen 500
+Episode 2 	 EpRet -0.162 	 EpLen 500
+Episode 3 	 EpRet -0.141 	 EpLen 500
+Episode 4 	 EpRet -0.123 	 EpLen 500
+Episode 5 	 EpRet -0.107 	 EpLen 500
+Episode 6 	 EpRet -0.090 	 EpLen 500
+Episode 7 	 EpRet -0.096 	 EpLen 500
+Episode 8 	 EpRet -0.126 	 EpLen 500
+Episode 9 	 EpRet -0.092 	 EpLen 500
+Episode 10 	 EpRet -0.140 	 EpLen 500
+Episode 11 	 EpRet -0.143 	 EpLen 500
+Episode 12 	 EpRet -0.110 	 EpLen 500
+Episode 13 	 EpRet -0.132 	 EpLen 500
+Episode 14 	 EpRet -0.125 	 EpLen 500
+Episode 15 	 EpRet -0.137 	 EpLen 500
+Episode 16 	 EpRet -0.099 	 EpLen 500
+Episode 17 	 EpRet -0.089 	 EpLen 500
+Episode 18 	 EpRet -0.149 	 EpLen 500
+Episode 19 	 EpRet -0.112 	 EpLen 500
+Episode 20 	 EpRet -0.117 	 EpLen 500
+Episode 21 	 EpRet -0.155 	 EpLen 500
+Episode 22 	 EpRet -0.117 	 EpLen 500
+Episode 23 	 EpRet -0.126 	 EpLen 500
+Episode 24 	 EpRet -0.106 	 EpLen 500
+Episode 25 	 EpRet -0.116 	 EpLen 500
+Episode 26 	 EpRet -0.118 	 EpLen 500
+Episode 27 	 EpRet -0.116 	 EpLen 500
+Episode 28 	 EpRet -0.169 	 EpLen 500
+Episode 29 	 EpRet -0.153 	 EpLen 500
+Episode 30 	 EpRet -0.102 	 EpLen 500
+Episode 31 	 EpRet -0.102 	 EpLen 500
+Episode 32 	 EpRet -0.125 	 EpLen 500
+Episode 33 	 EpRet -0.146 	 EpLen 500
+Episode 34 	 EpRet -0.122 	 EpLen 500
+Episode 35 	 EpRet -0.155 	 EpLen 500
+Episode 36 	 EpRet -0.094 	 EpLen 500
+Episode 37 	 EpRet -0.153 	 EpLen 500
+Episode 38 	 EpRet -0.092 	 EpLen 500
+Episode 39 	 EpRet -0.130 	 EpLen 500
+Episode 40 	 EpRet -0.122 	 EpLen 500
+Episode 41 	 EpRet -0.123 	 EpLen 500
+Episode 42 	 EpRet -0.107 	 EpLen 500
+Episode 43 	 EpRet -0.144 	 EpLen 500
+Episode 44 	 EpRet -0.113 	 EpLen 500
+Episode 45 	 EpRet -0.101 	 EpLen 500
+Episode 46 	 EpRet -0.125 	 EpLen 500
+Episode 47 	 EpRet -0.120 	 EpLen 500
+Episode 48 	 EpRet -0.100 	 EpLen 500
+Episode 49 	 EpRet -0.106 	 EpLen 500
+Episode 50 	 EpRet -0.142 	 EpLen 500
+Episode 51 	 EpRet -0.100 	 EpLen 500
+Episode 52 	 EpRet -0.100 	 EpLen 500
+Episode 53 	 EpRet -0.118 	 EpLen 500
+Episode 54 	 EpRet -0.114 	 EpLen 500
+Episode 55 	 EpRet -0.098 	 EpLen 500
+Episode 56 	 EpRet -0.127 	 EpLen 500
+Episode 57 	 EpRet -0.136 	 EpLen 500
+Episode 58 	 EpRet -0.106 	 EpLen 500
+Episode 59 	 EpRet -0.115 	 EpLen 500
+Episode 60 	 EpRet -0.122 	 EpLen 500
+Episode 61 	 EpRet -0.142 	 EpLen 500
+Episode 62 	 EpRet -0.166 	 EpLen 500
+Episode 63 	 EpRet -0.127 	 EpLen 500
+Episode 64 	 EpRet -0.127 	 EpLen 500
+Episode 65 	 EpRet -0.099 	 EpLen 500
+Episode 66 	 EpRet -0.100 	 EpLen 500
+Episode 67 	 EpRet -0.110 	 EpLen 500
+Episode 68 	 EpRet -0.129 	 EpLen 500
+Episode 69 	 EpRet -0.111 	 EpLen 500
+Episode 70 	 EpRet -0.122 	 EpLen 500
+Episode 71 	 EpRet -0.192 	 EpLen 500
+Episode 72 	 EpRet -0.134 	 EpLen 500
+Episode 73 	 EpRet -0.113 	 EpLen 500
+Episode 74 	 EpRet -0.138 	 EpLen 500
+Episode 75 	 EpRet -0.129 	 EpLen 500
+Episode 76 	 EpRet -0.121 	 EpLen 500
+Episode 77 	 EpRet -0.091 	 EpLen 500
+Episode 78 	 EpRet -0.143 	 EpLen 500
+Episode 79 	 EpRet -0.177 	 EpLen 500
+Episode 80 	 EpRet -0.099 	 EpLen 500
+Episode 81 	 EpRet -0.122 	 EpLen 500
+Episode 82 	 EpRet -0.123 	 EpLen 500
+Episode 83 	 EpRet -0.116 	 EpLen 500
+Episode 84 	 EpRet -0.090 	 EpLen 500
+Episode 85 	 EpRet -0.116 	 EpLen 500
+Episode 86 	 EpRet -0.157 	 EpLen 500
+Episode 87 	 EpRet -0.121 	 EpLen 500
+Episode 88 	 EpRet -0.140 	 EpLen 500
+Episode 89 	 EpRet -0.113 	 EpLen 500
+Episode 90 	 EpRet -0.110 	 EpLen 500
+Episode 91 	 EpRet -0.151 	 EpLen 500
+Episode 92 	 EpRet -0.134 	 EpLen 500
+Episode 93 	 EpRet -0.112 	 EpLen 500
+Episode 94 	 EpRet -0.115 	 EpLen 500
+Episode 95 	 EpRet -0.108 	 EpLen 500
+Episode 96 	 EpRet -0.141 	 EpLen 500
+Episode 97 	 EpRet -0.166 	 EpLen 500
+Episode 98 	 EpRet -0.133 	 EpLen 500
+Episode 99 	 EpRet -0.097 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.123 |
+|        StdEpRet |           0.021 |
+|        MaxEpRet |          -0.089 |
+|        MinEpRet |          -0.192 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 10 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed628976/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942561/progress.txt
+Episode 0 	 EpRet -0.078 	 EpLen 500
+Episode 1 	 EpRet -0.072 	 EpLen 500
+Episode 2 	 EpRet -0.082 	 EpLen 500
+Episode 3 	 EpRet -0.085 	 EpLen 500
+Episode 4 	 EpRet -0.081 	 EpLen 500
+Episode 5 	 EpRet -0.079 	 EpLen 500
+Episode 6 	 EpRet -0.085 	 EpLen 500
+Episode 7 	 EpRet -0.081 	 EpLen 500
+Episode 8 	 EpRet -0.079 	 EpLen 500
+Episode 9 	 EpRet -0.079 	 EpLen 500
+Episode 10 	 EpRet -0.083 	 EpLen 500
+Episode 11 	 EpRet -0.077 	 EpLen 500
+Episode 12 	 EpRet -0.074 	 EpLen 500
+Episode 13 	 EpRet -0.087 	 EpLen 500
+Episode 14 	 EpRet -0.088 	 EpLen 500
+Episode 15 	 EpRet -0.077 	 EpLen 500
+Episode 16 	 EpRet -0.077 	 EpLen 500
+Episode 17 	 EpRet -0.082 	 EpLen 500
+Episode 18 	 EpRet -0.076 	 EpLen 500
+Episode 19 	 EpRet -0.073 	 EpLen 500
+Episode 20 	 EpRet -0.071 	 EpLen 500
+Episode 21 	 EpRet -0.079 	 EpLen 500
+Episode 22 	 EpRet -0.058 	 EpLen 500
+Episode 23 	 EpRet -0.080 	 EpLen 500
+Episode 24 	 EpRet -0.081 	 EpLen 500
+Episode 25 	 EpRet -0.081 	 EpLen 500
+Episode 26 	 EpRet -0.079 	 EpLen 500
+Episode 27 	 EpRet -0.067 	 EpLen 500
+Episode 28 	 EpRet -0.082 	 EpLen 500
+Episode 29 	 EpRet -0.086 	 EpLen 500
+Episode 30 	 EpRet -0.067 	 EpLen 500
+Episode 31 	 EpRet -0.074 	 EpLen 500
+Episode 32 	 EpRet -0.085 	 EpLen 500
+Episode 33 	 EpRet -0.081 	 EpLen 500
+Episode 34 	 EpRet -0.093 	 EpLen 500
+Episode 35 	 EpRet -0.084 	 EpLen 500
+Episode 36 	 EpRet -0.069 	 EpLen 500
+Episode 37 	 EpRet -0.081 	 EpLen 500
+Episode 38 	 EpRet -0.081 	 EpLen 500
+Episode 39 	 EpRet -0.078 	 EpLen 500
+Episode 40 	 EpRet -0.080 	 EpLen 500
+Episode 41 	 EpRet -0.078 	 EpLen 500
+Episode 42 	 EpRet -0.076 	 EpLen 500
+Episode 43 	 EpRet -0.076 	 EpLen 500
+Episode 44 	 EpRet -0.077 	 EpLen 500
+Episode 45 	 EpRet -0.082 	 EpLen 500
+Episode 46 	 EpRet -0.090 	 EpLen 500
+Episode 47 	 EpRet -0.077 	 EpLen 500
+Episode 48 	 EpRet -0.058 	 EpLen 500
+Episode 49 	 EpRet -0.074 	 EpLen 500
+Episode 50 	 EpRet -0.080 	 EpLen 500
+Episode 51 	 EpRet -0.080 	 EpLen 500
+Episode 52 	 EpRet -0.087 	 EpLen 500
+Episode 53 	 EpRet -0.085 	 EpLen 500
+Episode 54 	 EpRet -0.080 	 EpLen 500
+Episode 55 	 EpRet -0.081 	 EpLen 500
+Episode 56 	 EpRet -0.087 	 EpLen 500
+Episode 57 	 EpRet -0.076 	 EpLen 500
+Episode 58 	 EpRet -0.075 	 EpLen 500
+Episode 59 	 EpRet -0.083 	 EpLen 500
+Episode 60 	 EpRet -0.082 	 EpLen 500
+Episode 61 	 EpRet -0.080 	 EpLen 500
+Episode 62 	 EpRet -0.089 	 EpLen 500
+Episode 63 	 EpRet -0.120 	 EpLen 500
+Episode 64 	 EpRet -0.087 	 EpLen 500
+Episode 65 	 EpRet -0.080 	 EpLen 500
+Episode 66 	 EpRet -0.076 	 EpLen 500
+Episode 67 	 EpRet -0.057 	 EpLen 500
+Episode 68 	 EpRet -0.081 	 EpLen 500
+Episode 69 	 EpRet -0.078 	 EpLen 500
+Episode 70 	 EpRet -0.080 	 EpLen 500
+Episode 71 	 EpRet -0.070 	 EpLen 500
+Episode 72 	 EpRet -0.078 	 EpLen 500
+Episode 73 	 EpRet -0.074 	 EpLen 500
+Episode 74 	 EpRet -0.076 	 EpLen 500
+Episode 75 	 EpRet -0.095 	 EpLen 500
+Episode 76 	 EpRet -0.079 	 EpLen 500
+Episode 77 	 EpRet -0.078 	 EpLen 500
+Episode 78 	 EpRet -0.095 	 EpLen 500
+Episode 79 	 EpRet -0.093 	 EpLen 500
+Episode 80 	 EpRet -0.076 	 EpLen 500
+Episode 81 	 EpRet -0.077 	 EpLen 500
+Episode 82 	 EpRet -0.075 	 EpLen 500
+Episode 83 	 EpRet -0.078 	 EpLen 500
+Episode 84 	 EpRet -0.088 	 EpLen 500
+Episode 85 	 EpRet -0.081 	 EpLen 500
+Episode 86 	 EpRet -0.086 	 EpLen 500
+Episode 87 	 EpRet -0.074 	 EpLen 500
+Episode 88 	 EpRet -0.073 	 EpLen 500
+Episode 89 	 EpRet -0.083 	 EpLen 500
+Episode 90 	 EpRet -0.084 	 EpLen 500
+Episode 91 	 EpRet -0.074 	 EpLen 500
+Episode 92 	 EpRet -0.084 	 EpLen 500
+Episode 93 	 EpRet -0.087 	 EpLen 500
+Episode 94 	 EpRet -0.083 	 EpLen 500
+Episode 95 	 EpRet -0.088 	 EpLen 500
+Episode 96 	 EpRet -0.088 	 EpLen 500
+Episode 97 	 EpRet -0.079 	 EpLen 500
+Episode 98 	 EpRet -0.087 	 EpLen 500
+Episode 99 	 EpRet -0.073 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |           -0.08 |
+|        StdEpRet |         0.00789 |
+|        MaxEpRet |          -0.057 |
+|        MinEpRet |           -0.12 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 11 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed517820/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942661/progress.txt
+Episode 0 	 EpRet -0.108 	 EpLen 500
+Episode 1 	 EpRet -0.085 	 EpLen 500
+Episode 2 	 EpRet -0.103 	 EpLen 500
+Episode 3 	 EpRet -0.083 	 EpLen 500
+Episode 4 	 EpRet -0.089 	 EpLen 500
+Episode 5 	 EpRet -0.101 	 EpLen 500
+Episode 6 	 EpRet -0.107 	 EpLen 500
+Episode 7 	 EpRet -0.099 	 EpLen 500
+Episode 8 	 EpRet -0.105 	 EpLen 500
+Episode 9 	 EpRet -0.085 	 EpLen 500
+Episode 10 	 EpRet -0.079 	 EpLen 500
+Episode 11 	 EpRet -0.111 	 EpLen 500
+Episode 12 	 EpRet -0.102 	 EpLen 500
+Episode 13 	 EpRet -0.100 	 EpLen 500
+Episode 14 	 EpRet -0.111 	 EpLen 500
+Episode 15 	 EpRet -0.100 	 EpLen 500
+Episode 16 	 EpRet -0.076 	 EpLen 500
+Episode 17 	 EpRet -0.092 	 EpLen 500
+Episode 18 	 EpRet -0.111 	 EpLen 500
+Episode 19 	 EpRet -0.108 	 EpLen 500
+Episode 20 	 EpRet -0.116 	 EpLen 500
+Episode 21 	 EpRet -0.103 	 EpLen 500
+Episode 22 	 EpRet -0.091 	 EpLen 500
+Episode 23 	 EpRet -0.104 	 EpLen 500
+Episode 24 	 EpRet -0.094 	 EpLen 500
+Episode 25 	 EpRet -0.106 	 EpLen 500
+Episode 26 	 EpRet -0.107 	 EpLen 500
+Episode 27 	 EpRet -0.099 	 EpLen 500
+Episode 28 	 EpRet -0.104 	 EpLen 500
+Episode 29 	 EpRet -0.110 	 EpLen 500
+Episode 30 	 EpRet -0.114 	 EpLen 500
+Episode 31 	 EpRet -0.122 	 EpLen 500
+Episode 32 	 EpRet -0.191 	 EpLen 500
+Episode 33 	 EpRet -0.110 	 EpLen 500
+Episode 34 	 EpRet -0.140 	 EpLen 500
+Episode 35 	 EpRet -0.114 	 EpLen 500
+Episode 36 	 EpRet -0.110 	 EpLen 500
+Episode 37 	 EpRet -0.097 	 EpLen 500
+Episode 38 	 EpRet -0.097 	 EpLen 500
+Episode 39 	 EpRet -0.104 	 EpLen 500
+Episode 40 	 EpRet -0.097 	 EpLen 500
+Episode 41 	 EpRet -0.086 	 EpLen 500
+Episode 42 	 EpRet -0.107 	 EpLen 500
+Episode 43 	 EpRet -0.096 	 EpLen 500
+Episode 44 	 EpRet -0.119 	 EpLen 500
+Episode 45 	 EpRet -0.106 	 EpLen 500
+Episode 46 	 EpRet -0.107 	 EpLen 500
+Episode 47 	 EpRet -0.097 	 EpLen 500
+Episode 48 	 EpRet -0.175 	 EpLen 500
+Episode 49 	 EpRet -0.087 	 EpLen 500
+Episode 50 	 EpRet -0.101 	 EpLen 500
+Episode 51 	 EpRet -0.116 	 EpLen 500
+Episode 52 	 EpRet -0.114 	 EpLen 500
+Episode 53 	 EpRet -0.120 	 EpLen 500
+Episode 54 	 EpRet -0.106 	 EpLen 500
+Episode 55 	 EpRet -0.109 	 EpLen 500
+Episode 56 	 EpRet -0.097 	 EpLen 500
+Episode 57 	 EpRet -0.106 	 EpLen 500
+Episode 58 	 EpRet -0.102 	 EpLen 500
+Episode 59 	 EpRet -0.108 	 EpLen 500
+Episode 60 	 EpRet -0.111 	 EpLen 500
+Episode 61 	 EpRet -0.100 	 EpLen 500
+Episode 62 	 EpRet -0.103 	 EpLen 500
+Episode 63 	 EpRet -0.264 	 EpLen 500
+Episode 64 	 EpRet -0.109 	 EpLen 500
+Episode 65 	 EpRet -0.103 	 EpLen 500
+Episode 66 	 EpRet -0.108 	 EpLen 500
+Episode 67 	 EpRet -0.094 	 EpLen 500
+Episode 68 	 EpRet -0.109 	 EpLen 500
+Episode 69 	 EpRet -0.099 	 EpLen 500
+Episode 70 	 EpRet -0.102 	 EpLen 500
+Episode 71 	 EpRet -0.106 	 EpLen 500
+Episode 72 	 EpRet -0.086 	 EpLen 500
+Episode 73 	 EpRet -0.091 	 EpLen 500
+Episode 74 	 EpRet -0.085 	 EpLen 500
+Episode 75 	 EpRet -0.111 	 EpLen 500
+Episode 76 	 EpRet -0.093 	 EpLen 500
+Episode 77 	 EpRet -0.095 	 EpLen 500
+Episode 78 	 EpRet -0.110 	 EpLen 500
+Episode 79 	 EpRet -0.077 	 EpLen 500
+Episode 80 	 EpRet -0.108 	 EpLen 500
+Episode 81 	 EpRet -0.118 	 EpLen 500
+Episode 82 	 EpRet -0.092 	 EpLen 500
+Episode 83 	 EpRet -0.084 	 EpLen 500
+Episode 84 	 EpRet -0.104 	 EpLen 500
+Episode 85 	 EpRet -0.104 	 EpLen 500
+Episode 86 	 EpRet -0.117 	 EpLen 500
+Episode 87 	 EpRet -0.095 	 EpLen 500
+Episode 88 	 EpRet -0.116 	 EpLen 500
+Episode 89 	 EpRet -0.080 	 EpLen 500
+Episode 90 	 EpRet -0.101 	 EpLen 500
+Episode 91 	 EpRet -0.096 	 EpLen 500
+Episode 92 	 EpRet -0.106 	 EpLen 500
+Episode 93 	 EpRet -0.106 	 EpLen 500
+Episode 94 	 EpRet -0.111 	 EpLen 500
+Episode 95 	 EpRet -0.092 	 EpLen 500
+Episode 96 	 EpRet -0.106 	 EpLen 500
+Episode 97 	 EpRet -0.114 	 EpLen 500
+Episode 98 	 EpRet -0.086 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.105 |
+|        StdEpRet |          0.0223 |
+|        MaxEpRet |          -0.076 |
+|        MinEpRet |          -0.264 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 12 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed65927/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942753/progress.txt
+Episode 0 	 EpRet -0.119 	 EpLen 500
+Episode 1 	 EpRet -0.105 	 EpLen 500
+Episode 2 	 EpRet -0.114 	 EpLen 500
+Episode 3 	 EpRet -0.120 	 EpLen 500
+Episode 4 	 EpRet -0.106 	 EpLen 500
+Episode 5 	 EpRet -0.102 	 EpLen 500
+Episode 6 	 EpRet -0.098 	 EpLen 500
+Episode 7 	 EpRet -0.108 	 EpLen 500
+Episode 8 	 EpRet -0.094 	 EpLen 500
+Episode 9 	 EpRet -0.093 	 EpLen 500
+Episode 10 	 EpRet -0.108 	 EpLen 500
+Episode 11 	 EpRet -0.095 	 EpLen 500
+Episode 12 	 EpRet -0.090 	 EpLen 500
+Episode 13 	 EpRet -0.107 	 EpLen 500
+Episode 14 	 EpRet -0.087 	 EpLen 500
+Episode 15 	 EpRet -0.089 	 EpLen 500
+Episode 16 	 EpRet -0.104 	 EpLen 500
+Episode 17 	 EpRet -0.100 	 EpLen 500
+Episode 18 	 EpRet -0.110 	 EpLen 500
+Episode 19 	 EpRet -0.108 	 EpLen 500
+Episode 20 	 EpRet -0.122 	 EpLen 500
+Episode 21 	 EpRet -0.120 	 EpLen 500
+Episode 22 	 EpRet -0.092 	 EpLen 500
+Episode 23 	 EpRet -0.126 	 EpLen 500
+Episode 24 	 EpRet -0.110 	 EpLen 500
+Episode 25 	 EpRet -0.095 	 EpLen 500
+Episode 26 	 EpRet -0.113 	 EpLen 500
+Episode 27 	 EpRet -0.102 	 EpLen 500
+Episode 28 	 EpRet -0.121 	 EpLen 500
+Episode 29 	 EpRet -0.122 	 EpLen 500
+Episode 30 	 EpRet -0.106 	 EpLen 500
+Episode 31 	 EpRet -0.099 	 EpLen 500
+Episode 32 	 EpRet -0.117 	 EpLen 500
+Episode 33 	 EpRet -0.129 	 EpLen 500
+Episode 34 	 EpRet -0.131 	 EpLen 500
+Episode 35 	 EpRet -0.114 	 EpLen 500
+Episode 36 	 EpRet -0.087 	 EpLen 500
+Episode 37 	 EpRet -0.104 	 EpLen 500
+Episode 38 	 EpRet -0.104 	 EpLen 500
+Episode 39 	 EpRet -0.105 	 EpLen 500
+Episode 40 	 EpRet -0.105 	 EpLen 500
+Episode 41 	 EpRet -0.108 	 EpLen 500
+Episode 42 	 EpRet -0.103 	 EpLen 500
+Episode 43 	 EpRet -0.104 	 EpLen 500
+Episode 44 	 EpRet -0.093 	 EpLen 500
+Episode 45 	 EpRet -0.103 	 EpLen 500
+Episode 46 	 EpRet -0.137 	 EpLen 500
+Episode 47 	 EpRet -0.095 	 EpLen 500
+Episode 48 	 EpRet -0.104 	 EpLen 500
+Episode 49 	 EpRet -0.085 	 EpLen 500
+Episode 50 	 EpRet -0.113 	 EpLen 500
+Episode 51 	 EpRet -0.111 	 EpLen 500
+Episode 52 	 EpRet -0.118 	 EpLen 500
+Episode 53 	 EpRet -0.127 	 EpLen 500
+Episode 54 	 EpRet -0.106 	 EpLen 500
+Episode 55 	 EpRet -0.107 	 EpLen 500
+Episode 56 	 EpRet -0.126 	 EpLen 500
+Episode 57 	 EpRet -0.086 	 EpLen 500
+Episode 58 	 EpRet -0.096 	 EpLen 500
+Episode 59 	 EpRet -0.108 	 EpLen 500
+Episode 60 	 EpRet -0.097 	 EpLen 500
+Episode 61 	 EpRet -0.102 	 EpLen 500
+Episode 62 	 EpRet -0.120 	 EpLen 500
+Episode 63 	 EpRet -0.127 	 EpLen 500
+Episode 64 	 EpRet -0.113 	 EpLen 500
+Episode 65 	 EpRet -0.096 	 EpLen 500
+Episode 66 	 EpRet -0.101 	 EpLen 500
+Episode 67 	 EpRet -0.110 	 EpLen 500
+Episode 68 	 EpRet -0.107 	 EpLen 500
+Episode 69 	 EpRet -0.083 	 EpLen 500
+Episode 70 	 EpRet -0.099 	 EpLen 500
+Episode 71 	 EpRet -0.117 	 EpLen 500
+Episode 72 	 EpRet -0.090 	 EpLen 500
+Episode 73 	 EpRet -0.083 	 EpLen 500
+Episode 74 	 EpRet -0.105 	 EpLen 500
+Episode 75 	 EpRet -0.108 	 EpLen 500
+Episode 76 	 EpRet -0.117 	 EpLen 500
+Episode 77 	 EpRet -0.084 	 EpLen 500
+Episode 78 	 EpRet -0.116 	 EpLen 500
+Episode 79 	 EpRet -0.124 	 EpLen 500
+Episode 80 	 EpRet -0.096 	 EpLen 500
+Episode 81 	 EpRet -0.107 	 EpLen 500
+Episode 82 	 EpRet -0.102 	 EpLen 500
+Episode 83 	 EpRet -0.098 	 EpLen 500
+Episode 84 	 EpRet -0.100 	 EpLen 500
+Episode 85 	 EpRet -0.099 	 EpLen 500
+Episode 86 	 EpRet -0.114 	 EpLen 500
+Episode 87 	 EpRet -0.108 	 EpLen 500
+Episode 88 	 EpRet -0.126 	 EpLen 500
+Episode 89 	 EpRet -0.081 	 EpLen 500
+Episode 90 	 EpRet -0.095 	 EpLen 500
+Episode 91 	 EpRet -0.075 	 EpLen 500
+Episode 92 	 EpRet -0.139 	 EpLen 500
+Episode 93 	 EpRet -0.093 	 EpLen 500
+Episode 94 	 EpRet -0.100 	 EpLen 500
+Episode 95 	 EpRet -0.086 	 EpLen 500
+Episode 96 	 EpRet -0.120 	 EpLen 500
+Episode 97 	 EpRet -0.102 	 EpLen 500
+Episode 98 	 EpRet -0.115 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.106 |
+|        StdEpRet |          0.0129 |
+|        MaxEpRet |          -0.075 |
+|        MinEpRet |          -0.139 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 13 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed409914/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942847/progress.txt
+Episode 0 	 EpRet -0.234 	 EpLen 500
+Episode 1 	 EpRet -0.197 	 EpLen 500
+Episode 2 	 EpRet -0.170 	 EpLen 500
+Episode 3 	 EpRet -0.209 	 EpLen 500
+Episode 4 	 EpRet -0.150 	 EpLen 500
+Episode 5 	 EpRet -0.185 	 EpLen 500
+Episode 6 	 EpRet -0.172 	 EpLen 500
+Episode 7 	 EpRet -0.227 	 EpLen 500
+Episode 8 	 EpRet -0.159 	 EpLen 500
+Episode 9 	 EpRet -0.143 	 EpLen 500
+Episode 10 	 EpRet -0.171 	 EpLen 500
+Episode 11 	 EpRet -0.238 	 EpLen 500
+Episode 12 	 EpRet -0.111 	 EpLen 500
+Episode 13 	 EpRet -0.136 	 EpLen 500
+Episode 14 	 EpRet -0.148 	 EpLen 500
+Episode 15 	 EpRet -0.242 	 EpLen 500
+Episode 16 	 EpRet -0.187 	 EpLen 500
+Episode 17 	 EpRet -0.168 	 EpLen 500
+Episode 18 	 EpRet -0.673 	 EpLen 500
+Episode 19 	 EpRet -0.170 	 EpLen 500
+Episode 20 	 EpRet -0.176 	 EpLen 500
+Episode 21 	 EpRet -0.197 	 EpLen 500
+Episode 22 	 EpRet -0.143 	 EpLen 500
+Episode 23 	 EpRet -0.176 	 EpLen 500
+Episode 24 	 EpRet -0.264 	 EpLen 500
+Episode 25 	 EpRet -0.199 	 EpLen 500
+Episode 26 	 EpRet -0.212 	 EpLen 500
+Episode 27 	 EpRet -0.189 	 EpLen 500
+Episode 28 	 EpRet -0.217 	 EpLen 500
+Episode 29 	 EpRet -0.180 	 EpLen 500
+Episode 30 	 EpRet -0.301 	 EpLen 500
+Episode 31 	 EpRet -0.210 	 EpLen 500
+Episode 32 	 EpRet -0.208 	 EpLen 500
+Episode 33 	 EpRet -0.183 	 EpLen 500
+Episode 34 	 EpRet -0.209 	 EpLen 500
+Episode 35 	 EpRet -0.147 	 EpLen 500
+Episode 36 	 EpRet -0.241 	 EpLen 500
+Episode 37 	 EpRet -0.204 	 EpLen 500
+Episode 38 	 EpRet -0.159 	 EpLen 500
+Episode 39 	 EpRet -0.274 	 EpLen 500
+Episode 40 	 EpRet -0.138 	 EpLen 500
+Episode 41 	 EpRet -0.171 	 EpLen 500
+Episode 42 	 EpRet -0.146 	 EpLen 500
+Episode 43 	 EpRet -0.215 	 EpLen 500
+Episode 44 	 EpRet -0.144 	 EpLen 500
+Episode 45 	 EpRet -0.213 	 EpLen 500
+Episode 46 	 EpRet -0.205 	 EpLen 500
+Episode 47 	 EpRet -0.133 	 EpLen 500
+Episode 48 	 EpRet -0.202 	 EpLen 500
+Episode 49 	 EpRet -0.226 	 EpLen 500
+Episode 50 	 EpRet -0.162 	 EpLen 500
+Episode 51 	 EpRet -0.167 	 EpLen 500
+Episode 52 	 EpRet -0.189 	 EpLen 500
+Episode 53 	 EpRet -0.222 	 EpLen 500
+Episode 54 	 EpRet -0.169 	 EpLen 500
+Episode 55 	 EpRet -0.143 	 EpLen 500
+Episode 56 	 EpRet -0.201 	 EpLen 500
+Episode 57 	 EpRet -0.141 	 EpLen 500
+Episode 58 	 EpRet -0.172 	 EpLen 500
+Episode 59 	 EpRet -0.204 	 EpLen 500
+Episode 60 	 EpRet -0.227 	 EpLen 500
+Episode 61 	 EpRet -0.200 	 EpLen 500
+Episode 62 	 EpRet -0.180 	 EpLen 500
+Episode 63 	 EpRet -0.167 	 EpLen 500
+Episode 64 	 EpRet -0.210 	 EpLen 500
+Episode 65 	 EpRet -0.117 	 EpLen 500
+Episode 66 	 EpRet -0.213 	 EpLen 500
+Episode 67 	 EpRet -0.174 	 EpLen 500
+Episode 68 	 EpRet -0.152 	 EpLen 500
+Episode 69 	 EpRet -0.191 	 EpLen 500
+Episode 70 	 EpRet -0.318 	 EpLen 500
+Episode 71 	 EpRet -0.136 	 EpLen 500
+Episode 72 	 EpRet -0.154 	 EpLen 500
+Episode 73 	 EpRet -0.157 	 EpLen 500
+Episode 74 	 EpRet -0.176 	 EpLen 500
+Episode 75 	 EpRet -0.174 	 EpLen 500
+Episode 76 	 EpRet -0.186 	 EpLen 500
+Episode 77 	 EpRet -0.236 	 EpLen 500
+Episode 78 	 EpRet -0.237 	 EpLen 500
+Episode 79 	 EpRet -0.200 	 EpLen 500
+Episode 80 	 EpRet -0.205 	 EpLen 500
+Episode 81 	 EpRet -0.176 	 EpLen 500
+Episode 82 	 EpRet -0.136 	 EpLen 500
+Episode 83 	 EpRet -0.192 	 EpLen 500
+Episode 84 	 EpRet -0.129 	 EpLen 500
+Episode 85 	 EpRet -0.203 	 EpLen 500
+Episode 86 	 EpRet -0.209 	 EpLen 500
+Episode 87 	 EpRet -0.176 	 EpLen 500
+Episode 88 	 EpRet -0.207 	 EpLen 500
+Episode 89 	 EpRet -0.181 	 EpLen 500
+Episode 90 	 EpRet -0.234 	 EpLen 500
+Episode 91 	 EpRet -0.181 	 EpLen 500
+Episode 92 	 EpRet -0.203 	 EpLen 500
+Episode 93 	 EpRet -0.155 	 EpLen 500
+Episode 94 	 EpRet -0.200 	 EpLen 500
+Episode 95 	 EpRet -0.104 	 EpLen 500
+Episode 96 	 EpRet -0.216 	 EpLen 500
+Episode 97 	 EpRet -0.221 	 EpLen 500
+Episode 98 	 EpRet -0.206 	 EpLen 500
+Episode 99 	 EpRet -0.157 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.192 |
+|        StdEpRet |          0.0612 |
+|        MaxEpRet |          -0.104 |
+|        MinEpRet |          -0.673 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 14 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed20503/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593942940/progress.txt
+Episode 0 	 EpRet -0.085 	 EpLen 500
+Episode 1 	 EpRet -0.083 	 EpLen 500
+Episode 2 	 EpRet -0.087 	 EpLen 500
+Episode 3 	 EpRet -0.088 	 EpLen 500
+Episode 4 	 EpRet -0.087 	 EpLen 500
+Episode 5 	 EpRet -0.107 	 EpLen 500
+Episode 6 	 EpRet -0.092 	 EpLen 500
+Episode 7 	 EpRet -0.091 	 EpLen 500
+Episode 8 	 EpRet -0.089 	 EpLen 500
+Episode 9 	 EpRet -0.087 	 EpLen 500
+Episode 10 	 EpRet -0.094 	 EpLen 500
+Episode 11 	 EpRet -0.110 	 EpLen 500
+Episode 12 	 EpRet -0.094 	 EpLen 500
+Episode 13 	 EpRet -0.085 	 EpLen 500
+Episode 14 	 EpRet -0.092 	 EpLen 500
+Episode 15 	 EpRet -0.087 	 EpLen 500
+Episode 16 	 EpRet -0.099 	 EpLen 500
+Episode 17 	 EpRet -0.085 	 EpLen 500
+Episode 18 	 EpRet -0.093 	 EpLen 500
+Episode 19 	 EpRet -0.088 	 EpLen 500
+Episode 20 	 EpRet -0.086 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.084 	 EpLen 500
+Episode 23 	 EpRet -0.100 	 EpLen 500
+Episode 24 	 EpRet -0.100 	 EpLen 500
+Episode 25 	 EpRet -0.097 	 EpLen 500
+Episode 26 	 EpRet -0.097 	 EpLen 500
+Episode 27 	 EpRet -0.101 	 EpLen 500
+Episode 28 	 EpRet -0.069 	 EpLen 500
+Episode 29 	 EpRet -0.085 	 EpLen 500
+Episode 30 	 EpRet -0.103 	 EpLen 500
+Episode 31 	 EpRet -0.097 	 EpLen 500
+Episode 32 	 EpRet -0.084 	 EpLen 500
+Episode 33 	 EpRet -0.085 	 EpLen 500
+Episode 34 	 EpRet -0.086 	 EpLen 500
+Episode 35 	 EpRet -0.101 	 EpLen 500
+Episode 36 	 EpRet -0.090 	 EpLen 500
+Episode 37 	 EpRet -0.093 	 EpLen 500
+Episode 38 	 EpRet -0.100 	 EpLen 500
+Episode 39 	 EpRet -0.090 	 EpLen 500
+Episode 40 	 EpRet -0.083 	 EpLen 500
+Episode 41 	 EpRet -0.085 	 EpLen 500
+Episode 42 	 EpRet -0.087 	 EpLen 500
+Episode 43 	 EpRet -0.087 	 EpLen 500
+Episode 44 	 EpRet -0.083 	 EpLen 500
+Episode 45 	 EpRet -0.084 	 EpLen 500
+Episode 46 	 EpRet -0.102 	 EpLen 500
+Episode 47 	 EpRet -0.080 	 EpLen 500
+Episode 48 	 EpRet -0.089 	 EpLen 500
+Episode 49 	 EpRet -0.083 	 EpLen 500
+Episode 50 	 EpRet -0.093 	 EpLen 500
+Episode 51 	 EpRet -0.096 	 EpLen 500
+Episode 52 	 EpRet -0.090 	 EpLen 500
+Episode 53 	 EpRet -0.103 	 EpLen 500
+Episode 54 	 EpRet -0.096 	 EpLen 500
+Episode 55 	 EpRet -0.082 	 EpLen 500
+Episode 56 	 EpRet -0.088 	 EpLen 500
+Episode 57 	 EpRet -0.080 	 EpLen 500
+Episode 58 	 EpRet -0.082 	 EpLen 500
+Episode 59 	 EpRet -0.093 	 EpLen 500
+Episode 60 	 EpRet -0.086 	 EpLen 500
+Episode 61 	 EpRet -0.082 	 EpLen 500
+Episode 62 	 EpRet -0.086 	 EpLen 500
+Episode 63 	 EpRet -0.104 	 EpLen 500
+Episode 64 	 EpRet -0.082 	 EpLen 500
+Episode 65 	 EpRet -0.102 	 EpLen 500
+Episode 66 	 EpRet -0.087 	 EpLen 500
+Episode 67 	 EpRet -0.080 	 EpLen 500
+Episode 68 	 EpRet -0.100 	 EpLen 500
+Episode 69 	 EpRet -0.072 	 EpLen 500
+Episode 70 	 EpRet -0.092 	 EpLen 500
+Episode 71 	 EpRet -0.086 	 EpLen 500
+Episode 72 	 EpRet -0.086 	 EpLen 500
+Episode 73 	 EpRet -0.086 	 EpLen 500
+Episode 74 	 EpRet -0.074 	 EpLen 500
+Episode 75 	 EpRet -0.085 	 EpLen 500
+Episode 76 	 EpRet -0.095 	 EpLen 500
+Episode 77 	 EpRet -0.090 	 EpLen 500
+Episode 78 	 EpRet -0.094 	 EpLen 500
+Episode 79 	 EpRet -0.102 	 EpLen 500
+Episode 80 	 EpRet -0.085 	 EpLen 500
+Episode 81 	 EpRet -0.086 	 EpLen 500
+Episode 82 	 EpRet -0.104 	 EpLen 500
+Episode 83 	 EpRet -0.081 	 EpLen 500
+Episode 84 	 EpRet -0.092 	 EpLen 500
+Episode 85 	 EpRet -0.086 	 EpLen 500
+Episode 86 	 EpRet -0.106 	 EpLen 500
+Episode 87 	 EpRet -0.102 	 EpLen 500
+Episode 88 	 EpRet -0.091 	 EpLen 500
+Episode 89 	 EpRet -0.082 	 EpLen 500
+Episode 90 	 EpRet -0.087 	 EpLen 500
+Episode 91 	 EpRet -0.089 	 EpLen 500
+Episode 92 	 EpRet -0.096 	 EpLen 500
+Episode 93 	 EpRet -0.094 	 EpLen 500
+Episode 94 	 EpRet -0.089 	 EpLen 500
+Episode 95 	 EpRet -0.097 	 EpLen 500
+Episode 96 	 EpRet -0.094 	 EpLen 500
+Episode 97 	 EpRet -0.098 	 EpLen 500
+Episode 98 	 EpRet -0.099 	 EpLen 500
+Episode 99 	 EpRet -0.093 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0906 |
+|        StdEpRet |         0.00783 |
+|        MaxEpRet |          -0.069 |
+|        MinEpRet |           -0.11 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 15 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed181665/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943036/progress.txt
+Episode 0 	 EpRet -0.125 	 EpLen 500
+Episode 1 	 EpRet -0.108 	 EpLen 500
+Episode 2 	 EpRet -0.090 	 EpLen 500
+Episode 3 	 EpRet -0.094 	 EpLen 500
+Episode 4 	 EpRet -0.079 	 EpLen 500
+Episode 5 	 EpRet -0.076 	 EpLen 500
+Episode 6 	 EpRet -0.074 	 EpLen 500
+Episode 7 	 EpRet -0.089 	 EpLen 500
+Episode 8 	 EpRet -0.142 	 EpLen 500
+Episode 9 	 EpRet -0.095 	 EpLen 500
+Episode 10 	 EpRet -0.103 	 EpLen 500
+Episode 11 	 EpRet -0.101 	 EpLen 500
+Episode 12 	 EpRet -0.099 	 EpLen 500
+Episode 13 	 EpRet -0.085 	 EpLen 500
+Episode 14 	 EpRet -0.082 	 EpLen 500
+Episode 15 	 EpRet -0.081 	 EpLen 500
+Episode 16 	 EpRet -0.104 	 EpLen 500
+Episode 17 	 EpRet -0.084 	 EpLen 500
+Episode 18 	 EpRet -0.082 	 EpLen 500
+Episode 19 	 EpRet -0.095 	 EpLen 500
+Episode 20 	 EpRet -0.106 	 EpLen 500
+Episode 21 	 EpRet -0.133 	 EpLen 500
+Episode 22 	 EpRet -0.075 	 EpLen 500
+Episode 23 	 EpRet -0.107 	 EpLen 500
+Episode 24 	 EpRet -0.087 	 EpLen 500
+Episode 25 	 EpRet -0.085 	 EpLen 500
+Episode 26 	 EpRet -0.086 	 EpLen 500
+Episode 27 	 EpRet -0.077 	 EpLen 500
+Episode 28 	 EpRet -0.089 	 EpLen 500
+Episode 29 	 EpRet -0.111 	 EpLen 500
+Episode 30 	 EpRet -0.090 	 EpLen 500
+Episode 31 	 EpRet -0.097 	 EpLen 500
+Episode 32 	 EpRet -0.106 	 EpLen 500
+Episode 33 	 EpRet -0.134 	 EpLen 500
+Episode 34 	 EpRet -0.111 	 EpLen 500
+Episode 35 	 EpRet -0.102 	 EpLen 500
+Episode 36 	 EpRet -0.083 	 EpLen 500
+Episode 37 	 EpRet -0.096 	 EpLen 500
+Episode 38 	 EpRet -0.104 	 EpLen 500
+Episode 39 	 EpRet -0.151 	 EpLen 500
+Episode 40 	 EpRet -0.097 	 EpLen 500
+Episode 41 	 EpRet -0.084 	 EpLen 500
+Episode 42 	 EpRet -0.124 	 EpLen 500
+Episode 43 	 EpRet -0.083 	 EpLen 500
+Episode 44 	 EpRet -0.076 	 EpLen 500
+Episode 45 	 EpRet -0.081 	 EpLen 500
+Episode 46 	 EpRet -0.112 	 EpLen 500
+Episode 47 	 EpRet -0.074 	 EpLen 500
+Episode 48 	 EpRet -0.127 	 EpLen 500
+Episode 49 	 EpRet -0.067 	 EpLen 500
+Episode 50 	 EpRet -0.086 	 EpLen 500
+Episode 51 	 EpRet -0.117 	 EpLen 500
+Episode 52 	 EpRet -0.091 	 EpLen 500
+Episode 53 	 EpRet -0.092 	 EpLen 500
+Episode 54 	 EpRet -0.083 	 EpLen 500
+Episode 55 	 EpRet -0.076 	 EpLen 500
+Episode 56 	 EpRet -0.119 	 EpLen 500
+Episode 57 	 EpRet -0.098 	 EpLen 500
+Episode 58 	 EpRet -0.101 	 EpLen 500
+Episode 59 	 EpRet -0.086 	 EpLen 500
+Episode 60 	 EpRet -0.101 	 EpLen 500
+Episode 61 	 EpRet -0.083 	 EpLen 500
+Episode 62 	 EpRet -0.093 	 EpLen 500
+Episode 63 	 EpRet -0.130 	 EpLen 500
+Episode 64 	 EpRet -0.096 	 EpLen 500
+Episode 65 	 EpRet -0.084 	 EpLen 500
+Episode 66 	 EpRet -0.082 	 EpLen 500
+Episode 67 	 EpRet -0.087 	 EpLen 500
+Episode 68 	 EpRet -0.081 	 EpLen 500
+Episode 69 	 EpRet -0.087 	 EpLen 500
+Episode 70 	 EpRet -0.106 	 EpLen 500
+Episode 71 	 EpRet -0.101 	 EpLen 500
+Episode 72 	 EpRet -0.075 	 EpLen 500
+Episode 73 	 EpRet -0.091 	 EpLen 500
+Episode 74 	 EpRet -0.120 	 EpLen 500
+Episode 75 	 EpRet -0.099 	 EpLen 500
+Episode 76 	 EpRet -0.096 	 EpLen 500
+Episode 77 	 EpRet -0.108 	 EpLen 500
+Episode 78 	 EpRet -0.105 	 EpLen 500
+Episode 79 	 EpRet -0.155 	 EpLen 500
+Episode 80 	 EpRet -0.073 	 EpLen 500
+Episode 81 	 EpRet -0.086 	 EpLen 500
+Episode 82 	 EpRet -0.077 	 EpLen 500
+Episode 83 	 EpRet -0.086 	 EpLen 500
+Episode 84 	 EpRet -0.111 	 EpLen 500
+Episode 85 	 EpRet -0.123 	 EpLen 500
+Episode 86 	 EpRet -0.080 	 EpLen 500
+Episode 87 	 EpRet -0.120 	 EpLen 500
+Episode 88 	 EpRet -0.077 	 EpLen 500
+Episode 89 	 EpRet -0.090 	 EpLen 500
+Episode 90 	 EpRet -0.079 	 EpLen 500
+Episode 91 	 EpRet -0.078 	 EpLen 500
+Episode 92 	 EpRet -0.115 	 EpLen 500
+Episode 93 	 EpRet -0.084 	 EpLen 500
+Episode 94 	 EpRet -0.078 	 EpLen 500
+Episode 95 	 EpRet -0.078 	 EpLen 500
+Episode 96 	 EpRet -0.099 	 EpLen 500
+Episode 97 	 EpRet -0.123 	 EpLen 500
+Episode 98 	 EpRet -0.084 	 EpLen 500
+Episode 99 	 EpRet -0.078 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0959 |
+|        StdEpRet |          0.0181 |
+|        MaxEpRet |          -0.067 |
+|        MinEpRet |          -0.155 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 16 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed872833/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943127/progress.txt
+Episode 0 	 EpRet -0.117 	 EpLen 500
+Episode 1 	 EpRet -0.099 	 EpLen 500
+Episode 2 	 EpRet -0.106 	 EpLen 500
+Episode 3 	 EpRet -0.130 	 EpLen 500
+Episode 4 	 EpRet -0.111 	 EpLen 500
+Episode 5 	 EpRet -0.120 	 EpLen 500
+Episode 6 	 EpRet -0.175 	 EpLen 500
+Episode 7 	 EpRet -0.088 	 EpLen 500
+Episode 8 	 EpRet -0.112 	 EpLen 500
+Episode 9 	 EpRet -0.099 	 EpLen 500
+Episode 10 	 EpRet -0.187 	 EpLen 500
+Episode 11 	 EpRet -0.120 	 EpLen 500
+Episode 12 	 EpRet -0.168 	 EpLen 500
+Episode 13 	 EpRet -0.146 	 EpLen 500
+Episode 14 	 EpRet -0.176 	 EpLen 500
+Episode 15 	 EpRet -0.190 	 EpLen 500
+Episode 16 	 EpRet -0.105 	 EpLen 500
+Episode 17 	 EpRet -0.117 	 EpLen 500
+Episode 18 	 EpRet -0.127 	 EpLen 500
+Episode 19 	 EpRet -0.086 	 EpLen 500
+Episode 20 	 EpRet -0.140 	 EpLen 500
+Episode 21 	 EpRet -0.125 	 EpLen 500
+Episode 22 	 EpRet -0.176 	 EpLen 500
+Episode 23 	 EpRet -0.100 	 EpLen 500
+Episode 24 	 EpRet -0.111 	 EpLen 500
+Episode 25 	 EpRet -0.112 	 EpLen 500
+Episode 26 	 EpRet -0.126 	 EpLen 500
+Episode 27 	 EpRet -0.104 	 EpLen 500
+Episode 28 	 EpRet -0.135 	 EpLen 500
+Episode 29 	 EpRet -0.122 	 EpLen 500
+Episode 30 	 EpRet -0.157 	 EpLen 500
+Episode 31 	 EpRet -0.107 	 EpLen 500
+Episode 32 	 EpRet -0.100 	 EpLen 500
+Episode 33 	 EpRet -0.204 	 EpLen 500
+Episode 34 	 EpRet -0.110 	 EpLen 500
+Episode 35 	 EpRet -0.099 	 EpLen 500
+Episode 36 	 EpRet -0.109 	 EpLen 500
+Episode 37 	 EpRet -0.149 	 EpLen 500
+Episode 38 	 EpRet -0.100 	 EpLen 500
+Episode 39 	 EpRet -0.100 	 EpLen 500
+Episode 40 	 EpRet -0.090 	 EpLen 500
+Episode 41 	 EpRet -0.108 	 EpLen 500
+Episode 42 	 EpRet -0.093 	 EpLen 500
+Episode 43 	 EpRet -0.122 	 EpLen 500
+Episode 44 	 EpRet -0.086 	 EpLen 500
+Episode 45 	 EpRet -0.138 	 EpLen 500
+Episode 46 	 EpRet -0.110 	 EpLen 500
+Episode 47 	 EpRet -0.105 	 EpLen 500
+Episode 48 	 EpRet -0.113 	 EpLen 500
+Episode 49 	 EpRet -0.131 	 EpLen 500
+Episode 50 	 EpRet -0.127 	 EpLen 500
+Episode 51 	 EpRet -0.184 	 EpLen 500
+Episode 52 	 EpRet -0.141 	 EpLen 500
+Episode 53 	 EpRet -0.128 	 EpLen 500
+Episode 54 	 EpRet -0.121 	 EpLen 500
+Episode 55 	 EpRet -0.097 	 EpLen 500
+Episode 56 	 EpRet -0.102 	 EpLen 500
+Episode 57 	 EpRet -0.116 	 EpLen 500
+Episode 58 	 EpRet -0.144 	 EpLen 500
+Episode 59 	 EpRet -0.180 	 EpLen 500
+Episode 60 	 EpRet -0.108 	 EpLen 500
+Episode 61 	 EpRet -0.105 	 EpLen 500
+Episode 62 	 EpRet -0.119 	 EpLen 500
+Episode 63 	 EpRet -0.155 	 EpLen 500
+Episode 64 	 EpRet -0.198 	 EpLen 500
+Episode 65 	 EpRet -0.212 	 EpLen 500
+Episode 66 	 EpRet -0.204 	 EpLen 500
+Episode 67 	 EpRet -0.182 	 EpLen 500
+Episode 68 	 EpRet -0.165 	 EpLen 500
+Episode 69 	 EpRet -0.150 	 EpLen 500
+Episode 70 	 EpRet -0.161 	 EpLen 500
+Episode 71 	 EpRet -0.174 	 EpLen 500
+Episode 72 	 EpRet -0.230 	 EpLen 500
+Episode 73 	 EpRet -0.091 	 EpLen 500
+Episode 74 	 EpRet -0.112 	 EpLen 500
+Episode 75 	 EpRet -0.164 	 EpLen 500
+Episode 76 	 EpRet -0.150 	 EpLen 500
+Episode 77 	 EpRet -0.117 	 EpLen 500
+Episode 78 	 EpRet -0.209 	 EpLen 500
+Episode 79 	 EpRet -0.154 	 EpLen 500
+Episode 80 	 EpRet -0.089 	 EpLen 500
+Episode 81 	 EpRet -0.127 	 EpLen 500
+Episode 82 	 EpRet -0.202 	 EpLen 500
+Episode 83 	 EpRet -0.223 	 EpLen 500
+Episode 84 	 EpRet -0.109 	 EpLen 500
+Episode 85 	 EpRet -0.086 	 EpLen 500
+Episode 86 	 EpRet -0.128 	 EpLen 500
+Episode 87 	 EpRet -0.127 	 EpLen 500
+Episode 88 	 EpRet -0.103 	 EpLen 500
+Episode 89 	 EpRet -0.143 	 EpLen 500
+Episode 90 	 EpRet -0.212 	 EpLen 500
+Episode 91 	 EpRet -0.096 	 EpLen 500
+Episode 92 	 EpRet -0.114 	 EpLen 500
+Episode 93 	 EpRet -0.163 	 EpLen 500
+Episode 94 	 EpRet -0.106 	 EpLen 500
+Episode 95 	 EpRet -0.144 	 EpLen 500
+Episode 96 	 EpRet -0.100 	 EpLen 500
+Episode 97 	 EpRet -0.150 	 EpLen 500
+Episode 98 	 EpRet -0.136 	 EpLen 500
+Episode 99 	 EpRet -0.152 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.134 |
+|        StdEpRet |          0.0357 |
+|        MaxEpRet |          -0.086 |
+|        MinEpRet |           -0.23 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 17 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed410889/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943220/progress.txt
+Episode 0 	 EpRet -0.079 	 EpLen 500
+Episode 1 	 EpRet -0.073 	 EpLen 500
+Episode 2 	 EpRet -0.075 	 EpLen 500
+Episode 3 	 EpRet -0.077 	 EpLen 500
+Episode 4 	 EpRet -0.092 	 EpLen 500
+Episode 5 	 EpRet -0.099 	 EpLen 500
+Episode 6 	 EpRet -0.075 	 EpLen 500
+Episode 7 	 EpRet -0.076 	 EpLen 500
+Episode 8 	 EpRet -0.076 	 EpLen 500
+Episode 9 	 EpRet -0.076 	 EpLen 500
+Episode 10 	 EpRet -0.080 	 EpLen 500
+Episode 11 	 EpRet -0.085 	 EpLen 500
+Episode 12 	 EpRet -0.075 	 EpLen 500
+Episode 13 	 EpRet -0.077 	 EpLen 500
+Episode 14 	 EpRet -0.065 	 EpLen 500
+Episode 15 	 EpRet -0.074 	 EpLen 500
+Episode 16 	 EpRet -0.073 	 EpLen 500
+Episode 17 	 EpRet -0.067 	 EpLen 500
+Episode 18 	 EpRet -0.082 	 EpLen 500
+Episode 19 	 EpRet -0.073 	 EpLen 500
+Episode 20 	 EpRet -0.076 	 EpLen 500
+Episode 21 	 EpRet -0.076 	 EpLen 500
+Episode 22 	 EpRet -0.079 	 EpLen 500
+Episode 23 	 EpRet -0.069 	 EpLen 500
+Episode 24 	 EpRet -0.077 	 EpLen 500
+Episode 25 	 EpRet -0.072 	 EpLen 500
+Episode 26 	 EpRet -0.070 	 EpLen 500
+Episode 27 	 EpRet -0.077 	 EpLen 500
+Episode 28 	 EpRet -0.079 	 EpLen 500
+Episode 29 	 EpRet -0.079 	 EpLen 500
+Episode 30 	 EpRet -0.083 	 EpLen 500
+Episode 31 	 EpRet -0.084 	 EpLen 500
+Episode 32 	 EpRet -0.080 	 EpLen 500
+Episode 33 	 EpRet -0.077 	 EpLen 500
+Episode 34 	 EpRet -0.089 	 EpLen 500
+Episode 35 	 EpRet -0.076 	 EpLen 500
+Episode 36 	 EpRet -0.070 	 EpLen 500
+Episode 37 	 EpRet -0.080 	 EpLen 500
+Episode 38 	 EpRet -0.074 	 EpLen 500
+Episode 39 	 EpRet -0.078 	 EpLen 500
+Episode 40 	 EpRet -0.077 	 EpLen 500
+Episode 41 	 EpRet -0.075 	 EpLen 500
+Episode 42 	 EpRet -0.070 	 EpLen 500
+Episode 43 	 EpRet -0.083 	 EpLen 500
+Episode 44 	 EpRet -0.068 	 EpLen 500
+Episode 45 	 EpRet -0.068 	 EpLen 500
+Episode 46 	 EpRet -0.080 	 EpLen 500
+Episode 47 	 EpRet -0.074 	 EpLen 500
+Episode 48 	 EpRet -0.066 	 EpLen 500
+Episode 49 	 EpRet -0.070 	 EpLen 500
+Episode 50 	 EpRet -0.077 	 EpLen 500
+Episode 51 	 EpRet -0.077 	 EpLen 500
+Episode 52 	 EpRet -0.075 	 EpLen 500
+Episode 53 	 EpRet -0.078 	 EpLen 500
+Episode 54 	 EpRet -0.075 	 EpLen 500
+Episode 55 	 EpRet -0.076 	 EpLen 500
+Episode 56 	 EpRet -0.082 	 EpLen 500
+Episode 57 	 EpRet -0.076 	 EpLen 500
+Episode 58 	 EpRet -0.068 	 EpLen 500
+Episode 59 	 EpRet -0.076 	 EpLen 500
+Episode 60 	 EpRet -0.108 	 EpLen 500
+Episode 61 	 EpRet -0.069 	 EpLen 500
+Episode 62 	 EpRet -0.077 	 EpLen 500
+Episode 63 	 EpRet -0.070 	 EpLen 500
+Episode 64 	 EpRet -0.075 	 EpLen 500
+Episode 65 	 EpRet -0.070 	 EpLen 500
+Episode 66 	 EpRet -0.072 	 EpLen 500
+Episode 67 	 EpRet -0.081 	 EpLen 500
+Episode 68 	 EpRet -0.077 	 EpLen 500
+Episode 69 	 EpRet -0.071 	 EpLen 500
+Episode 70 	 EpRet -0.078 	 EpLen 500
+Episode 71 	 EpRet -0.071 	 EpLen 500
+Episode 72 	 EpRet -0.066 	 EpLen 500
+Episode 73 	 EpRet -0.072 	 EpLen 500
+Episode 74 	 EpRet -0.071 	 EpLen 500
+Episode 75 	 EpRet -0.074 	 EpLen 500
+Episode 76 	 EpRet -0.076 	 EpLen 500
+Episode 77 	 EpRet -0.067 	 EpLen 500
+Episode 78 	 EpRet -0.089 	 EpLen 500
+Episode 79 	 EpRet -0.079 	 EpLen 500
+Episode 80 	 EpRet -0.063 	 EpLen 500
+Episode 81 	 EpRet -0.078 	 EpLen 500
+Episode 82 	 EpRet -0.078 	 EpLen 500
+Episode 83 	 EpRet -0.072 	 EpLen 500
+Episode 84 	 EpRet -0.074 	 EpLen 500
+Episode 85 	 EpRet -0.064 	 EpLen 500
+Episode 86 	 EpRet -0.081 	 EpLen 500
+Episode 87 	 EpRet -0.070 	 EpLen 500
+Episode 88 	 EpRet -0.069 	 EpLen 500
+Episode 89 	 EpRet -0.075 	 EpLen 500
+Episode 90 	 EpRet -0.072 	 EpLen 500
+Episode 91 	 EpRet -0.079 	 EpLen 500
+Episode 92 	 EpRet -0.081 	 EpLen 500
+Episode 93 	 EpRet -0.073 	 EpLen 500
+Episode 94 	 EpRet -0.079 	 EpLen 500
+Episode 95 	 EpRet -0.069 	 EpLen 500
+Episode 96 	 EpRet -0.080 	 EpLen 500
+Episode 97 	 EpRet -0.079 	 EpLen 500
+Episode 98 	 EpRet -0.083 	 EpLen 500
+Episode 99 	 EpRet -0.078 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.076 |
+|        StdEpRet |         0.00665 |
+|        MaxEpRet |          -0.063 |
+|        MinEpRet |          -0.108 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 18 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed660725/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943312/progress.txt
+Episode 0 	 EpRet -0.606 	 EpLen 500
+Episode 1 	 EpRet -0.083 	 EpLen 500
+Episode 2 	 EpRet -0.094 	 EpLen 500
+Episode 3 	 EpRet -0.089 	 EpLen 500
+Episode 4 	 EpRet -0.090 	 EpLen 500
+Episode 5 	 EpRet -0.083 	 EpLen 500
+Episode 6 	 EpRet -0.085 	 EpLen 500
+Episode 7 	 EpRet -0.149 	 EpLen 500
+Episode 8 	 EpRet -0.098 	 EpLen 500
+Episode 9 	 EpRet -0.088 	 EpLen 500
+Episode 10 	 EpRet -0.092 	 EpLen 500
+Episode 11 	 EpRet -0.091 	 EpLen 500
+Episode 12 	 EpRet -0.110 	 EpLen 500
+Episode 13 	 EpRet -0.639 	 EpLen 500
+Episode 14 	 EpRet -0.087 	 EpLen 500
+Episode 15 	 EpRet -0.110 	 EpLen 500
+Episode 16 	 EpRet -0.115 	 EpLen 500
+Episode 17 	 EpRet -0.087 	 EpLen 500
+Episode 18 	 EpRet -0.091 	 EpLen 500
+Episode 19 	 EpRet -0.087 	 EpLen 500
+Episode 20 	 EpRet -0.083 	 EpLen 500
+Episode 21 	 EpRet -0.099 	 EpLen 500
+Episode 22 	 EpRet -0.089 	 EpLen 500
+Episode 23 	 EpRet -0.085 	 EpLen 500
+Episode 24 	 EpRet -0.087 	 EpLen 500
+Episode 25 	 EpRet -0.086 	 EpLen 500
+Episode 26 	 EpRet -0.095 	 EpLen 500
+Episode 27 	 EpRet -0.093 	 EpLen 500
+Episode 28 	 EpRet -0.101 	 EpLen 500
+Episode 29 	 EpRet -0.116 	 EpLen 500
+Episode 30 	 EpRet -0.097 	 EpLen 500
+Episode 31 	 EpRet -0.089 	 EpLen 500
+Episode 32 	 EpRet -0.171 	 EpLen 500
+Episode 33 	 EpRet -0.093 	 EpLen 500
+Episode 34 	 EpRet -0.105 	 EpLen 500
+Episode 35 	 EpRet -0.089 	 EpLen 500
+Episode 36 	 EpRet -0.083 	 EpLen 500
+Episode 37 	 EpRet -0.121 	 EpLen 500
+Episode 38 	 EpRet -0.113 	 EpLen 500
+Episode 39 	 EpRet -0.124 	 EpLen 500
+Episode 40 	 EpRet -0.088 	 EpLen 500
+Episode 41 	 EpRet -0.081 	 EpLen 500
+Episode 42 	 EpRet -0.083 	 EpLen 500
+Episode 43 	 EpRet -0.089 	 EpLen 500
+Episode 44 	 EpRet -0.084 	 EpLen 500
+Episode 45 	 EpRet -0.129 	 EpLen 500
+Episode 46 	 EpRet -0.104 	 EpLen 500
+Episode 47 	 EpRet -0.092 	 EpLen 500
+Episode 48 	 EpRet -0.112 	 EpLen 500
+Episode 49 	 EpRet -0.124 	 EpLen 500
+Episode 50 	 EpRet -0.088 	 EpLen 500
+Episode 51 	 EpRet -0.183 	 EpLen 500
+Episode 52 	 EpRet -0.088 	 EpLen 500
+Episode 53 	 EpRet -0.124 	 EpLen 500
+Episode 54 	 EpRet -0.129 	 EpLen 500
+Episode 55 	 EpRet -0.148 	 EpLen 500
+Episode 56 	 EpRet -0.130 	 EpLen 500
+Episode 57 	 EpRet -0.083 	 EpLen 500
+Episode 58 	 EpRet -0.081 	 EpLen 500
+Episode 59 	 EpRet -0.097 	 EpLen 500
+Episode 60 	 EpRet -0.111 	 EpLen 500
+Episode 61 	 EpRet -0.086 	 EpLen 500
+Episode 62 	 EpRet -0.089 	 EpLen 500
+Episode 63 	 EpRet -0.093 	 EpLen 500
+Episode 64 	 EpRet -0.140 	 EpLen 500
+Episode 65 	 EpRet -0.102 	 EpLen 500
+Episode 66 	 EpRet -0.086 	 EpLen 500
+Episode 67 	 EpRet -0.090 	 EpLen 500
+Episode 68 	 EpRet -0.191 	 EpLen 500
+Episode 69 	 EpRet -0.085 	 EpLen 500
+Episode 70 	 EpRet -0.163 	 EpLen 500
+Episode 71 	 EpRet -0.103 	 EpLen 500
+Episode 72 	 EpRet -0.087 	 EpLen 500
+Episode 73 	 EpRet -0.138 	 EpLen 500
+Episode 74 	 EpRet -0.125 	 EpLen 500
+Episode 75 	 EpRet -0.089 	 EpLen 500
+Episode 76 	 EpRet -0.107 	 EpLen 500
+Episode 77 	 EpRet -0.089 	 EpLen 500
+Episode 78 	 EpRet -0.105 	 EpLen 500
+Episode 79 	 EpRet -0.108 	 EpLen 500
+Episode 80 	 EpRet -0.171 	 EpLen 500
+Episode 81 	 EpRet -0.165 	 EpLen 500
+Episode 82 	 EpRet -0.114 	 EpLen 500
+Episode 83 	 EpRet -0.079 	 EpLen 500
+Episode 84 	 EpRet -0.135 	 EpLen 500
+Episode 85 	 EpRet -0.082 	 EpLen 500
+Episode 86 	 EpRet -0.142 	 EpLen 500
+Episode 87 	 EpRet -0.095 	 EpLen 500
+Episode 88 	 EpRet -0.115 	 EpLen 500
+Episode 89 	 EpRet -0.089 	 EpLen 500
+Episode 90 	 EpRet -0.108 	 EpLen 500
+Episode 91 	 EpRet -0.079 	 EpLen 500
+Episode 92 	 EpRet -0.110 	 EpLen 500
+Episode 93 	 EpRet -0.713 	 EpLen 500
+Episode 94 	 EpRet -0.115 	 EpLen 500
+Episode 95 	 EpRet -0.104 	 EpLen 500
+Episode 96 	 EpRet -0.138 	 EpLen 500
+Episode 97 	 EpRet -0.166 	 EpLen 500
+Episode 98 	 EpRet -0.224 	 EpLen 500
+Episode 99 	 EpRet -0.105 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.124 |
+|        StdEpRet |          0.0973 |
+|        MaxEpRet |          -0.079 |
+|        MinEpRet |          -0.713 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 19 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed91781/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943404/progress.txt
+Episode 0 	 EpRet -0.090 	 EpLen 500
+Episode 1 	 EpRet -0.086 	 EpLen 500
+Episode 2 	 EpRet -0.085 	 EpLen 500
+Episode 3 	 EpRet -0.093 	 EpLen 500
+Episode 4 	 EpRet -0.086 	 EpLen 500
+Episode 5 	 EpRet -0.093 	 EpLen 500
+Episode 6 	 EpRet -0.091 	 EpLen 500
+Episode 7 	 EpRet -0.096 	 EpLen 500
+Episode 8 	 EpRet -0.140 	 EpLen 500
+Episode 9 	 EpRet -0.087 	 EpLen 500
+Episode 10 	 EpRet -0.097 	 EpLen 500
+Episode 11 	 EpRet -0.127 	 EpLen 500
+Episode 12 	 EpRet -0.090 	 EpLen 500
+Episode 13 	 EpRet -0.108 	 EpLen 500
+Episode 14 	 EpRet -0.605 	 EpLen 500
+Episode 15 	 EpRet -0.096 	 EpLen 500
+Episode 16 	 EpRet -0.087 	 EpLen 500
+Episode 17 	 EpRet -0.090 	 EpLen 500
+Episode 18 	 EpRet -0.096 	 EpLen 500
+Episode 19 	 EpRet -0.094 	 EpLen 500
+Episode 20 	 EpRet -0.104 	 EpLen 500
+Episode 21 	 EpRet -0.100 	 EpLen 500
+Episode 22 	 EpRet -0.088 	 EpLen 500
+Episode 23 	 EpRet -0.092 	 EpLen 500
+Episode 24 	 EpRet -0.094 	 EpLen 500
+Episode 25 	 EpRet -0.091 	 EpLen 500
+Episode 26 	 EpRet -0.088 	 EpLen 500
+Episode 27 	 EpRet -0.088 	 EpLen 500
+Episode 28 	 EpRet -0.101 	 EpLen 500
+Episode 29 	 EpRet -0.125 	 EpLen 500
+Episode 30 	 EpRet -0.102 	 EpLen 500
+Episode 31 	 EpRet -0.096 	 EpLen 500
+Episode 32 	 EpRet -0.102 	 EpLen 500
+Episode 33 	 EpRet -0.105 	 EpLen 500
+Episode 34 	 EpRet -0.105 	 EpLen 500
+Episode 35 	 EpRet -0.141 	 EpLen 500
+Episode 36 	 EpRet -0.117 	 EpLen 500
+Episode 37 	 EpRet -0.148 	 EpLen 500
+Episode 38 	 EpRet -0.156 	 EpLen 500
+Episode 39 	 EpRet -0.139 	 EpLen 500
+Episode 40 	 EpRet -0.111 	 EpLen 500
+Episode 41 	 EpRet -0.094 	 EpLen 500
+Episode 42 	 EpRet -0.089 	 EpLen 500
+Episode 43 	 EpRet -0.094 	 EpLen 500
+Episode 44 	 EpRet -0.082 	 EpLen 500
+Episode 45 	 EpRet -0.086 	 EpLen 500
+Episode 46 	 EpRet -0.096 	 EpLen 500
+Episode 47 	 EpRet -0.084 	 EpLen 500
+Episode 48 	 EpRet -0.092 	 EpLen 500
+Episode 49 	 EpRet -0.083 	 EpLen 500
+Episode 50 	 EpRet -0.088 	 EpLen 500
+Episode 51 	 EpRet -0.102 	 EpLen 500
+Episode 52 	 EpRet -0.100 	 EpLen 500
+Episode 53 	 EpRet -0.098 	 EpLen 500
+Episode 54 	 EpRet -0.141 	 EpLen 500
+Episode 55 	 EpRet -0.110 	 EpLen 500
+Episode 56 	 EpRet -0.130 	 EpLen 500
+Episode 57 	 EpRet -0.082 	 EpLen 500
+Episode 58 	 EpRet -0.120 	 EpLen 500
+Episode 59 	 EpRet -0.097 	 EpLen 500
+Episode 60 	 EpRet -0.090 	 EpLen 500
+Episode 61 	 EpRet -0.123 	 EpLen 500
+Episode 62 	 EpRet -0.101 	 EpLen 500
+Episode 63 	 EpRet -0.100 	 EpLen 500
+Episode 64 	 EpRet -0.116 	 EpLen 500
+Episode 65 	 EpRet -0.100 	 EpLen 500
+Episode 66 	 EpRet -0.092 	 EpLen 500
+Episode 67 	 EpRet -0.089 	 EpLen 500
+Episode 68 	 EpRet -0.095 	 EpLen 500
+Episode 69 	 EpRet -0.150 	 EpLen 500
+Episode 70 	 EpRet -0.093 	 EpLen 500
+Episode 71 	 EpRet -0.092 	 EpLen 500
+Episode 72 	 EpRet -0.087 	 EpLen 500
+Episode 73 	 EpRet -0.083 	 EpLen 500
+Episode 74 	 EpRet -0.087 	 EpLen 500
+Episode 75 	 EpRet -0.095 	 EpLen 500
+Episode 76 	 EpRet -0.095 	 EpLen 500
+Episode 77 	 EpRet -0.085 	 EpLen 500
+Episode 78 	 EpRet -0.105 	 EpLen 500
+Episode 79 	 EpRet -0.104 	 EpLen 500
+Episode 80 	 EpRet -0.087 	 EpLen 500
+Episode 81 	 EpRet -0.090 	 EpLen 500
+Episode 82 	 EpRet -0.095 	 EpLen 500
+Episode 83 	 EpRet -0.086 	 EpLen 500
+Episode 84 	 EpRet -0.096 	 EpLen 500
+Episode 85 	 EpRet -0.091 	 EpLen 500
+Episode 86 	 EpRet -0.101 	 EpLen 500
+Episode 87 	 EpRet -0.128 	 EpLen 500
+Episode 88 	 EpRet -0.091 	 EpLen 500
+Episode 89 	 EpRet -0.083 	 EpLen 500
+Episode 90 	 EpRet -0.089 	 EpLen 500
+Episode 91 	 EpRet -0.121 	 EpLen 500
+Episode 92 	 EpRet -0.104 	 EpLen 500
+Episode 93 	 EpRet -0.092 	 EpLen 500
+Episode 94 	 EpRet -0.100 	 EpLen 500
+Episode 95 	 EpRet -0.121 	 EpLen 500
+Episode 96 	 EpRet -0.100 	 EpLen 500
+Episode 97 	 EpRet -0.112 	 EpLen 500
+Episode 98 	 EpRet -0.104 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.106 |
+|        StdEpRet |          0.0528 |
+|        MaxEpRet |          -0.082 |
+|        MinEpRet |          -0.605 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 20 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed36231/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943501/progress.txt
+Episode 0 	 EpRet -0.087 	 EpLen 500
+Episode 1 	 EpRet -0.077 	 EpLen 500
+Episode 2 	 EpRet -0.093 	 EpLen 500
+Episode 3 	 EpRet -0.076 	 EpLen 500
+Episode 4 	 EpRet -0.086 	 EpLen 500
+Episode 5 	 EpRet -0.077 	 EpLen 500
+Episode 6 	 EpRet -0.083 	 EpLen 500
+Episode 7 	 EpRet -0.081 	 EpLen 500
+Episode 8 	 EpRet -0.095 	 EpLen 500
+Episode 9 	 EpRet -0.084 	 EpLen 500
+Episode 10 	 EpRet -0.085 	 EpLen 500
+Episode 11 	 EpRet -0.087 	 EpLen 500
+Episode 12 	 EpRet -0.081 	 EpLen 500
+Episode 13 	 EpRet -0.069 	 EpLen 500
+Episode 14 	 EpRet -0.092 	 EpLen 500
+Episode 15 	 EpRet -0.078 	 EpLen 500
+Episode 16 	 EpRet -0.083 	 EpLen 500
+Episode 17 	 EpRet -0.077 	 EpLen 500
+Episode 18 	 EpRet -0.093 	 EpLen 500
+Episode 19 	 EpRet -0.068 	 EpLen 500
+Episode 20 	 EpRet -0.089 	 EpLen 500
+Episode 21 	 EpRet -0.091 	 EpLen 500
+Episode 22 	 EpRet -0.086 	 EpLen 500
+Episode 23 	 EpRet -0.087 	 EpLen 500
+Episode 24 	 EpRet -0.083 	 EpLen 500
+Episode 25 	 EpRet -0.087 	 EpLen 500
+Episode 26 	 EpRet -0.080 	 EpLen 500
+Episode 27 	 EpRet -0.066 	 EpLen 500
+Episode 28 	 EpRet -0.091 	 EpLen 500
+Episode 29 	 EpRet -0.092 	 EpLen 500
+Episode 30 	 EpRet -0.086 	 EpLen 500
+Episode 31 	 EpRet -0.088 	 EpLen 500
+Episode 32 	 EpRet -0.092 	 EpLen 500
+Episode 33 	 EpRet -0.082 	 EpLen 500
+Episode 34 	 EpRet -0.083 	 EpLen 500
+Episode 35 	 EpRet -0.067 	 EpLen 500
+Episode 36 	 EpRet -0.085 	 EpLen 500
+Episode 37 	 EpRet -0.086 	 EpLen 500
+Episode 38 	 EpRet -0.084 	 EpLen 500
+Episode 39 	 EpRet -0.095 	 EpLen 500
+Episode 40 	 EpRet -0.076 	 EpLen 500
+Episode 41 	 EpRet -0.080 	 EpLen 500
+Episode 42 	 EpRet -0.119 	 EpLen 500
+Episode 43 	 EpRet -0.087 	 EpLen 500
+Episode 44 	 EpRet -0.067 	 EpLen 500
+Episode 45 	 EpRet -0.082 	 EpLen 500
+Episode 46 	 EpRet -0.084 	 EpLen 500
+Episode 47 	 EpRet -0.078 	 EpLen 500
+Episode 48 	 EpRet -0.081 	 EpLen 500
+Episode 49 	 EpRet -0.075 	 EpLen 500
+Episode 50 	 EpRet -0.086 	 EpLen 500
+Episode 51 	 EpRet -0.092 	 EpLen 500
+Episode 52 	 EpRet -0.065 	 EpLen 500
+Episode 53 	 EpRet -0.082 	 EpLen 500
+Episode 54 	 EpRet -0.091 	 EpLen 500
+Episode 55 	 EpRet -0.067 	 EpLen 500
+Episode 56 	 EpRet -0.639 	 EpLen 500
+Episode 57 	 EpRet -0.082 	 EpLen 500
+Episode 58 	 EpRet -0.095 	 EpLen 500
+Episode 59 	 EpRet -0.081 	 EpLen 500
+Episode 60 	 EpRet -0.092 	 EpLen 500
+Episode 61 	 EpRet -0.203 	 EpLen 500
+Episode 62 	 EpRet -0.087 	 EpLen 500
+Episode 63 	 EpRet -0.099 	 EpLen 500
+Episode 64 	 EpRet -0.084 	 EpLen 500
+Episode 65 	 EpRet -0.114 	 EpLen 500
+Episode 66 	 EpRet -0.087 	 EpLen 500
+Episode 67 	 EpRet -0.099 	 EpLen 500
+Episode 68 	 EpRet -0.084 	 EpLen 500
+Episode 69 	 EpRet -0.112 	 EpLen 500
+Episode 70 	 EpRet -0.087 	 EpLen 500
+Episode 71 	 EpRet -0.081 	 EpLen 500
+Episode 72 	 EpRet -0.593 	 EpLen 500
+Episode 73 	 EpRet -0.090 	 EpLen 500
+Episode 74 	 EpRet -0.082 	 EpLen 500
+Episode 75 	 EpRet -0.083 	 EpLen 500
+Episode 76 	 EpRet -0.091 	 EpLen 500
+Episode 77 	 EpRet -0.078 	 EpLen 500
+Episode 78 	 EpRet -0.097 	 EpLen 500
+Episode 79 	 EpRet -0.080 	 EpLen 500
+Episode 80 	 EpRet -0.070 	 EpLen 500
+Episode 81 	 EpRet -0.082 	 EpLen 500
+Episode 82 	 EpRet -0.075 	 EpLen 500
+Episode 83 	 EpRet -0.075 	 EpLen 500
+Episode 84 	 EpRet -0.082 	 EpLen 500
+Episode 85 	 EpRet -0.084 	 EpLen 500
+Episode 86 	 EpRet -0.088 	 EpLen 500
+Episode 87 	 EpRet -0.090 	 EpLen 500
+Episode 88 	 EpRet -0.075 	 EpLen 500
+Episode 89 	 EpRet -0.081 	 EpLen 500
+Episode 90 	 EpRet -0.083 	 EpLen 500
+Episode 91 	 EpRet -0.082 	 EpLen 500
+Episode 92 	 EpRet -0.098 	 EpLen 500
+Episode 93 	 EpRet -0.081 	 EpLen 500
+Episode 94 	 EpRet -0.093 	 EpLen 500
+Episode 95 	 EpRet -0.073 	 EpLen 500
+Episode 96 	 EpRet -0.089 	 EpLen 500
+Episode 97 	 EpRet -0.080 	 EpLen 500
+Episode 98 	 EpRet -0.072 	 EpLen 500
+Episode 99 	 EpRet -0.090 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0963 |
+|        StdEpRet |          0.0758 |
+|        MaxEpRet |          -0.065 |
+|        MinEpRet |          -0.639 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 21 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed967762/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943594/progress.txt
+Episode 0 	 EpRet -0.094 	 EpLen 500
+Episode 1 	 EpRet -0.084 	 EpLen 500
+Episode 2 	 EpRet -0.110 	 EpLen 500
+Episode 3 	 EpRet -0.086 	 EpLen 500
+Episode 4 	 EpRet -0.075 	 EpLen 500
+Episode 5 	 EpRet -0.084 	 EpLen 500
+Episode 6 	 EpRet -0.130 	 EpLen 500
+Episode 7 	 EpRet -0.086 	 EpLen 500
+Episode 8 	 EpRet -0.087 	 EpLen 500
+Episode 9 	 EpRet -0.072 	 EpLen 500
+Episode 10 	 EpRet -0.089 	 EpLen 500
+Episode 11 	 EpRet -0.119 	 EpLen 500
+Episode 12 	 EpRet -0.172 	 EpLen 500
+Episode 13 	 EpRet -0.102 	 EpLen 500
+Episode 14 	 EpRet -0.087 	 EpLen 500
+Episode 15 	 EpRet -0.090 	 EpLen 500
+Episode 16 	 EpRet -0.084 	 EpLen 500
+Episode 17 	 EpRet -0.090 	 EpLen 500
+Episode 18 	 EpRet -0.080 	 EpLen 500
+Episode 19 	 EpRet -0.074 	 EpLen 500
+Episode 20 	 EpRet -0.118 	 EpLen 500
+Episode 21 	 EpRet -0.091 	 EpLen 500
+Episode 22 	 EpRet -0.082 	 EpLen 500
+Episode 23 	 EpRet -0.093 	 EpLen 500
+Episode 24 	 EpRet -0.095 	 EpLen 500
+Episode 25 	 EpRet -0.098 	 EpLen 500
+Episode 26 	 EpRet -0.090 	 EpLen 500
+Episode 27 	 EpRet -0.085 	 EpLen 500
+Episode 28 	 EpRet -0.081 	 EpLen 500
+Episode 29 	 EpRet -0.127 	 EpLen 500
+Episode 30 	 EpRet -0.095 	 EpLen 500
+Episode 31 	 EpRet -0.162 	 EpLen 500
+Episode 32 	 EpRet -0.092 	 EpLen 500
+Episode 33 	 EpRet -0.088 	 EpLen 500
+Episode 34 	 EpRet -0.094 	 EpLen 500
+Episode 35 	 EpRet -0.094 	 EpLen 500
+Episode 36 	 EpRet -0.095 	 EpLen 500
+Episode 37 	 EpRet -0.094 	 EpLen 500
+Episode 38 	 EpRet -0.140 	 EpLen 500
+Episode 39 	 EpRet -0.130 	 EpLen 500
+Episode 40 	 EpRet -0.081 	 EpLen 500
+Episode 41 	 EpRet -0.090 	 EpLen 500
+Episode 42 	 EpRet -0.082 	 EpLen 500
+Episode 43 	 EpRet -0.097 	 EpLen 500
+Episode 44 	 EpRet -0.088 	 EpLen 500
+Episode 45 	 EpRet -0.090 	 EpLen 500
+Episode 46 	 EpRet -0.146 	 EpLen 500
+Episode 47 	 EpRet -0.088 	 EpLen 500
+Episode 48 	 EpRet -0.115 	 EpLen 500
+Episode 49 	 EpRet -0.079 	 EpLen 500
+Episode 50 	 EpRet -0.102 	 EpLen 500
+Episode 51 	 EpRet -0.101 	 EpLen 500
+Episode 52 	 EpRet -0.113 	 EpLen 500
+Episode 53 	 EpRet -0.099 	 EpLen 500
+Episode 54 	 EpRet -0.075 	 EpLen 500
+Episode 55 	 EpRet -0.100 	 EpLen 500
+Episode 56 	 EpRet -0.087 	 EpLen 500
+Episode 57 	 EpRet -0.081 	 EpLen 500
+Episode 58 	 EpRet -0.095 	 EpLen 500
+Episode 59 	 EpRet -0.090 	 EpLen 500
+Episode 60 	 EpRet -0.097 	 EpLen 500
+Episode 61 	 EpRet -0.074 	 EpLen 500
+Episode 62 	 EpRet -0.082 	 EpLen 500
+Episode 63 	 EpRet -0.090 	 EpLen 500
+Episode 64 	 EpRet -0.092 	 EpLen 500
+Episode 65 	 EpRet -0.082 	 EpLen 500
+Episode 66 	 EpRet -0.089 	 EpLen 500
+Episode 67 	 EpRet -0.104 	 EpLen 500
+Episode 68 	 EpRet -0.087 	 EpLen 500
+Episode 69 	 EpRet -0.094 	 EpLen 500
+Episode 70 	 EpRet -0.087 	 EpLen 500
+Episode 71 	 EpRet -0.083 	 EpLen 500
+Episode 72 	 EpRet -0.078 	 EpLen 500
+Episode 73 	 EpRet -0.080 	 EpLen 500
+Episode 74 	 EpRet -0.088 	 EpLen 500
+Episode 75 	 EpRet -0.095 	 EpLen 500
+Episode 76 	 EpRet -0.085 	 EpLen 500
+Episode 77 	 EpRet -0.090 	 EpLen 500
+Episode 78 	 EpRet -0.094 	 EpLen 500
+Episode 79 	 EpRet -0.092 	 EpLen 500
+Episode 80 	 EpRet -0.094 	 EpLen 500
+Episode 81 	 EpRet -0.093 	 EpLen 500
+Episode 82 	 EpRet -0.092 	 EpLen 500
+Episode 83 	 EpRet -0.074 	 EpLen 500
+Episode 84 	 EpRet -0.104 	 EpLen 500
+Episode 85 	 EpRet -0.085 	 EpLen 500
+Episode 86 	 EpRet -0.091 	 EpLen 500
+Episode 87 	 EpRet -0.634 	 EpLen 500
+Episode 88 	 EpRet -0.091 	 EpLen 500
+Episode 89 	 EpRet -0.089 	 EpLen 500
+Episode 90 	 EpRet -0.089 	 EpLen 500
+Episode 91 	 EpRet -0.097 	 EpLen 500
+Episode 92 	 EpRet -0.097 	 EpLen 500
+Episode 93 	 EpRet -0.084 	 EpLen 500
+Episode 94 	 EpRet -0.083 	 EpLen 500
+Episode 95 	 EpRet -0.087 	 EpLen 500
+Episode 96 	 EpRet -0.077 	 EpLen 500
+Episode 97 	 EpRet -0.116 	 EpLen 500
+Episode 98 	 EpRet -0.097 	 EpLen 500
+Episode 99 	 EpRet -0.090 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0997 |
+|        StdEpRet |          0.0563 |
+|        MaxEpRet |          -0.072 |
+|        MinEpRet |          -0.634 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 22 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed193216/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943691/progress.txt
+Episode 0 	 EpRet -0.138 	 EpLen 500
+Episode 1 	 EpRet -0.098 	 EpLen 500
+Episode 2 	 EpRet -0.079 	 EpLen 500
+Episode 3 	 EpRet -0.091 	 EpLen 500
+Episode 4 	 EpRet -0.073 	 EpLen 500
+Episode 5 	 EpRet -0.082 	 EpLen 500
+Episode 6 	 EpRet -0.131 	 EpLen 500
+Episode 7 	 EpRet -0.075 	 EpLen 500
+Episode 8 	 EpRet -0.077 	 EpLen 500
+Episode 9 	 EpRet -0.098 	 EpLen 500
+Episode 10 	 EpRet -0.090 	 EpLen 500
+Episode 11 	 EpRet -0.101 	 EpLen 500
+Episode 12 	 EpRet -0.080 	 EpLen 500
+Episode 13 	 EpRet -0.080 	 EpLen 500
+Episode 14 	 EpRet -0.074 	 EpLen 500
+Episode 15 	 EpRet -0.072 	 EpLen 500
+Episode 16 	 EpRet -0.081 	 EpLen 500
+Episode 17 	 EpRet -0.075 	 EpLen 500
+Episode 18 	 EpRet -0.084 	 EpLen 500
+Episode 19 	 EpRet -0.079 	 EpLen 500
+Episode 20 	 EpRet -0.082 	 EpLen 500
+Episode 21 	 EpRet -0.085 	 EpLen 500
+Episode 22 	 EpRet -0.074 	 EpLen 500
+Episode 23 	 EpRet -0.116 	 EpLen 500
+Episode 24 	 EpRet -0.082 	 EpLen 500
+Episode 25 	 EpRet -0.079 	 EpLen 500
+Episode 26 	 EpRet -0.109 	 EpLen 500
+Episode 27 	 EpRet -0.079 	 EpLen 500
+Episode 28 	 EpRet -0.079 	 EpLen 500
+Episode 29 	 EpRet -0.082 	 EpLen 500
+Episode 30 	 EpRet -0.079 	 EpLen 500
+Episode 31 	 EpRet -0.085 	 EpLen 500
+Episode 32 	 EpRet -0.088 	 EpLen 500
+Episode 33 	 EpRet -0.079 	 EpLen 500
+Episode 34 	 EpRet -0.148 	 EpLen 500
+Episode 35 	 EpRet -0.162 	 EpLen 500
+Episode 36 	 EpRet -0.082 	 EpLen 500
+Episode 37 	 EpRet -0.086 	 EpLen 500
+Episode 38 	 EpRet -0.079 	 EpLen 500
+Episode 39 	 EpRet -0.091 	 EpLen 500
+Episode 40 	 EpRet -0.124 	 EpLen 500
+Episode 41 	 EpRet -0.082 	 EpLen 500
+Episode 42 	 EpRet -0.084 	 EpLen 500
+Episode 43 	 EpRet -0.080 	 EpLen 500
+Episode 44 	 EpRet -0.073 	 EpLen 500
+Episode 45 	 EpRet -0.076 	 EpLen 500
+Episode 46 	 EpRet -0.079 	 EpLen 500
+Episode 47 	 EpRet -0.095 	 EpLen 500
+Episode 48 	 EpRet -0.074 	 EpLen 500
+Episode 49 	 EpRet -0.068 	 EpLen 500
+Episode 50 	 EpRet -0.080 	 EpLen 500
+Episode 51 	 EpRet -0.086 	 EpLen 500
+Episode 52 	 EpRet -0.074 	 EpLen 500
+Episode 53 	 EpRet -0.088 	 EpLen 500
+Episode 54 	 EpRet -0.077 	 EpLen 500
+Episode 55 	 EpRet -0.083 	 EpLen 500
+Episode 56 	 EpRet -0.087 	 EpLen 500
+Episode 57 	 EpRet -0.073 	 EpLen 500
+Episode 58 	 EpRet -0.078 	 EpLen 500
+Episode 59 	 EpRet -0.098 	 EpLen 500
+Episode 60 	 EpRet -0.100 	 EpLen 500
+Episode 61 	 EpRet -0.070 	 EpLen 500
+Episode 62 	 EpRet -0.080 	 EpLen 500
+Episode 63 	 EpRet -0.173 	 EpLen 500
+Episode 64 	 EpRet -0.091 	 EpLen 500
+Episode 65 	 EpRet -0.629 	 EpLen 500
+Episode 66 	 EpRet -0.077 	 EpLen 500
+Episode 67 	 EpRet -0.081 	 EpLen 500
+Episode 68 	 EpRet -0.073 	 EpLen 500
+Episode 69 	 EpRet -0.072 	 EpLen 500
+Episode 70 	 EpRet -0.077 	 EpLen 500
+Episode 71 	 EpRet -0.077 	 EpLen 500
+Episode 72 	 EpRet -0.081 	 EpLen 500
+Episode 73 	 EpRet -0.156 	 EpLen 500
+Episode 74 	 EpRet -0.128 	 EpLen 500
+Episode 75 	 EpRet -0.075 	 EpLen 500
+Episode 76 	 EpRet -0.079 	 EpLen 500
+Episode 77 	 EpRet -0.072 	 EpLen 500
+Episode 78 	 EpRet -0.104 	 EpLen 500
+Episode 79 	 EpRet -0.100 	 EpLen 500
+Episode 80 	 EpRet -0.075 	 EpLen 500
+Episode 81 	 EpRet -0.076 	 EpLen 500
+Episode 82 	 EpRet -0.068 	 EpLen 500
+Episode 83 	 EpRet -0.072 	 EpLen 500
+Episode 84 	 EpRet -0.133 	 EpLen 500
+Episode 85 	 EpRet -0.077 	 EpLen 500
+Episode 86 	 EpRet -0.075 	 EpLen 500
+Episode 87 	 EpRet -0.123 	 EpLen 500
+Episode 88 	 EpRet -0.079 	 EpLen 500
+Episode 89 	 EpRet -0.078 	 EpLen 500
+Episode 90 	 EpRet -0.074 	 EpLen 500
+Episode 91 	 EpRet -0.078 	 EpLen 500
+Episode 92 	 EpRet -0.138 	 EpLen 500
+Episode 93 	 EpRet -0.133 	 EpLen 500
+Episode 94 	 EpRet -0.071 	 EpLen 500
+Episode 95 	 EpRet -0.083 	 EpLen 500
+Episode 96 	 EpRet -0.616 	 EpLen 500
+Episode 97 	 EpRet -0.083 	 EpLen 500
+Episode 98 	 EpRet -0.080 	 EpLen 500
+Episode 99 	 EpRet -0.133 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |            -0.1 |
+|        StdEpRet |          0.0778 |
+|        MaxEpRet |          -0.068 |
+|        MinEpRet |          -0.629 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 23 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed737650/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943783/progress.txt
+Episode 0 	 EpRet -0.098 	 EpLen 500
+Episode 1 	 EpRet -0.091 	 EpLen 500
+Episode 2 	 EpRet -0.095 	 EpLen 500
+Episode 3 	 EpRet -0.106 	 EpLen 500
+Episode 4 	 EpRet -0.097 	 EpLen 500
+Episode 5 	 EpRet -0.106 	 EpLen 500
+Episode 6 	 EpRet -0.101 	 EpLen 500
+Episode 7 	 EpRet -0.106 	 EpLen 500
+Episode 8 	 EpRet -0.106 	 EpLen 500
+Episode 9 	 EpRet -0.094 	 EpLen 500
+Episode 10 	 EpRet -0.098 	 EpLen 500
+Episode 11 	 EpRet -0.124 	 EpLen 500
+Episode 12 	 EpRet -0.099 	 EpLen 500
+Episode 13 	 EpRet -0.122 	 EpLen 500
+Episode 14 	 EpRet -0.095 	 EpLen 500
+Episode 15 	 EpRet -0.103 	 EpLen 500
+Episode 16 	 EpRet -0.101 	 EpLen 500
+Episode 17 	 EpRet -0.097 	 EpLen 500
+Episode 18 	 EpRet -0.104 	 EpLen 500
+Episode 19 	 EpRet -0.095 	 EpLen 500
+Episode 20 	 EpRet -0.114 	 EpLen 500
+Episode 21 	 EpRet -0.108 	 EpLen 500
+Episode 22 	 EpRet -0.106 	 EpLen 500
+Episode 23 	 EpRet -0.109 	 EpLen 500
+Episode 24 	 EpRet -0.101 	 EpLen 500
+Episode 25 	 EpRet -0.095 	 EpLen 500
+Episode 26 	 EpRet -0.102 	 EpLen 500
+Episode 27 	 EpRet -0.099 	 EpLen 500
+Episode 28 	 EpRet -0.106 	 EpLen 500
+Episode 29 	 EpRet -0.098 	 EpLen 500
+Episode 30 	 EpRet -0.110 	 EpLen 500
+Episode 31 	 EpRet -0.107 	 EpLen 500
+Episode 32 	 EpRet -0.104 	 EpLen 500
+Episode 33 	 EpRet -0.098 	 EpLen 500
+Episode 34 	 EpRet -0.117 	 EpLen 500
+Episode 35 	 EpRet -0.113 	 EpLen 500
+Episode 36 	 EpRet -0.096 	 EpLen 500
+Episode 37 	 EpRet -0.109 	 EpLen 500
+Episode 38 	 EpRet -0.105 	 EpLen 500
+Episode 39 	 EpRet -0.106 	 EpLen 500
+Episode 40 	 EpRet -0.090 	 EpLen 500
+Episode 41 	 EpRet -0.094 	 EpLen 500
+Episode 42 	 EpRet -0.095 	 EpLen 500
+Episode 43 	 EpRet -0.107 	 EpLen 500
+Episode 44 	 EpRet -0.089 	 EpLen 500
+Episode 45 	 EpRet -0.093 	 EpLen 500
+Episode 46 	 EpRet -0.105 	 EpLen 500
+Episode 47 	 EpRet -0.092 	 EpLen 500
+Episode 48 	 EpRet -0.105 	 EpLen 500
+Episode 49 	 EpRet -0.088 	 EpLen 500
+Episode 50 	 EpRet -0.096 	 EpLen 500
+Episode 51 	 EpRet -0.109 	 EpLen 500
+Episode 52 	 EpRet -0.117 	 EpLen 500
+Episode 53 	 EpRet -0.108 	 EpLen 500
+Episode 54 	 EpRet -0.103 	 EpLen 500
+Episode 55 	 EpRet -0.092 	 EpLen 500
+Episode 56 	 EpRet -0.109 	 EpLen 500
+Episode 57 	 EpRet -0.095 	 EpLen 500
+Episode 58 	 EpRet -0.103 	 EpLen 500
+Episode 59 	 EpRet -0.113 	 EpLen 500
+Episode 60 	 EpRet -0.101 	 EpLen 500
+Episode 61 	 EpRet -0.093 	 EpLen 500
+Episode 62 	 EpRet -0.108 	 EpLen 500
+Episode 63 	 EpRet -0.117 	 EpLen 500
+Episode 64 	 EpRet -0.111 	 EpLen 500
+Episode 65 	 EpRet -0.100 	 EpLen 500
+Episode 66 	 EpRet -0.110 	 EpLen 500
+Episode 67 	 EpRet -0.097 	 EpLen 500
+Episode 68 	 EpRet -0.109 	 EpLen 500
+Episode 69 	 EpRet -0.091 	 EpLen 500
+Episode 70 	 EpRet -0.107 	 EpLen 500
+Episode 71 	 EpRet -0.099 	 EpLen 500
+Episode 72 	 EpRet -0.092 	 EpLen 500
+Episode 73 	 EpRet -0.095 	 EpLen 500
+Episode 74 	 EpRet -0.103 	 EpLen 500
+Episode 75 	 EpRet -0.107 	 EpLen 500
+Episode 76 	 EpRet -0.114 	 EpLen 500
+Episode 77 	 EpRet -0.095 	 EpLen 500
+Episode 78 	 EpRet -0.116 	 EpLen 500
+Episode 79 	 EpRet -0.113 	 EpLen 500
+Episode 80 	 EpRet -0.096 	 EpLen 500
+Episode 81 	 EpRet -0.100 	 EpLen 500
+Episode 82 	 EpRet -0.107 	 EpLen 500
+Episode 83 	 EpRet -0.097 	 EpLen 500
+Episode 84 	 EpRet -0.108 	 EpLen 500
+Episode 85 	 EpRet -0.094 	 EpLen 500
+Episode 86 	 EpRet -0.111 	 EpLen 500
+Episode 87 	 EpRet -0.103 	 EpLen 500
+Episode 88 	 EpRet -0.094 	 EpLen 500
+Episode 89 	 EpRet -0.105 	 EpLen 500
+Episode 90 	 EpRet -0.099 	 EpLen 500
+Episode 91 	 EpRet -0.096 	 EpLen 500
+Episode 92 	 EpRet -0.111 	 EpLen 500
+Episode 93 	 EpRet -0.098 	 EpLen 500
+Episode 94 	 EpRet -0.115 	 EpLen 500
+Episode 95 	 EpRet -0.098 	 EpLen 500
+Episode 96 	 EpRet -0.104 	 EpLen 500
+Episode 97 	 EpRet -0.109 	 EpLen 500
+Episode 98 	 EpRet -0.110 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.103 |
+|        StdEpRet |          0.0077 |
+|        MaxEpRet |          -0.088 |
+|        MinEpRet |          -0.124 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 24 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed567410/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943881/progress.txt
+Episode 0 	 EpRet -0.127 	 EpLen 500
+Episode 1 	 EpRet -0.089 	 EpLen 500
+Episode 2 	 EpRet -0.102 	 EpLen 500
+Episode 3 	 EpRet -0.109 	 EpLen 500
+Episode 4 	 EpRet -0.086 	 EpLen 500
+Episode 5 	 EpRet -0.095 	 EpLen 500
+Episode 6 	 EpRet -0.101 	 EpLen 500
+Episode 7 	 EpRet -0.103 	 EpLen 500
+Episode 8 	 EpRet -0.082 	 EpLen 500
+Episode 9 	 EpRet -0.091 	 EpLen 500
+Episode 10 	 EpRet -0.085 	 EpLen 500
+Episode 11 	 EpRet -0.101 	 EpLen 500
+Episode 12 	 EpRet -0.096 	 EpLen 500
+Episode 13 	 EpRet -0.102 	 EpLen 500
+Episode 14 	 EpRet -0.093 	 EpLen 500
+Episode 15 	 EpRet -0.099 	 EpLen 500
+Episode 16 	 EpRet -0.094 	 EpLen 500
+Episode 17 	 EpRet -0.098 	 EpLen 500
+Episode 18 	 EpRet -0.112 	 EpLen 500
+Episode 19 	 EpRet -0.092 	 EpLen 500
+Episode 20 	 EpRet -0.102 	 EpLen 500
+Episode 21 	 EpRet -0.108 	 EpLen 500
+Episode 22 	 EpRet -0.096 	 EpLen 500
+Episode 23 	 EpRet -0.090 	 EpLen 500
+Episode 24 	 EpRet -0.109 	 EpLen 500
+Episode 25 	 EpRet -0.102 	 EpLen 500
+Episode 26 	 EpRet -0.100 	 EpLen 500
+Episode 27 	 EpRet -0.096 	 EpLen 500
+Episode 28 	 EpRet -0.099 	 EpLen 500
+Episode 29 	 EpRet -0.096 	 EpLen 500
+Episode 30 	 EpRet -0.122 	 EpLen 500
+Episode 31 	 EpRet -0.080 	 EpLen 500
+Episode 32 	 EpRet -0.103 	 EpLen 500
+Episode 33 	 EpRet -0.121 	 EpLen 500
+Episode 34 	 EpRet -0.109 	 EpLen 500
+Episode 35 	 EpRet -0.095 	 EpLen 500
+Episode 36 	 EpRet -0.090 	 EpLen 500
+Episode 37 	 EpRet -0.089 	 EpLen 500
+Episode 38 	 EpRet -0.110 	 EpLen 500
+Episode 39 	 EpRet -0.110 	 EpLen 500
+Episode 40 	 EpRet -0.092 	 EpLen 500
+Episode 41 	 EpRet -0.103 	 EpLen 500
+Episode 42 	 EpRet -0.094 	 EpLen 500
+Episode 43 	 EpRet -0.115 	 EpLen 500
+Episode 44 	 EpRet -0.088 	 EpLen 500
+Episode 45 	 EpRet -0.095 	 EpLen 500
+Episode 46 	 EpRet -0.102 	 EpLen 500
+Episode 47 	 EpRet -0.098 	 EpLen 500
+Episode 48 	 EpRet -0.112 	 EpLen 500
+Episode 49 	 EpRet -0.087 	 EpLen 500
+Episode 50 	 EpRet -0.100 	 EpLen 500
+Episode 51 	 EpRet -0.104 	 EpLen 500
+Episode 52 	 EpRet -0.096 	 EpLen 500
+Episode 53 	 EpRet -0.103 	 EpLen 500
+Episode 54 	 EpRet -0.109 	 EpLen 500
+Episode 55 	 EpRet -0.086 	 EpLen 500
+Episode 56 	 EpRet -0.092 	 EpLen 500
+Episode 57 	 EpRet -0.086 	 EpLen 500
+Episode 58 	 EpRet -0.090 	 EpLen 500
+Episode 59 	 EpRet -0.110 	 EpLen 500
+Episode 60 	 EpRet -0.095 	 EpLen 500
+Episode 61 	 EpRet -0.086 	 EpLen 500
+Episode 62 	 EpRet -0.103 	 EpLen 500
+Episode 63 	 EpRet -0.090 	 EpLen 500
+Episode 64 	 EpRet -0.130 	 EpLen 500
+Episode 65 	 EpRet -0.094 	 EpLen 500
+Episode 66 	 EpRet -0.089 	 EpLen 500
+Episode 67 	 EpRet -0.082 	 EpLen 500
+Episode 68 	 EpRet -0.099 	 EpLen 500
+Episode 69 	 EpRet -0.094 	 EpLen 500
+Episode 70 	 EpRet -0.100 	 EpLen 500
+Episode 71 	 EpRet -0.082 	 EpLen 500
+Episode 72 	 EpRet -0.093 	 EpLen 500
+Episode 73 	 EpRet -0.086 	 EpLen 500
+Episode 74 	 EpRet -0.095 	 EpLen 500
+Episode 75 	 EpRet -0.101 	 EpLen 500
+Episode 76 	 EpRet -0.091 	 EpLen 500
+Episode 77 	 EpRet -0.089 	 EpLen 500
+Episode 78 	 EpRet -0.099 	 EpLen 500
+Episode 79 	 EpRet -0.113 	 EpLen 500
+Episode 80 	 EpRet -0.093 	 EpLen 500
+Episode 81 	 EpRet -0.110 	 EpLen 500
+Episode 82 	 EpRet -0.098 	 EpLen 500
+Episode 83 	 EpRet -0.092 	 EpLen 500
+Episode 84 	 EpRet -0.100 	 EpLen 500
+Episode 85 	 EpRet -0.085 	 EpLen 500
+Episode 86 	 EpRet -0.093 	 EpLen 500
+Episode 87 	 EpRet -0.103 	 EpLen 500
+Episode 88 	 EpRet -0.087 	 EpLen 500
+Episode 89 	 EpRet -0.097 	 EpLen 500
+Episode 90 	 EpRet -0.093 	 EpLen 500
+Episode 91 	 EpRet -0.077 	 EpLen 500
+Episode 92 	 EpRet -0.094 	 EpLen 500
+Episode 93 	 EpRet -0.082 	 EpLen 500
+Episode 94 	 EpRet -0.088 	 EpLen 500
+Episode 95 	 EpRet -0.085 	 EpLen 500
+Episode 96 	 EpRet -0.111 	 EpLen 500
+Episode 97 	 EpRet -0.095 	 EpLen 500
+Episode 98 	 EpRet -0.083 	 EpLen 500
+Episode 99 	 EpRet -0.097 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0972 |
+|        StdEpRet |          0.0101 |
+|        MaxEpRet |          -0.077 |
+|        MinEpRet |           -0.13 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 25 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed293394/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593943975/progress.txt
+Episode 0 	 EpRet -0.080 	 EpLen 500
+Episode 1 	 EpRet -0.080 	 EpLen 500
+Episode 2 	 EpRet -0.074 	 EpLen 500
+Episode 3 	 EpRet -0.088 	 EpLen 500
+Episode 4 	 EpRet -0.076 	 EpLen 500
+Episode 5 	 EpRet -0.079 	 EpLen 500
+Episode 6 	 EpRet -0.084 	 EpLen 500
+Episode 7 	 EpRet -0.088 	 EpLen 500
+Episode 8 	 EpRet -0.095 	 EpLen 500
+Episode 9 	 EpRet -0.096 	 EpLen 500
+Episode 10 	 EpRet -0.088 	 EpLen 500
+Episode 11 	 EpRet -0.088 	 EpLen 500
+Episode 12 	 EpRet -0.091 	 EpLen 500
+Episode 13 	 EpRet -0.076 	 EpLen 500
+Episode 14 	 EpRet -0.077 	 EpLen 500
+Episode 15 	 EpRet -0.074 	 EpLen 500
+Episode 16 	 EpRet -0.077 	 EpLen 500
+Episode 17 	 EpRet -0.075 	 EpLen 500
+Episode 18 	 EpRet -0.103 	 EpLen 500
+Episode 19 	 EpRet -0.083 	 EpLen 500
+Episode 20 	 EpRet -0.142 	 EpLen 500
+Episode 21 	 EpRet -0.106 	 EpLen 500
+Episode 22 	 EpRet -0.078 	 EpLen 500
+Episode 23 	 EpRet -0.081 	 EpLen 500
+Episode 24 	 EpRet -0.084 	 EpLen 500
+Episode 25 	 EpRet -0.082 	 EpLen 500
+Episode 26 	 EpRet -0.072 	 EpLen 500
+Episode 27 	 EpRet -0.088 	 EpLen 500
+Episode 28 	 EpRet -0.173 	 EpLen 500
+Episode 29 	 EpRet -0.096 	 EpLen 500
+Episode 30 	 EpRet -0.097 	 EpLen 500
+Episode 31 	 EpRet -0.079 	 EpLen 500
+Episode 32 	 EpRet -0.082 	 EpLen 500
+Episode 33 	 EpRet -0.092 	 EpLen 500
+Episode 34 	 EpRet -0.090 	 EpLen 500
+Episode 35 	 EpRet -0.080 	 EpLen 500
+Episode 36 	 EpRet -0.080 	 EpLen 500
+Episode 37 	 EpRet -0.064 	 EpLen 500
+Episode 38 	 EpRet -0.090 	 EpLen 500
+Episode 39 	 EpRet -0.104 	 EpLen 500
+Episode 40 	 EpRet -0.084 	 EpLen 500
+Episode 41 	 EpRet -0.098 	 EpLen 500
+Episode 42 	 EpRet -0.093 	 EpLen 500
+Episode 43 	 EpRet -0.087 	 EpLen 500
+Episode 44 	 EpRet -0.065 	 EpLen 500
+Episode 45 	 EpRet -0.089 	 EpLen 500
+Episode 46 	 EpRet -0.075 	 EpLen 500
+Episode 47 	 EpRet -0.589 	 EpLen 500
+Episode 48 	 EpRet -0.144 	 EpLen 500
+Episode 49 	 EpRet -0.075 	 EpLen 500
+Episode 50 	 EpRet -0.080 	 EpLen 500
+Episode 51 	 EpRet -0.096 	 EpLen 500
+Episode 52 	 EpRet -0.086 	 EpLen 500
+Episode 53 	 EpRet -0.090 	 EpLen 500
+Episode 54 	 EpRet -0.091 	 EpLen 500
+Episode 55 	 EpRet -0.091 	 EpLen 500
+Episode 56 	 EpRet -0.081 	 EpLen 500
+Episode 57 	 EpRet -0.070 	 EpLen 500
+Episode 58 	 EpRet -0.099 	 EpLen 500
+Episode 59 	 EpRet -0.089 	 EpLen 500
+Episode 60 	 EpRet -0.091 	 EpLen 500
+Episode 61 	 EpRet -0.087 	 EpLen 500
+Episode 62 	 EpRet -0.225 	 EpLen 500
+Episode 63 	 EpRet -0.098 	 EpLen 500
+Episode 64 	 EpRet -0.095 	 EpLen 500
+Episode 65 	 EpRet -0.095 	 EpLen 500
+Episode 66 	 EpRet -0.098 	 EpLen 500
+Episode 67 	 EpRet -0.102 	 EpLen 500
+Episode 68 	 EpRet -0.096 	 EpLen 500
+Episode 69 	 EpRet -0.073 	 EpLen 500
+Episode 70 	 EpRet -0.090 	 EpLen 500
+Episode 71 	 EpRet -0.069 	 EpLen 500
+Episode 72 	 EpRet -0.071 	 EpLen 500
+Episode 73 	 EpRet -0.071 	 EpLen 500
+Episode 74 	 EpRet -0.082 	 EpLen 500
+Episode 75 	 EpRet -0.088 	 EpLen 500
+Episode 76 	 EpRet -0.654 	 EpLen 500
+Episode 77 	 EpRet -0.079 	 EpLen 500
+Episode 78 	 EpRet -0.084 	 EpLen 500
+Episode 79 	 EpRet -0.074 	 EpLen 500
+Episode 80 	 EpRet -0.093 	 EpLen 500
+Episode 81 	 EpRet -0.097 	 EpLen 500
+Episode 82 	 EpRet -0.079 	 EpLen 500
+Episode 83 	 EpRet -0.069 	 EpLen 500
+Episode 84 	 EpRet -0.129 	 EpLen 500
+Episode 85 	 EpRet -0.082 	 EpLen 500
+Episode 86 	 EpRet -0.101 	 EpLen 500
+Episode 87 	 EpRet -0.086 	 EpLen 500
+Episode 88 	 EpRet -0.090 	 EpLen 500
+Episode 89 	 EpRet -0.085 	 EpLen 500
+Episode 90 	 EpRet -0.119 	 EpLen 500
+Episode 91 	 EpRet -0.075 	 EpLen 500
+Episode 92 	 EpRet -0.088 	 EpLen 500
+Episode 93 	 EpRet -0.084 	 EpLen 500
+Episode 94 	 EpRet -0.082 	 EpLen 500
+Episode 95 	 EpRet -0.078 	 EpLen 500
+Episode 96 	 EpRet -0.085 	 EpLen 500
+Episode 97 	 EpRet -0.086 	 EpLen 500
+Episode 98 	 EpRet -0.091 	 EpLen 500
+Episode 99 	 EpRet -0.086 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |            -0.1 |
+|        StdEpRet |          0.0775 |
+|        MaxEpRet |          -0.064 |
+|        MinEpRet |          -0.654 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 26 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed127075/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944073/progress.txt
+Episode 0 	 EpRet -0.126 	 EpLen 500
+Episode 1 	 EpRet -0.112 	 EpLen 500
+Episode 2 	 EpRet -0.115 	 EpLen 500
+Episode 3 	 EpRet -0.080 	 EpLen 500
+Episode 4 	 EpRet -0.108 	 EpLen 500
+Episode 5 	 EpRet -0.118 	 EpLen 500
+Episode 6 	 EpRet -0.087 	 EpLen 500
+Episode 7 	 EpRet -0.121 	 EpLen 500
+Episode 8 	 EpRet -0.128 	 EpLen 500
+Episode 9 	 EpRet -0.116 	 EpLen 500
+Episode 10 	 EpRet -0.087 	 EpLen 500
+Episode 11 	 EpRet -0.074 	 EpLen 500
+Episode 12 	 EpRet -0.105 	 EpLen 500
+Episode 13 	 EpRet -0.113 	 EpLen 500
+Episode 14 	 EpRet -0.088 	 EpLen 500
+Episode 15 	 EpRet -0.116 	 EpLen 500
+Episode 16 	 EpRet -0.111 	 EpLen 500
+Episode 17 	 EpRet -0.133 	 EpLen 500
+Episode 18 	 EpRet -0.092 	 EpLen 500
+Episode 19 	 EpRet -0.122 	 EpLen 500
+Episode 20 	 EpRet -0.114 	 EpLen 500
+Episode 21 	 EpRet -0.114 	 EpLen 500
+Episode 22 	 EpRet -0.168 	 EpLen 500
+Episode 23 	 EpRet -0.123 	 EpLen 500
+Episode 24 	 EpRet -0.078 	 EpLen 500
+Episode 25 	 EpRet -0.102 	 EpLen 500
+Episode 26 	 EpRet -0.074 	 EpLen 500
+Episode 27 	 EpRet -0.136 	 EpLen 500
+Episode 28 	 EpRet -0.093 	 EpLen 500
+Episode 29 	 EpRet -0.102 	 EpLen 500
+Episode 30 	 EpRet -0.161 	 EpLen 500
+Episode 31 	 EpRet -0.106 	 EpLen 500
+Episode 32 	 EpRet -0.132 	 EpLen 500
+Episode 33 	 EpRet -0.111 	 EpLen 500
+Episode 34 	 EpRet -0.096 	 EpLen 500
+Episode 35 	 EpRet -0.117 	 EpLen 500
+Episode 36 	 EpRet -0.117 	 EpLen 500
+Episode 37 	 EpRet -0.117 	 EpLen 500
+Episode 38 	 EpRet -0.120 	 EpLen 500
+Episode 39 	 EpRet -0.146 	 EpLen 500
+Episode 40 	 EpRet -0.107 	 EpLen 500
+Episode 41 	 EpRet -0.103 	 EpLen 500
+Episode 42 	 EpRet -0.134 	 EpLen 500
+Episode 43 	 EpRet -0.119 	 EpLen 500
+Episode 44 	 EpRet -0.089 	 EpLen 500
+Episode 45 	 EpRet -0.087 	 EpLen 500
+Episode 46 	 EpRet -0.108 	 EpLen 500
+Episode 47 	 EpRet -0.125 	 EpLen 500
+Episode 48 	 EpRet -0.088 	 EpLen 500
+Episode 49 	 EpRet -0.079 	 EpLen 500
+Episode 50 	 EpRet -0.129 	 EpLen 500
+Episode 51 	 EpRet -0.090 	 EpLen 500
+Episode 52 	 EpRet -0.092 	 EpLen 500
+Episode 53 	 EpRet -0.121 	 EpLen 500
+Episode 54 	 EpRet -0.119 	 EpLen 500
+Episode 55 	 EpRet -0.085 	 EpLen 500
+Episode 56 	 EpRet -0.145 	 EpLen 500
+Episode 57 	 EpRet -0.088 	 EpLen 500
+Episode 58 	 EpRet -0.083 	 EpLen 500
+Episode 59 	 EpRet -0.090 	 EpLen 500
+Episode 60 	 EpRet -0.132 	 EpLen 500
+Episode 61 	 EpRet -0.100 	 EpLen 500
+Episode 62 	 EpRet -0.130 	 EpLen 500
+Episode 63 	 EpRet -0.096 	 EpLen 500
+Episode 64 	 EpRet -0.118 	 EpLen 500
+Episode 65 	 EpRet -0.128 	 EpLen 500
+Episode 66 	 EpRet -0.098 	 EpLen 500
+Episode 67 	 EpRet -0.185 	 EpLen 500
+Episode 68 	 EpRet -0.120 	 EpLen 500
+Episode 69 	 EpRet -0.151 	 EpLen 500
+Episode 70 	 EpRet -0.109 	 EpLen 500
+Episode 71 	 EpRet -0.099 	 EpLen 500
+Episode 72 	 EpRet -0.150 	 EpLen 500
+Episode 73 	 EpRet -0.107 	 EpLen 500
+Episode 74 	 EpRet -0.126 	 EpLen 500
+Episode 75 	 EpRet -0.099 	 EpLen 500
+Episode 76 	 EpRet -0.150 	 EpLen 500
+Episode 77 	 EpRet -0.082 	 EpLen 500
+Episode 78 	 EpRet -0.166 	 EpLen 500
+Episode 79 	 EpRet -0.105 	 EpLen 500
+Episode 80 	 EpRet -0.093 	 EpLen 500
+Episode 81 	 EpRet -0.140 	 EpLen 500
+Episode 82 	 EpRet -0.086 	 EpLen 500
+Episode 83 	 EpRet -0.068 	 EpLen 500
+Episode 84 	 EpRet -0.112 	 EpLen 500
+Episode 85 	 EpRet -0.135 	 EpLen 500
+Episode 86 	 EpRet -0.102 	 EpLen 500
+Episode 87 	 EpRet -0.078 	 EpLen 500
+Episode 88 	 EpRet -0.103 	 EpLen 500
+Episode 89 	 EpRet -0.108 	 EpLen 500
+Episode 90 	 EpRet -0.121 	 EpLen 500
+Episode 91 	 EpRet -0.112 	 EpLen 500
+Episode 92 	 EpRet -0.121 	 EpLen 500
+Episode 93 	 EpRet -0.107 	 EpLen 500
+Episode 94 	 EpRet -0.078 	 EpLen 500
+Episode 95 	 EpRet -0.136 	 EpLen 500
+Episode 96 	 EpRet -0.123 	 EpLen 500
+Episode 97 	 EpRet -0.094 	 EpLen 500
+Episode 98 	 EpRet -0.110 	 EpLen 500
+Episode 99 	 EpRet -0.119 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.112 |
+|        StdEpRet |          0.0223 |
+|        MaxEpRet |          -0.068 |
+|        MinEpRet |          -0.185 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 27 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed80203/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944170/progress.txt
+Episode 0 	 EpRet -0.102 	 EpLen 500
+Episode 1 	 EpRet -0.085 	 EpLen 500
+Episode 2 	 EpRet -0.100 	 EpLen 500
+Episode 3 	 EpRet -0.600 	 EpLen 500
+Episode 4 	 EpRet -0.103 	 EpLen 500
+Episode 5 	 EpRet -0.131 	 EpLen 500
+Episode 6 	 EpRet -0.098 	 EpLen 500
+Episode 7 	 EpRet -0.078 	 EpLen 500
+Episode 8 	 EpRet -0.107 	 EpLen 500
+Episode 9 	 EpRet -0.092 	 EpLen 500
+Episode 10 	 EpRet -0.090 	 EpLen 500
+Episode 11 	 EpRet -0.136 	 EpLen 500
+Episode 12 	 EpRet -0.091 	 EpLen 500
+Episode 13 	 EpRet -0.096 	 EpLen 500
+Episode 14 	 EpRet -0.084 	 EpLen 500
+Episode 15 	 EpRet -0.089 	 EpLen 500
+Episode 16 	 EpRet -0.092 	 EpLen 500
+Episode 17 	 EpRet -0.095 	 EpLen 500
+Episode 18 	 EpRet -0.087 	 EpLen 500
+Episode 19 	 EpRet -0.109 	 EpLen 500
+Episode 20 	 EpRet -0.114 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.116 	 EpLen 500
+Episode 23 	 EpRet -0.098 	 EpLen 500
+Episode 24 	 EpRet -0.110 	 EpLen 500
+Episode 25 	 EpRet -0.104 	 EpLen 500
+Episode 26 	 EpRet -0.107 	 EpLen 500
+Episode 27 	 EpRet -0.114 	 EpLen 500
+Episode 28 	 EpRet -0.095 	 EpLen 500
+Episode 29 	 EpRet -0.098 	 EpLen 500
+Episode 30 	 EpRet -0.113 	 EpLen 500
+Episode 31 	 EpRet -0.100 	 EpLen 500
+Episode 32 	 EpRet -0.095 	 EpLen 500
+Episode 33 	 EpRet -0.096 	 EpLen 500
+Episode 34 	 EpRet -0.119 	 EpLen 500
+Episode 35 	 EpRet -0.097 	 EpLen 500
+Episode 36 	 EpRet -0.095 	 EpLen 500
+Episode 37 	 EpRet -0.112 	 EpLen 500
+Episode 38 	 EpRet -0.117 	 EpLen 500
+Episode 39 	 EpRet -0.116 	 EpLen 500
+Episode 40 	 EpRet -0.086 	 EpLen 500
+Episode 41 	 EpRet -0.100 	 EpLen 500
+Episode 42 	 EpRet -0.090 	 EpLen 500
+Episode 43 	 EpRet -0.664 	 EpLen 500
+Episode 44 	 EpRet -0.079 	 EpLen 500
+Episode 45 	 EpRet -0.093 	 EpLen 500
+Episode 46 	 EpRet -0.093 	 EpLen 500
+Episode 47 	 EpRet -0.089 	 EpLen 500
+Episode 48 	 EpRet -0.114 	 EpLen 500
+Episode 49 	 EpRet -0.081 	 EpLen 500
+Episode 50 	 EpRet -0.086 	 EpLen 500
+Episode 51 	 EpRet -0.105 	 EpLen 500
+Episode 52 	 EpRet -0.108 	 EpLen 500
+Episode 53 	 EpRet -0.108 	 EpLen 500
+Episode 54 	 EpRet -0.097 	 EpLen 500
+Episode 55 	 EpRet -0.083 	 EpLen 500
+Episode 56 	 EpRet -0.101 	 EpLen 500
+Episode 57 	 EpRet -0.077 	 EpLen 500
+Episode 58 	 EpRet -0.097 	 EpLen 500
+Episode 59 	 EpRet -0.113 	 EpLen 500
+Episode 60 	 EpRet -0.146 	 EpLen 500
+Episode 61 	 EpRet -0.107 	 EpLen 500
+Episode 62 	 EpRet -0.100 	 EpLen 500
+Episode 63 	 EpRet -0.093 	 EpLen 500
+Episode 64 	 EpRet -0.097 	 EpLen 500
+Episode 65 	 EpRet -0.106 	 EpLen 500
+Episode 66 	 EpRet -0.089 	 EpLen 500
+Episode 67 	 EpRet -0.097 	 EpLen 500
+Episode 68 	 EpRet -0.104 	 EpLen 500
+Episode 69 	 EpRet -0.126 	 EpLen 500
+Episode 70 	 EpRet -0.085 	 EpLen 500
+Episode 71 	 EpRet -0.084 	 EpLen 500
+Episode 72 	 EpRet -0.095 	 EpLen 500
+Episode 73 	 EpRet -0.083 	 EpLen 500
+Episode 74 	 EpRet -0.097 	 EpLen 500
+Episode 75 	 EpRet -0.093 	 EpLen 500
+Episode 76 	 EpRet -0.102 	 EpLen 500
+Episode 77 	 EpRet -0.092 	 EpLen 500
+Episode 78 	 EpRet -0.101 	 EpLen 500
+Episode 79 	 EpRet -0.100 	 EpLen 500
+Episode 80 	 EpRet -0.124 	 EpLen 500
+Episode 81 	 EpRet -0.098 	 EpLen 500
+Episode 82 	 EpRet -0.112 	 EpLen 500
+Episode 83 	 EpRet -0.090 	 EpLen 500
+Episode 84 	 EpRet -0.098 	 EpLen 500
+Episode 85 	 EpRet -0.091 	 EpLen 500
+Episode 86 	 EpRet -0.114 	 EpLen 500
+Episode 87 	 EpRet -0.092 	 EpLen 500
+Episode 88 	 EpRet -0.101 	 EpLen 500
+Episode 89 	 EpRet -0.106 	 EpLen 500
+Episode 90 	 EpRet -0.095 	 EpLen 500
+Episode 91 	 EpRet -0.095 	 EpLen 500
+Episode 92 	 EpRet -0.088 	 EpLen 500
+Episode 93 	 EpRet -0.091 	 EpLen 500
+Episode 94 	 EpRet -0.088 	 EpLen 500
+Episode 95 	 EpRet -0.103 	 EpLen 500
+Episode 96 	 EpRet -0.087 	 EpLen 500
+Episode 97 	 EpRet -0.093 	 EpLen 500
+Episode 98 	 EpRet -0.090 	 EpLen 500
+Episode 99 	 EpRet -0.088 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |           -0.11 |
+|        StdEpRet |          0.0757 |
+|        MaxEpRet |          -0.077 |
+|        MinEpRet |          -0.664 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 28 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed916962/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944262/progress.txt
+Episode 0 	 EpRet -0.167 	 EpLen 500
+Episode 1 	 EpRet -0.118 	 EpLen 500
+Episode 2 	 EpRet -0.146 	 EpLen 500
+Episode 3 	 EpRet -0.132 	 EpLen 500
+Episode 4 	 EpRet -0.121 	 EpLen 500
+Episode 5 	 EpRet -0.131 	 EpLen 500
+Episode 6 	 EpRet -0.110 	 EpLen 500
+Episode 7 	 EpRet -0.134 	 EpLen 500
+Episode 8 	 EpRet -0.133 	 EpLen 500
+Episode 9 	 EpRet -0.102 	 EpLen 500
+Episode 10 	 EpRet -0.115 	 EpLen 500
+Episode 11 	 EpRet -0.120 	 EpLen 500
+Episode 12 	 EpRet -0.124 	 EpLen 500
+Episode 13 	 EpRet -0.147 	 EpLen 500
+Episode 14 	 EpRet -0.126 	 EpLen 500
+Episode 15 	 EpRet -0.118 	 EpLen 500
+Episode 16 	 EpRet -0.105 	 EpLen 500
+Episode 17 	 EpRet -0.106 	 EpLen 500
+Episode 18 	 EpRet -0.123 	 EpLen 500
+Episode 19 	 EpRet -0.142 	 EpLen 500
+Episode 20 	 EpRet -0.111 	 EpLen 500
+Episode 21 	 EpRet -0.131 	 EpLen 500
+Episode 22 	 EpRet -0.126 	 EpLen 500
+Episode 23 	 EpRet -0.124 	 EpLen 500
+Episode 24 	 EpRet -0.123 	 EpLen 500
+Episode 25 	 EpRet -0.147 	 EpLen 500
+Episode 26 	 EpRet -0.126 	 EpLen 500
+Episode 27 	 EpRet -0.138 	 EpLen 500
+Episode 28 	 EpRet -0.143 	 EpLen 500
+Episode 29 	 EpRet -0.131 	 EpLen 500
+Episode 30 	 EpRet -0.129 	 EpLen 500
+Episode 31 	 EpRet -0.124 	 EpLen 500
+Episode 32 	 EpRet -0.139 	 EpLen 500
+Episode 33 	 EpRet -0.160 	 EpLen 500
+Episode 34 	 EpRet -0.129 	 EpLen 500
+Episode 35 	 EpRet -0.145 	 EpLen 500
+Episode 36 	 EpRet -0.104 	 EpLen 500
+Episode 37 	 EpRet -0.153 	 EpLen 500
+Episode 38 	 EpRet -0.141 	 EpLen 500
+Episode 39 	 EpRet -0.146 	 EpLen 500
+Episode 40 	 EpRet -0.133 	 EpLen 500
+Episode 41 	 EpRet -0.132 	 EpLen 500
+Episode 42 	 EpRet -0.098 	 EpLen 500
+Episode 43 	 EpRet -0.146 	 EpLen 500
+Episode 44 	 EpRet -0.124 	 EpLen 500
+Episode 45 	 EpRet -0.111 	 EpLen 500
+Episode 46 	 EpRet -0.152 	 EpLen 500
+Episode 47 	 EpRet -0.118 	 EpLen 500
+Episode 48 	 EpRet -0.139 	 EpLen 500
+Episode 49 	 EpRet -0.131 	 EpLen 500
+Episode 50 	 EpRet -0.122 	 EpLen 500
+Episode 51 	 EpRet -0.140 	 EpLen 500
+Episode 52 	 EpRet -0.120 	 EpLen 500
+Episode 53 	 EpRet -0.121 	 EpLen 500
+Episode 54 	 EpRet -0.128 	 EpLen 500
+Episode 55 	 EpRet -0.127 	 EpLen 500
+Episode 56 	 EpRet -0.139 	 EpLen 500
+Episode 57 	 EpRet -0.136 	 EpLen 500
+Episode 58 	 EpRet -0.128 	 EpLen 500
+Episode 59 	 EpRet -0.148 	 EpLen 500
+Episode 60 	 EpRet -0.131 	 EpLen 500
+Episode 61 	 EpRet -0.109 	 EpLen 500
+Episode 62 	 EpRet -0.133 	 EpLen 500
+Episode 63 	 EpRet -0.162 	 EpLen 500
+Episode 64 	 EpRet -0.148 	 EpLen 500
+Episode 65 	 EpRet -0.134 	 EpLen 500
+Episode 66 	 EpRet -0.130 	 EpLen 500
+Episode 67 	 EpRet -0.119 	 EpLen 500
+Episode 68 	 EpRet -0.143 	 EpLen 500
+Episode 69 	 EpRet -0.112 	 EpLen 500
+Episode 70 	 EpRet -0.132 	 EpLen 500
+Episode 71 	 EpRet -0.135 	 EpLen 500
+Episode 72 	 EpRet -0.127 	 EpLen 500
+Episode 73 	 EpRet -0.142 	 EpLen 500
+Episode 74 	 EpRet -0.131 	 EpLen 500
+Episode 75 	 EpRet -0.134 	 EpLen 500
+Episode 76 	 EpRet -0.125 	 EpLen 500
+Episode 77 	 EpRet -0.118 	 EpLen 500
+Episode 78 	 EpRet -0.141 	 EpLen 500
+Episode 79 	 EpRet -0.133 	 EpLen 500
+Episode 80 	 EpRet -0.115 	 EpLen 500
+Episode 81 	 EpRet -0.125 	 EpLen 500
+Episode 82 	 EpRet -0.133 	 EpLen 500
+Episode 83 	 EpRet -0.140 	 EpLen 500
+Episode 84 	 EpRet -0.144 	 EpLen 500
+Episode 85 	 EpRet -0.120 	 EpLen 500
+Episode 86 	 EpRet -0.140 	 EpLen 500
+Episode 87 	 EpRet -0.145 	 EpLen 500
+Episode 88 	 EpRet -0.122 	 EpLen 500
+Episode 89 	 EpRet -0.122 	 EpLen 500
+Episode 90 	 EpRet -0.111 	 EpLen 500
+Episode 91 	 EpRet -0.137 	 EpLen 500
+Episode 92 	 EpRet -0.169 	 EpLen 500
+Episode 93 	 EpRet -0.117 	 EpLen 500
+Episode 94 	 EpRet -0.136 	 EpLen 500
+Episode 95 	 EpRet -0.136 	 EpLen 500
+Episode 96 	 EpRet -0.159 	 EpLen 500
+Episode 97 	 EpRet -0.151 	 EpLen 500
+Episode 98 	 EpRet -0.133 	 EpLen 500
+Episode 99 	 EpRet -0.124 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.131 |
+|        StdEpRet |           0.014 |
+|        MaxEpRet |          -0.098 |
+|        MinEpRet |          -0.169 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 29 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed515833/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944354/progress.txt
+Episode 0 	 EpRet -0.118 	 EpLen 500
+Episode 1 	 EpRet -0.106 	 EpLen 500
+Episode 2 	 EpRet -0.105 	 EpLen 500
+Episode 3 	 EpRet -0.107 	 EpLen 500
+Episode 4 	 EpRet -0.103 	 EpLen 500
+Episode 5 	 EpRet -0.102 	 EpLen 500
+Episode 6 	 EpRet -0.098 	 EpLen 500
+Episode 7 	 EpRet -0.113 	 EpLen 500
+Episode 8 	 EpRet -0.105 	 EpLen 500
+Episode 9 	 EpRet -0.096 	 EpLen 500
+Episode 10 	 EpRet -0.096 	 EpLen 500
+Episode 11 	 EpRet -0.115 	 EpLen 500
+Episode 12 	 EpRet -0.111 	 EpLen 500
+Episode 13 	 EpRet -0.102 	 EpLen 500
+Episode 14 	 EpRet -0.099 	 EpLen 500
+Episode 15 	 EpRet -0.102 	 EpLen 500
+Episode 16 	 EpRet -0.112 	 EpLen 500
+Episode 17 	 EpRet -0.108 	 EpLen 500
+Episode 18 	 EpRet -0.097 	 EpLen 500
+Episode 19 	 EpRet -0.112 	 EpLen 500
+Episode 20 	 EpRet -0.118 	 EpLen 500
+Episode 21 	 EpRet -0.111 	 EpLen 500
+Episode 22 	 EpRet -0.113 	 EpLen 500
+Episode 23 	 EpRet -0.113 	 EpLen 500
+Episode 24 	 EpRet -0.106 	 EpLen 500
+Episode 25 	 EpRet -0.108 	 EpLen 500
+Episode 26 	 EpRet -0.101 	 EpLen 500
+Episode 27 	 EpRet -0.099 	 EpLen 500
+Episode 28 	 EpRet -0.116 	 EpLen 500
+Episode 29 	 EpRet -0.100 	 EpLen 500
+Episode 30 	 EpRet -0.107 	 EpLen 500
+Episode 31 	 EpRet -0.103 	 EpLen 500
+Episode 32 	 EpRet -0.136 	 EpLen 500
+Episode 33 	 EpRet -0.110 	 EpLen 500
+Episode 34 	 EpRet -0.114 	 EpLen 500
+Episode 35 	 EpRet -0.101 	 EpLen 500
+Episode 36 	 EpRet -0.097 	 EpLen 500
+Episode 37 	 EpRet -0.110 	 EpLen 500
+Episode 38 	 EpRet -0.105 	 EpLen 500
+Episode 39 	 EpRet -0.127 	 EpLen 500
+Episode 40 	 EpRet -0.085 	 EpLen 500
+Episode 41 	 EpRet -0.103 	 EpLen 500
+Episode 42 	 EpRet -0.140 	 EpLen 500
+Episode 43 	 EpRet -0.116 	 EpLen 500
+Episode 44 	 EpRet -0.110 	 EpLen 500
+Episode 45 	 EpRet -0.105 	 EpLen 500
+Episode 46 	 EpRet -0.103 	 EpLen 500
+Episode 47 	 EpRet -0.087 	 EpLen 500
+Episode 48 	 EpRet -0.103 	 EpLen 500
+Episode 49 	 EpRet -0.102 	 EpLen 500
+Episode 50 	 EpRet -0.097 	 EpLen 500
+Episode 51 	 EpRet -0.110 	 EpLen 500
+Episode 52 	 EpRet -0.111 	 EpLen 500
+Episode 53 	 EpRet -0.113 	 EpLen 500
+Episode 54 	 EpRet -0.100 	 EpLen 500
+Episode 55 	 EpRet -0.115 	 EpLen 500
+Episode 56 	 EpRet -0.109 	 EpLen 500
+Episode 57 	 EpRet -0.106 	 EpLen 500
+Episode 58 	 EpRet -0.115 	 EpLen 500
+Episode 59 	 EpRet -0.115 	 EpLen 500
+Episode 60 	 EpRet -0.104 	 EpLen 500
+Episode 61 	 EpRet -0.105 	 EpLen 500
+Episode 62 	 EpRet -0.111 	 EpLen 500
+Episode 63 	 EpRet -0.112 	 EpLen 500
+Episode 64 	 EpRet -0.108 	 EpLen 500
+Episode 65 	 EpRet -0.103 	 EpLen 500
+Episode 66 	 EpRet -0.120 	 EpLen 500
+Episode 67 	 EpRet -0.110 	 EpLen 500
+Episode 68 	 EpRet -0.107 	 EpLen 500
+Episode 69 	 EpRet -0.091 	 EpLen 500
+Episode 70 	 EpRet -0.110 	 EpLen 500
+Episode 71 	 EpRet -0.100 	 EpLen 500
+Episode 72 	 EpRet -0.096 	 EpLen 500
+Episode 73 	 EpRet -0.102 	 EpLen 500
+Episode 74 	 EpRet -0.107 	 EpLen 500
+Episode 75 	 EpRet -0.108 	 EpLen 500
+Episode 76 	 EpRet -0.102 	 EpLen 500
+Episode 77 	 EpRet -0.108 	 EpLen 500
+Episode 78 	 EpRet -0.124 	 EpLen 500
+Episode 79 	 EpRet -0.112 	 EpLen 500
+Episode 80 	 EpRet -0.087 	 EpLen 500
+Episode 81 	 EpRet -0.098 	 EpLen 500
+Episode 82 	 EpRet -0.104 	 EpLen 500
+Episode 83 	 EpRet -0.094 	 EpLen 500
+Episode 84 	 EpRet -0.104 	 EpLen 500
+Episode 85 	 EpRet -0.107 	 EpLen 500
+Episode 86 	 EpRet -0.118 	 EpLen 500
+Episode 87 	 EpRet -0.113 	 EpLen 500
+Episode 88 	 EpRet -0.104 	 EpLen 500
+Episode 89 	 EpRet -0.114 	 EpLen 500
+Episode 90 	 EpRet -0.105 	 EpLen 500
+Episode 91 	 EpRet -0.108 	 EpLen 500
+Episode 92 	 EpRet -0.119 	 EpLen 500
+Episode 93 	 EpRet -0.096 	 EpLen 500
+Episode 94 	 EpRet -0.098 	 EpLen 500
+Episode 95 	 EpRet -0.114 	 EpLen 500
+Episode 96 	 EpRet -0.103 	 EpLen 500
+Episode 97 	 EpRet -0.108 	 EpLen 500
+Episode 98 	 EpRet -0.114 	 EpLen 500
+Episode 99 	 EpRet -0.122 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.107 |
+|        StdEpRet |         0.00892 |
+|        MaxEpRet |          -0.085 |
+|        MinEpRet |           -0.14 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 30 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed671555/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944447/progress.txt
+Episode 0 	 EpRet -0.122 	 EpLen 500
+Episode 1 	 EpRet -0.095 	 EpLen 500
+Episode 2 	 EpRet -0.589 	 EpLen 109
+Episode 3 	 EpRet -0.118 	 EpLen 500
+Episode 4 	 EpRet -0.099 	 EpLen 500
+Episode 5 	 EpRet -0.141 	 EpLen 500
+Episode 6 	 EpRet -0.130 	 EpLen 500
+Episode 7 	 EpRet -0.178 	 EpLen 500
+Episode 8 	 EpRet -0.094 	 EpLen 500
+Episode 9 	 EpRet -0.160 	 EpLen 500
+Episode 10 	 EpRet -0.076 	 EpLen 500
+Episode 11 	 EpRet -0.144 	 EpLen 500
+Episode 12 	 EpRet -0.082 	 EpLen 500
+Episode 13 	 EpRet -0.112 	 EpLen 500
+Episode 14 	 EpRet -0.093 	 EpLen 500
+Episode 15 	 EpRet -0.118 	 EpLen 500
+Episode 16 	 EpRet -0.091 	 EpLen 500
+Episode 17 	 EpRet -0.118 	 EpLen 500
+Episode 18 	 EpRet -0.165 	 EpLen 500
+Episode 19 	 EpRet -0.123 	 EpLen 500
+Episode 20 	 EpRet -0.555 	 EpLen 56
+Episode 21 	 EpRet -0.123 	 EpLen 500
+Episode 22 	 EpRet -0.214 	 EpLen 500
+Episode 23 	 EpRet -0.096 	 EpLen 500
+Episode 24 	 EpRet -0.115 	 EpLen 500
+Episode 25 	 EpRet -0.150 	 EpLen 500
+Episode 26 	 EpRet -0.089 	 EpLen 500
+Episode 27 	 EpRet -0.137 	 EpLen 500
+Episode 28 	 EpRet -0.090 	 EpLen 500
+Episode 29 	 EpRet -0.118 	 EpLen 500
+Episode 30 	 EpRet -0.091 	 EpLen 500
+Episode 31 	 EpRet -0.135 	 EpLen 500
+Episode 32 	 EpRet -0.114 	 EpLen 500
+Episode 33 	 EpRet -0.142 	 EpLen 500
+Episode 34 	 EpRet -0.147 	 EpLen 500
+Episode 35 	 EpRet -0.137 	 EpLen 500
+Episode 36 	 EpRet -0.596 	 EpLen 117
+Episode 37 	 EpRet -0.122 	 EpLen 500
+Episode 38 	 EpRet -0.104 	 EpLen 500
+Episode 39 	 EpRet -0.629 	 EpLen 500
+Episode 40 	 EpRet -0.107 	 EpLen 500
+Episode 41 	 EpRet -0.083 	 EpLen 500
+Episode 42 	 EpRet -0.105 	 EpLen 500
+Episode 43 	 EpRet -0.098 	 EpLen 500
+Episode 44 	 EpRet -0.080 	 EpLen 500
+Episode 45 	 EpRet -0.132 	 EpLen 500
+Episode 46 	 EpRet -0.085 	 EpLen 500
+Episode 47 	 EpRet -0.119 	 EpLen 500
+Episode 48 	 EpRet -0.113 	 EpLen 500
+Episode 49 	 EpRet -0.219 	 EpLen 500
+Episode 50 	 EpRet -0.136 	 EpLen 500
+Episode 51 	 EpRet -0.117 	 EpLen 500
+Episode 52 	 EpRet -0.137 	 EpLen 500
+Episode 53 	 EpRet -0.114 	 EpLen 500
+Episode 54 	 EpRet -0.124 	 EpLen 500
+Episode 55 	 EpRet -0.135 	 EpLen 500
+Episode 56 	 EpRet -0.103 	 EpLen 500
+Episode 57 	 EpRet -0.079 	 EpLen 500
+Episode 58 	 EpRet -0.161 	 EpLen 500
+Episode 59 	 EpRet -0.139 	 EpLen 500
+Episode 60 	 EpRet -0.085 	 EpLen 500
+Episode 61 	 EpRet -0.109 	 EpLen 500
+Episode 62 	 EpRet -0.140 	 EpLen 500
+Episode 63 	 EpRet -0.592 	 EpLen 106
+Episode 64 	 EpRet -0.107 	 EpLen 500
+Episode 65 	 EpRet -0.123 	 EpLen 500
+Episode 66 	 EpRet -0.153 	 EpLen 500
+Episode 67 	 EpRet -0.118 	 EpLen 500
+Episode 68 	 EpRet -0.594 	 EpLen 105
+Episode 69 	 EpRet -0.087 	 EpLen 500
+Episode 70 	 EpRet -0.101 	 EpLen 500
+Episode 71 	 EpRet -0.115 	 EpLen 500
+Episode 72 	 EpRet -0.094 	 EpLen 500
+Episode 73 	 EpRet -0.108 	 EpLen 500
+Episode 74 	 EpRet -0.112 	 EpLen 500
+Episode 75 	 EpRet -0.599 	 EpLen 110
+Episode 76 	 EpRet -0.199 	 EpLen 500
+Episode 77 	 EpRet -0.676 	 EpLen 500
+Episode 78 	 EpRet -0.579 	 EpLen 80
+Episode 79 	 EpRet -0.138 	 EpLen 500
+Episode 80 	 EpRet -0.152 	 EpLen 500
+Episode 81 	 EpRet -0.129 	 EpLen 500
+Episode 82 	 EpRet -0.095 	 EpLen 500
+Episode 83 	 EpRet -0.086 	 EpLen 500
+Episode 84 	 EpRet -0.102 	 EpLen 500
+Episode 85 	 EpRet -0.117 	 EpLen 500
+Episode 86 	 EpRet -0.175 	 EpLen 500
+Episode 87 	 EpRet -0.088 	 EpLen 500
+Episode 88 	 EpRet -0.101 	 EpLen 500
+Episode 89 	 EpRet -0.138 	 EpLen 500
+Episode 90 	 EpRet -0.137 	 EpLen 500
+Episode 91 	 EpRet -0.084 	 EpLen 500
+Episode 92 	 EpRet -0.183 	 EpLen 500
+Episode 93 	 EpRet -0.099 	 EpLen 500
+Episode 94 	 EpRet -0.095 	 EpLen 500
+Episode 95 	 EpRet -0.068 	 EpLen 500
+Episode 96 	 EpRet -0.101 	 EpLen 500
+Episode 97 	 EpRet -0.600 	 EpLen 118
+Episode 98 	 EpRet -0.188 	 EpLen 500
+Episode 99 	 EpRet -0.088 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.168 |
+|        StdEpRet |           0.148 |
+|        MaxEpRet |          -0.068 |
+|        MinEpRet |          -0.676 |
+|           EpLen |             468 |
+-------------------------------------
+On evaluation 31 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed214263/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944534/progress.txt
+Episode 0 	 EpRet -0.107 	 EpLen 500
+Episode 1 	 EpRet -0.174 	 EpLen 500
+Episode 2 	 EpRet -0.122 	 EpLen 500
+Episode 3 	 EpRet -0.103 	 EpLen 500
+Episode 4 	 EpRet -0.116 	 EpLen 500
+Episode 5 	 EpRet -0.151 	 EpLen 500
+Episode 6 	 EpRet -0.125 	 EpLen 500
+Episode 7 	 EpRet -0.105 	 EpLen 500
+Episode 8 	 EpRet -0.189 	 EpLen 500
+Episode 9 	 EpRet -0.154 	 EpLen 500
+Episode 10 	 EpRet -0.241 	 EpLen 500
+Episode 11 	 EpRet -0.118 	 EpLen 500
+Episode 12 	 EpRet -0.122 	 EpLen 500
+Episode 13 	 EpRet -0.107 	 EpLen 500
+Episode 14 	 EpRet -0.105 	 EpLen 500
+Episode 15 	 EpRet -0.131 	 EpLen 500
+Episode 16 	 EpRet -0.103 	 EpLen 500
+Episode 17 	 EpRet -0.159 	 EpLen 500
+Episode 18 	 EpRet -0.170 	 EpLen 500
+Episode 19 	 EpRet -0.185 	 EpLen 500
+Episode 20 	 EpRet -0.175 	 EpLen 500
+Episode 21 	 EpRet -0.128 	 EpLen 500
+Episode 22 	 EpRet -0.158 	 EpLen 500
+Episode 23 	 EpRet -0.120 	 EpLen 500
+Episode 24 	 EpRet -0.279 	 EpLen 500
+Episode 25 	 EpRet -0.269 	 EpLen 500
+Episode 26 	 EpRet -0.099 	 EpLen 500
+Episode 27 	 EpRet -0.092 	 EpLen 500
+Episode 28 	 EpRet -0.111 	 EpLen 500
+Episode 29 	 EpRet -0.127 	 EpLen 500
+Episode 30 	 EpRet -0.226 	 EpLen 500
+Episode 31 	 EpRet -0.100 	 EpLen 500
+Episode 32 	 EpRet -0.315 	 EpLen 500
+Episode 33 	 EpRet -0.108 	 EpLen 500
+Episode 34 	 EpRet -0.197 	 EpLen 500
+Episode 35 	 EpRet -0.193 	 EpLen 500
+Episode 36 	 EpRet -0.100 	 EpLen 500
+Episode 37 	 EpRet -0.109 	 EpLen 500
+Episode 38 	 EpRet -0.241 	 EpLen 500
+Episode 39 	 EpRet -0.237 	 EpLen 500
+Episode 40 	 EpRet -0.104 	 EpLen 500
+Episode 41 	 EpRet -0.103 	 EpLen 500
+Episode 42 	 EpRet -0.158 	 EpLen 500
+Episode 43 	 EpRet -0.102 	 EpLen 500
+Episode 44 	 EpRet -0.138 	 EpLen 500
+Episode 45 	 EpRet -0.093 	 EpLen 500
+Episode 46 	 EpRet -0.194 	 EpLen 500
+Episode 47 	 EpRet -0.226 	 EpLen 500
+Episode 48 	 EpRet -0.199 	 EpLen 500
+Episode 49 	 EpRet -0.122 	 EpLen 500
+Episode 50 	 EpRet -0.116 	 EpLen 500
+Episode 51 	 EpRet -0.116 	 EpLen 500
+Episode 52 	 EpRet -0.147 	 EpLen 500
+Episode 53 	 EpRet -0.197 	 EpLen 500
+Episode 54 	 EpRet -0.152 	 EpLen 500
+Episode 55 	 EpRet -0.187 	 EpLen 500
+Episode 56 	 EpRet -0.207 	 EpLen 500
+Episode 57 	 EpRet -0.139 	 EpLen 500
+Episode 58 	 EpRet -0.252 	 EpLen 500
+Episode 59 	 EpRet -0.129 	 EpLen 500
+Episode 60 	 EpRet -0.162 	 EpLen 500
+Episode 61 	 EpRet -0.209 	 EpLen 500
+Episode 62 	 EpRet -0.210 	 EpLen 500
+Episode 63 	 EpRet -0.195 	 EpLen 500
+Episode 64 	 EpRet -0.133 	 EpLen 500
+Episode 65 	 EpRet -0.114 	 EpLen 500
+Episode 66 	 EpRet -0.131 	 EpLen 500
+Episode 67 	 EpRet -0.101 	 EpLen 500
+Episode 68 	 EpRet -0.173 	 EpLen 500
+Episode 69 	 EpRet -0.106 	 EpLen 500
+Episode 70 	 EpRet -0.165 	 EpLen 500
+Episode 71 	 EpRet -0.173 	 EpLen 500
+Episode 72 	 EpRet -0.118 	 EpLen 500
+Episode 73 	 EpRet -0.198 	 EpLen 500
+Episode 74 	 EpRet -0.168 	 EpLen 500
+Episode 75 	 EpRet -0.098 	 EpLen 500
+Episode 76 	 EpRet -0.193 	 EpLen 500
+Episode 77 	 EpRet -0.093 	 EpLen 500
+Episode 78 	 EpRet -0.113 	 EpLen 500
+Episode 79 	 EpRet -0.222 	 EpLen 500
+Episode 80 	 EpRet -0.139 	 EpLen 500
+Episode 81 	 EpRet -0.223 	 EpLen 500
+Episode 82 	 EpRet -0.184 	 EpLen 500
+Episode 83 	 EpRet -0.142 	 EpLen 500
+Episode 84 	 EpRet -0.254 	 EpLen 500
+Episode 85 	 EpRet -0.234 	 EpLen 500
+Episode 86 	 EpRet -0.133 	 EpLen 500
+Episode 87 	 EpRet -0.237 	 EpLen 500
+Episode 88 	 EpRet -0.191 	 EpLen 500
+Episode 89 	 EpRet -0.209 	 EpLen 500
+Episode 90 	 EpRet -0.157 	 EpLen 500
+Episode 91 	 EpRet -0.105 	 EpLen 500
+Episode 92 	 EpRet -0.146 	 EpLen 500
+Episode 93 	 EpRet -0.208 	 EpLen 500
+Episode 94 	 EpRet -0.100 	 EpLen 500
+Episode 95 	 EpRet -0.178 	 EpLen 500
+Episode 96 	 EpRet -0.212 	 EpLen 500
+Episode 97 	 EpRet -0.121 	 EpLen 500
+Episode 98 	 EpRet -0.175 	 EpLen 500
+Episode 99 	 EpRet -0.145 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.158 |
+|        StdEpRet |          0.0502 |
+|        MaxEpRet |          -0.092 |
+|        MinEpRet |          -0.315 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 32 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed211868/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944624/progress.txt
+Episode 0 	 EpRet -0.092 	 EpLen 500
+Episode 1 	 EpRet -0.085 	 EpLen 500
+Episode 2 	 EpRet -0.109 	 EpLen 500
+Episode 3 	 EpRet -0.102 	 EpLen 500
+Episode 4 	 EpRet -0.084 	 EpLen 500
+Episode 5 	 EpRet -0.125 	 EpLen 500
+Episode 6 	 EpRet -0.104 	 EpLen 500
+Episode 7 	 EpRet -0.103 	 EpLen 500
+Episode 8 	 EpRet -0.085 	 EpLen 500
+Episode 9 	 EpRet -0.111 	 EpLen 500
+Episode 10 	 EpRet -0.089 	 EpLen 500
+Episode 11 	 EpRet -0.151 	 EpLen 500
+Episode 12 	 EpRet -0.066 	 EpLen 500
+Episode 13 	 EpRet -0.096 	 EpLen 500
+Episode 14 	 EpRet -0.088 	 EpLen 500
+Episode 15 	 EpRet -0.083 	 EpLen 500
+Episode 16 	 EpRet -0.113 	 EpLen 500
+Episode 17 	 EpRet -0.078 	 EpLen 500
+Episode 18 	 EpRet -0.108 	 EpLen 500
+Episode 19 	 EpRet -0.093 	 EpLen 500
+Episode 20 	 EpRet -0.102 	 EpLen 500
+Episode 21 	 EpRet -0.110 	 EpLen 500
+Episode 22 	 EpRet -0.083 	 EpLen 500
+Episode 23 	 EpRet -0.130 	 EpLen 500
+Episode 24 	 EpRet -0.105 	 EpLen 500
+Episode 25 	 EpRet -0.081 	 EpLen 500
+Episode 26 	 EpRet -0.090 	 EpLen 500
+Episode 27 	 EpRet -0.094 	 EpLen 500
+Episode 28 	 EpRet -0.097 	 EpLen 500
+Episode 29 	 EpRet -0.096 	 EpLen 500
+Episode 30 	 EpRet -0.109 	 EpLen 500
+Episode 31 	 EpRet -0.165 	 EpLen 500
+Episode 32 	 EpRet -0.110 	 EpLen 500
+Episode 33 	 EpRet -0.097 	 EpLen 500
+Episode 34 	 EpRet -0.125 	 EpLen 500
+Episode 35 	 EpRet -0.096 	 EpLen 500
+Episode 36 	 EpRet -0.083 	 EpLen 500
+Episode 37 	 EpRet -0.603 	 EpLen 104
+Episode 38 	 EpRet -0.101 	 EpLen 500
+Episode 39 	 EpRet -0.091 	 EpLen 500
+Episode 40 	 EpRet -0.089 	 EpLen 500
+Episode 41 	 EpRet -0.116 	 EpLen 500
+Episode 42 	 EpRet -0.148 	 EpLen 500
+Episode 43 	 EpRet -0.116 	 EpLen 500
+Episode 44 	 EpRet -0.129 	 EpLen 500
+Episode 45 	 EpRet -0.103 	 EpLen 500
+Episode 46 	 EpRet -0.100 	 EpLen 500
+Episode 47 	 EpRet -0.083 	 EpLen 500
+Episode 48 	 EpRet -0.095 	 EpLen 500
+Episode 49 	 EpRet -0.093 	 EpLen 500
+Episode 50 	 EpRet -0.118 	 EpLen 500
+Episode 51 	 EpRet -0.097 	 EpLen 500
+Episode 52 	 EpRet -0.090 	 EpLen 500
+Episode 53 	 EpRet -0.115 	 EpLen 500
+Episode 54 	 EpRet -0.083 	 EpLen 500
+Episode 55 	 EpRet -0.070 	 EpLen 500
+Episode 56 	 EpRet -0.124 	 EpLen 500
+Episode 57 	 EpRet -0.108 	 EpLen 500
+Episode 58 	 EpRet -0.092 	 EpLen 500
+Episode 59 	 EpRet -0.081 	 EpLen 500
+Episode 60 	 EpRet -0.225 	 EpLen 500
+Episode 61 	 EpRet -0.080 	 EpLen 500
+Episode 62 	 EpRet -0.087 	 EpLen 500
+Episode 63 	 EpRet -0.081 	 EpLen 500
+Episode 64 	 EpRet -0.093 	 EpLen 500
+Episode 65 	 EpRet -0.112 	 EpLen 500
+Episode 66 	 EpRet -0.075 	 EpLen 500
+Episode 67 	 EpRet -0.091 	 EpLen 500
+Episode 68 	 EpRet -0.130 	 EpLen 500
+Episode 69 	 EpRet -0.081 	 EpLen 500
+Episode 70 	 EpRet -0.106 	 EpLen 500
+Episode 71 	 EpRet -0.142 	 EpLen 500
+Episode 72 	 EpRet -0.096 	 EpLen 500
+Episode 73 	 EpRet -0.073 	 EpLen 500
+Episode 74 	 EpRet -0.087 	 EpLen 500
+Episode 75 	 EpRet -0.127 	 EpLen 500
+Episode 76 	 EpRet -0.089 	 EpLen 500
+Episode 77 	 EpRet -0.091 	 EpLen 500
+Episode 78 	 EpRet -0.144 	 EpLen 500
+Episode 79 	 EpRet -0.156 	 EpLen 500
+Episode 80 	 EpRet -0.093 	 EpLen 500
+Episode 81 	 EpRet -0.091 	 EpLen 500
+Episode 82 	 EpRet -0.086 	 EpLen 500
+Episode 83 	 EpRet -0.104 	 EpLen 500
+Episode 84 	 EpRet -0.111 	 EpLen 500
+Episode 85 	 EpRet -0.090 	 EpLen 500
+Episode 86 	 EpRet -0.140 	 EpLen 500
+Episode 87 	 EpRet -0.109 	 EpLen 500
+Episode 88 	 EpRet -0.097 	 EpLen 500
+Episode 89 	 EpRet -0.092 	 EpLen 500
+Episode 90 	 EpRet -0.074 	 EpLen 500
+Episode 91 	 EpRet -0.073 	 EpLen 500
+Episode 92 	 EpRet -0.144 	 EpLen 500
+Episode 93 	 EpRet -0.089 	 EpLen 500
+Episode 94 	 EpRet -0.149 	 EpLen 500
+Episode 95 	 EpRet -0.099 	 EpLen 500
+Episode 96 	 EpRet -0.109 	 EpLen 500
+Episode 97 	 EpRet -0.101 	 EpLen 500
+Episode 98 	 EpRet -0.108 	 EpLen 500
+Episode 99 	 EpRet -0.116 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.108 |
+|        StdEpRet |          0.0551 |
+|        MaxEpRet |          -0.066 |
+|        MinEpRet |          -0.603 |
+|           EpLen |             496 |
+-------------------------------------
+On evaluation 33 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed305184/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944715/progress.txt
+Episode 0 	 EpRet -0.104 	 EpLen 500
+Episode 1 	 EpRet -0.071 	 EpLen 500
+Episode 2 	 EpRet -0.095 	 EpLen 500
+Episode 3 	 EpRet -0.089 	 EpLen 500
+Episode 4 	 EpRet -0.103 	 EpLen 500
+Episode 5 	 EpRet -0.079 	 EpLen 500
+Episode 6 	 EpRet -0.093 	 EpLen 500
+Episode 7 	 EpRet -0.096 	 EpLen 500
+Episode 8 	 EpRet -0.073 	 EpLen 500
+Episode 9 	 EpRet -0.098 	 EpLen 500
+Episode 10 	 EpRet -0.093 	 EpLen 500
+Episode 11 	 EpRet -0.088 	 EpLen 500
+Episode 12 	 EpRet -0.089 	 EpLen 500
+Episode 13 	 EpRet -0.132 	 EpLen 500
+Episode 14 	 EpRet -0.121 	 EpLen 500
+Episode 15 	 EpRet -0.081 	 EpLen 500
+Episode 16 	 EpRet -0.081 	 EpLen 500
+Episode 17 	 EpRet -0.072 	 EpLen 500
+Episode 18 	 EpRet -0.077 	 EpLen 500
+Episode 19 	 EpRet -0.079 	 EpLen 500
+Episode 20 	 EpRet -0.094 	 EpLen 500
+Episode 21 	 EpRet -0.090 	 EpLen 500
+Episode 22 	 EpRet -0.078 	 EpLen 500
+Episode 23 	 EpRet -0.136 	 EpLen 500
+Episode 24 	 EpRet -0.102 	 EpLen 500
+Episode 25 	 EpRet -0.079 	 EpLen 500
+Episode 26 	 EpRet -0.118 	 EpLen 500
+Episode 27 	 EpRet -0.092 	 EpLen 500
+Episode 28 	 EpRet -0.079 	 EpLen 500
+Episode 29 	 EpRet -0.086 	 EpLen 500
+Episode 30 	 EpRet -0.086 	 EpLen 500
+Episode 31 	 EpRet -0.092 	 EpLen 500
+Episode 32 	 EpRet -0.088 	 EpLen 500
+Episode 33 	 EpRet -0.092 	 EpLen 500
+Episode 34 	 EpRet -0.078 	 EpLen 500
+Episode 35 	 EpRet -0.098 	 EpLen 500
+Episode 36 	 EpRet -0.075 	 EpLen 500
+Episode 37 	 EpRet -0.099 	 EpLen 500
+Episode 38 	 EpRet -0.081 	 EpLen 500
+Episode 39 	 EpRet -0.081 	 EpLen 500
+Episode 40 	 EpRet -0.097 	 EpLen 500
+Episode 41 	 EpRet -0.080 	 EpLen 500
+Episode 42 	 EpRet -0.088 	 EpLen 500
+Episode 43 	 EpRet -0.085 	 EpLen 500
+Episode 44 	 EpRet -0.082 	 EpLen 500
+Episode 45 	 EpRet -0.072 	 EpLen 500
+Episode 46 	 EpRet -0.072 	 EpLen 500
+Episode 47 	 EpRet -0.085 	 EpLen 500
+Episode 48 	 EpRet -0.104 	 EpLen 500
+Episode 49 	 EpRet -0.073 	 EpLen 500
+Episode 50 	 EpRet -0.083 	 EpLen 500
+Episode 51 	 EpRet -0.089 	 EpLen 500
+Episode 52 	 EpRet -0.100 	 EpLen 500
+Episode 53 	 EpRet -0.082 	 EpLen 500
+Episode 54 	 EpRet -0.085 	 EpLen 500
+Episode 55 	 EpRet -0.083 	 EpLen 500
+Episode 56 	 EpRet -0.099 	 EpLen 500
+Episode 57 	 EpRet -0.089 	 EpLen 500
+Episode 58 	 EpRet -0.076 	 EpLen 500
+Episode 59 	 EpRet -0.083 	 EpLen 500
+Episode 60 	 EpRet -0.101 	 EpLen 500
+Episode 61 	 EpRet -0.119 	 EpLen 500
+Episode 62 	 EpRet -0.107 	 EpLen 500
+Episode 63 	 EpRet -0.106 	 EpLen 500
+Episode 64 	 EpRet -0.082 	 EpLen 500
+Episode 65 	 EpRet -0.078 	 EpLen 500
+Episode 66 	 EpRet -0.093 	 EpLen 500
+Episode 67 	 EpRet -0.087 	 EpLen 500
+Episode 68 	 EpRet -0.110 	 EpLen 500
+Episode 69 	 EpRet -0.074 	 EpLen 500
+Episode 70 	 EpRet -0.080 	 EpLen 500
+Episode 71 	 EpRet -0.081 	 EpLen 500
+Episode 72 	 EpRet -0.075 	 EpLen 500
+Episode 73 	 EpRet -0.067 	 EpLen 500
+Episode 74 	 EpRet -0.074 	 EpLen 500
+Episode 75 	 EpRet -0.093 	 EpLen 500
+Episode 76 	 EpRet -0.084 	 EpLen 500
+Episode 77 	 EpRet -0.079 	 EpLen 500
+Episode 78 	 EpRet -0.096 	 EpLen 500
+Episode 79 	 EpRet -0.090 	 EpLen 500
+Episode 80 	 EpRet -0.081 	 EpLen 500
+Episode 81 	 EpRet -0.089 	 EpLen 500
+Episode 82 	 EpRet -0.089 	 EpLen 500
+Episode 83 	 EpRet -0.086 	 EpLen 500
+Episode 84 	 EpRet -0.101 	 EpLen 500
+Episode 85 	 EpRet -0.076 	 EpLen 500
+Episode 86 	 EpRet -0.090 	 EpLen 500
+Episode 87 	 EpRet -0.077 	 EpLen 500
+Episode 88 	 EpRet -0.073 	 EpLen 500
+Episode 89 	 EpRet -0.102 	 EpLen 500
+Episode 90 	 EpRet -0.091 	 EpLen 500
+Episode 91 	 EpRet -0.082 	 EpLen 500
+Episode 92 	 EpRet -0.094 	 EpLen 500
+Episode 93 	 EpRet -0.082 	 EpLen 500
+Episode 94 	 EpRet -0.084 	 EpLen 500
+Episode 95 	 EpRet -0.081 	 EpLen 500
+Episode 96 	 EpRet -0.075 	 EpLen 500
+Episode 97 	 EpRet -0.105 	 EpLen 500
+Episode 98 	 EpRet -0.100 	 EpLen 500
+Episode 99 	 EpRet -0.105 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0888 |
+|        StdEpRet |          0.0129 |
+|        MaxEpRet |          -0.067 |
+|        MinEpRet |          -0.136 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 34 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed485514/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944806/progress.txt
+Episode 0 	 EpRet -0.138 	 EpLen 500
+Episode 1 	 EpRet -0.100 	 EpLen 500
+Episode 2 	 EpRet -0.106 	 EpLen 500
+Episode 3 	 EpRet -0.120 	 EpLen 500
+Episode 4 	 EpRet -0.100 	 EpLen 500
+Episode 5 	 EpRet -0.097 	 EpLen 500
+Episode 6 	 EpRet -0.095 	 EpLen 500
+Episode 7 	 EpRet -0.089 	 EpLen 500
+Episode 8 	 EpRet -0.112 	 EpLen 500
+Episode 9 	 EpRet -0.091 	 EpLen 500
+Episode 10 	 EpRet -0.106 	 EpLen 500
+Episode 11 	 EpRet -0.128 	 EpLen 500
+Episode 12 	 EpRet -0.104 	 EpLen 500
+Episode 13 	 EpRet -0.098 	 EpLen 500
+Episode 14 	 EpRet -0.099 	 EpLen 500
+Episode 15 	 EpRet -0.098 	 EpLen 500
+Episode 16 	 EpRet -0.103 	 EpLen 500
+Episode 17 	 EpRet -0.101 	 EpLen 500
+Episode 18 	 EpRet -0.108 	 EpLen 500
+Episode 19 	 EpRet -0.114 	 EpLen 500
+Episode 20 	 EpRet -0.101 	 EpLen 500
+Episode 21 	 EpRet -0.106 	 EpLen 500
+Episode 22 	 EpRet -0.129 	 EpLen 500
+Episode 23 	 EpRet -0.130 	 EpLen 500
+Episode 24 	 EpRet -0.118 	 EpLen 500
+Episode 25 	 EpRet -0.103 	 EpLen 500
+Episode 26 	 EpRet -0.117 	 EpLen 500
+Episode 27 	 EpRet -0.113 	 EpLen 500
+Episode 28 	 EpRet -0.103 	 EpLen 500
+Episode 29 	 EpRet -0.101 	 EpLen 500
+Episode 30 	 EpRet -0.107 	 EpLen 500
+Episode 31 	 EpRet -0.108 	 EpLen 500
+Episode 32 	 EpRet -0.110 	 EpLen 500
+Episode 33 	 EpRet -0.109 	 EpLen 500
+Episode 34 	 EpRet -0.108 	 EpLen 500
+Episode 35 	 EpRet -0.103 	 EpLen 500
+Episode 36 	 EpRet -0.103 	 EpLen 500
+Episode 37 	 EpRet -0.119 	 EpLen 500
+Episode 38 	 EpRet -0.103 	 EpLen 500
+Episode 39 	 EpRet -0.097 	 EpLen 500
+Episode 40 	 EpRet -0.105 	 EpLen 500
+Episode 41 	 EpRet -0.105 	 EpLen 500
+Episode 42 	 EpRet -0.106 	 EpLen 500
+Episode 43 	 EpRet -0.107 	 EpLen 500
+Episode 44 	 EpRet -0.095 	 EpLen 500
+Episode 45 	 EpRet -0.107 	 EpLen 500
+Episode 46 	 EpRet -0.130 	 EpLen 500
+Episode 47 	 EpRet -0.123 	 EpLen 500
+Episode 48 	 EpRet -0.095 	 EpLen 500
+Episode 49 	 EpRet -0.107 	 EpLen 500
+Episode 50 	 EpRet -0.095 	 EpLen 500
+Episode 51 	 EpRet -0.124 	 EpLen 500
+Episode 52 	 EpRet -0.101 	 EpLen 500
+Episode 53 	 EpRet -0.118 	 EpLen 500
+Episode 54 	 EpRet -0.113 	 EpLen 500
+Episode 55 	 EpRet -0.085 	 EpLen 500
+Episode 56 	 EpRet -0.102 	 EpLen 500
+Episode 57 	 EpRet -0.091 	 EpLen 500
+Episode 58 	 EpRet -0.130 	 EpLen 500
+Episode 59 	 EpRet -0.136 	 EpLen 500
+Episode 60 	 EpRet -0.120 	 EpLen 500
+Episode 61 	 EpRet -0.121 	 EpLen 500
+Episode 62 	 EpRet -0.108 	 EpLen 500
+Episode 63 	 EpRet -0.151 	 EpLen 500
+Episode 64 	 EpRet -0.106 	 EpLen 500
+Episode 65 	 EpRet -0.089 	 EpLen 500
+Episode 66 	 EpRet -0.101 	 EpLen 500
+Episode 67 	 EpRet -0.104 	 EpLen 500
+Episode 68 	 EpRet -0.094 	 EpLen 500
+Episode 69 	 EpRet -0.095 	 EpLen 500
+Episode 70 	 EpRet -0.117 	 EpLen 500
+Episode 71 	 EpRet -0.110 	 EpLen 500
+Episode 72 	 EpRet -0.090 	 EpLen 500
+Episode 73 	 EpRet -0.096 	 EpLen 500
+Episode 74 	 EpRet -0.098 	 EpLen 500
+Episode 75 	 EpRet -0.112 	 EpLen 500
+Episode 76 	 EpRet -0.089 	 EpLen 500
+Episode 77 	 EpRet -0.109 	 EpLen 500
+Episode 78 	 EpRet -0.128 	 EpLen 500
+Episode 79 	 EpRet -0.101 	 EpLen 500
+Episode 80 	 EpRet -0.099 	 EpLen 500
+Episode 81 	 EpRet -0.107 	 EpLen 500
+Episode 82 	 EpRet -0.112 	 EpLen 500
+Episode 83 	 EpRet -0.135 	 EpLen 500
+Episode 84 	 EpRet -0.099 	 EpLen 500
+Episode 85 	 EpRet -0.109 	 EpLen 500
+Episode 86 	 EpRet -0.137 	 EpLen 500
+Episode 87 	 EpRet -0.098 	 EpLen 500
+Episode 88 	 EpRet -0.106 	 EpLen 500
+Episode 89 	 EpRet -0.111 	 EpLen 500
+Episode 90 	 EpRet -0.111 	 EpLen 500
+Episode 91 	 EpRet -0.122 	 EpLen 500
+Episode 92 	 EpRet -0.121 	 EpLen 500
+Episode 93 	 EpRet -0.105 	 EpLen 500
+Episode 94 	 EpRet -0.115 	 EpLen 500
+Episode 95 	 EpRet -0.105 	 EpLen 500
+Episode 96 	 EpRet -0.109 	 EpLen 500
+Episode 97 	 EpRet -0.125 	 EpLen 500
+Episode 98 	 EpRet -0.112 	 EpLen 500
+Episode 99 	 EpRet -0.101 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.108 |
+|        StdEpRet |          0.0124 |
+|        MaxEpRet |          -0.085 |
+|        MinEpRet |          -0.151 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 35 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed632720/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944900/progress.txt
+Episode 0 	 EpRet -0.096 	 EpLen 500
+Episode 1 	 EpRet -0.094 	 EpLen 500
+Episode 2 	 EpRet -0.092 	 EpLen 500
+Episode 3 	 EpRet -0.107 	 EpLen 500
+Episode 4 	 EpRet -0.088 	 EpLen 500
+Episode 5 	 EpRet -0.113 	 EpLen 500
+Episode 6 	 EpRet -0.092 	 EpLen 500
+Episode 7 	 EpRet -0.094 	 EpLen 500
+Episode 8 	 EpRet -0.091 	 EpLen 500
+Episode 9 	 EpRet -0.124 	 EpLen 500
+Episode 10 	 EpRet -0.289 	 EpLen 500
+Episode 11 	 EpRet -0.098 	 EpLen 500
+Episode 12 	 EpRet -0.127 	 EpLen 500
+Episode 13 	 EpRet -0.198 	 EpLen 500
+Episode 14 	 EpRet -0.123 	 EpLen 500
+Episode 15 	 EpRet -0.131 	 EpLen 500
+Episode 16 	 EpRet -0.096 	 EpLen 500
+Episode 17 	 EpRet -0.284 	 EpLen 500
+Episode 18 	 EpRet -0.113 	 EpLen 500
+Episode 19 	 EpRet -0.136 	 EpLen 500
+Episode 20 	 EpRet -0.109 	 EpLen 500
+Episode 21 	 EpRet -0.104 	 EpLen 500
+Episode 22 	 EpRet -0.090 	 EpLen 500
+Episode 23 	 EpRet -0.096 	 EpLen 500
+Episode 24 	 EpRet -0.094 	 EpLen 500
+Episode 25 	 EpRet -0.103 	 EpLen 500
+Episode 26 	 EpRet -0.093 	 EpLen 500
+Episode 27 	 EpRet -0.115 	 EpLen 500
+Episode 28 	 EpRet -0.103 	 EpLen 500
+Episode 29 	 EpRet -0.094 	 EpLen 500
+Episode 30 	 EpRet -0.114 	 EpLen 500
+Episode 31 	 EpRet -0.109 	 EpLen 500
+Episode 32 	 EpRet -0.121 	 EpLen 500
+Episode 33 	 EpRet -0.136 	 EpLen 500
+Episode 34 	 EpRet -0.109 	 EpLen 500
+Episode 35 	 EpRet -0.117 	 EpLen 500
+Episode 36 	 EpRet -0.093 	 EpLen 500
+Episode 37 	 EpRet -0.099 	 EpLen 500
+Episode 38 	 EpRet -0.110 	 EpLen 500
+Episode 39 	 EpRet -0.138 	 EpLen 500
+Episode 40 	 EpRet -0.088 	 EpLen 500
+Episode 41 	 EpRet -0.135 	 EpLen 500
+Episode 42 	 EpRet -0.089 	 EpLen 500
+Episode 43 	 EpRet -0.655 	 EpLen 500
+Episode 44 	 EpRet -0.662 	 EpLen 500
+Episode 45 	 EpRet -0.090 	 EpLen 500
+Episode 46 	 EpRet -0.107 	 EpLen 500
+Episode 47 	 EpRet -0.099 	 EpLen 500
+Episode 48 	 EpRet -0.190 	 EpLen 500
+Episode 49 	 EpRet -0.102 	 EpLen 500
+Episode 50 	 EpRet -0.110 	 EpLen 500
+Episode 51 	 EpRet -0.101 	 EpLen 500
+Episode 52 	 EpRet -0.099 	 EpLen 500
+Episode 53 	 EpRet -0.122 	 EpLen 500
+Episode 54 	 EpRet -0.100 	 EpLen 500
+Episode 55 	 EpRet -0.088 	 EpLen 500
+Episode 56 	 EpRet -0.101 	 EpLen 500
+Episode 57 	 EpRet -0.092 	 EpLen 500
+Episode 58 	 EpRet -0.119 	 EpLen 500
+Episode 59 	 EpRet -0.134 	 EpLen 500
+Episode 60 	 EpRet -0.174 	 EpLen 500
+Episode 61 	 EpRet -0.101 	 EpLen 500
+Episode 62 	 EpRet -0.102 	 EpLen 500
+Episode 63 	 EpRet -0.109 	 EpLen 500
+Episode 64 	 EpRet -0.100 	 EpLen 500
+Episode 65 	 EpRet -0.102 	 EpLen 500
+Episode 66 	 EpRet -0.638 	 EpLen 500
+Episode 67 	 EpRet -0.099 	 EpLen 500
+Episode 68 	 EpRet -0.176 	 EpLen 500
+Episode 69 	 EpRet -0.100 	 EpLen 500
+Episode 70 	 EpRet -0.187 	 EpLen 500
+Episode 71 	 EpRet -0.615 	 EpLen 500
+Episode 72 	 EpRet -0.089 	 EpLen 500
+Episode 73 	 EpRet -0.091 	 EpLen 500
+Episode 74 	 EpRet -0.099 	 EpLen 500
+Episode 75 	 EpRet -0.159 	 EpLen 500
+Episode 76 	 EpRet -0.110 	 EpLen 500
+Episode 77 	 EpRet -0.098 	 EpLen 500
+Episode 78 	 EpRet -0.176 	 EpLen 500
+Episode 79 	 EpRet -0.118 	 EpLen 500
+Episode 80 	 EpRet -0.226 	 EpLen 500
+Episode 81 	 EpRet -0.106 	 EpLen 500
+Episode 82 	 EpRet -0.119 	 EpLen 500
+Episode 83 	 EpRet -0.091 	 EpLen 500
+Episode 84 	 EpRet -0.099 	 EpLen 500
+Episode 85 	 EpRet -0.611 	 EpLen 500
+Episode 86 	 EpRet -0.109 	 EpLen 500
+Episode 87 	 EpRet -0.106 	 EpLen 500
+Episode 88 	 EpRet -0.105 	 EpLen 500
+Episode 89 	 EpRet -0.083 	 EpLen 500
+Episode 90 	 EpRet -0.093 	 EpLen 500
+Episode 91 	 EpRet -0.094 	 EpLen 500
+Episode 92 	 EpRet -0.152 	 EpLen 500
+Episode 93 	 EpRet -0.085 	 EpLen 500
+Episode 94 	 EpRet -0.093 	 EpLen 500
+Episode 95 	 EpRet -0.088 	 EpLen 500
+Episode 96 	 EpRet -0.136 	 EpLen 500
+Episode 97 	 EpRet -0.101 	 EpLen 500
+Episode 98 	 EpRet -0.181 	 EpLen 500
+Episode 99 	 EpRet -0.096 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.142 |
+|        StdEpRet |           0.119 |
+|        MaxEpRet |          -0.083 |
+|        MinEpRet |          -0.662 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 36 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed114544/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593944990/progress.txt
+Episode 0 	 EpRet -0.118 	 EpLen 500
+Episode 1 	 EpRet -0.095 	 EpLen 500
+Episode 2 	 EpRet -0.125 	 EpLen 500
+Episode 3 	 EpRet -0.120 	 EpLen 500
+Episode 4 	 EpRet -0.118 	 EpLen 500
+Episode 5 	 EpRet -0.133 	 EpLen 500
+Episode 6 	 EpRet -0.120 	 EpLen 500
+Episode 7 	 EpRet -0.116 	 EpLen 500
+Episode 8 	 EpRet -0.123 	 EpLen 500
+Episode 9 	 EpRet -0.116 	 EpLen 500
+Episode 10 	 EpRet -0.127 	 EpLen 500
+Episode 11 	 EpRet -0.123 	 EpLen 500
+Episode 12 	 EpRet -0.103 	 EpLen 500
+Episode 13 	 EpRet -0.112 	 EpLen 500
+Episode 14 	 EpRet -0.113 	 EpLen 500
+Episode 15 	 EpRet -0.107 	 EpLen 500
+Episode 16 	 EpRet -0.118 	 EpLen 500
+Episode 17 	 EpRet -0.117 	 EpLen 500
+Episode 18 	 EpRet -0.127 	 EpLen 500
+Episode 19 	 EpRet -0.105 	 EpLen 500
+Episode 20 	 EpRet -0.126 	 EpLen 500
+Episode 21 	 EpRet -0.121 	 EpLen 500
+Episode 22 	 EpRet -0.118 	 EpLen 500
+Episode 23 	 EpRet -0.128 	 EpLen 500
+Episode 24 	 EpRet -0.130 	 EpLen 500
+Episode 25 	 EpRet -0.118 	 EpLen 500
+Episode 26 	 EpRet -0.112 	 EpLen 500
+Episode 27 	 EpRet -0.100 	 EpLen 500
+Episode 28 	 EpRet -0.129 	 EpLen 500
+Episode 29 	 EpRet -0.126 	 EpLen 500
+Episode 30 	 EpRet -0.106 	 EpLen 500
+Episode 31 	 EpRet -0.138 	 EpLen 500
+Episode 32 	 EpRet -0.140 	 EpLen 500
+Episode 33 	 EpRet -0.127 	 EpLen 500
+Episode 34 	 EpRet -0.135 	 EpLen 500
+Episode 35 	 EpRet -0.126 	 EpLen 500
+Episode 36 	 EpRet -0.110 	 EpLen 500
+Episode 37 	 EpRet -0.164 	 EpLen 500
+Episode 38 	 EpRet -0.120 	 EpLen 500
+Episode 39 	 EpRet -0.122 	 EpLen 500
+Episode 40 	 EpRet -0.110 	 EpLen 500
+Episode 41 	 EpRet -0.104 	 EpLen 500
+Episode 42 	 EpRet -0.113 	 EpLen 500
+Episode 43 	 EpRet -0.132 	 EpLen 500
+Episode 44 	 EpRet -0.099 	 EpLen 500
+Episode 45 	 EpRet -0.115 	 EpLen 500
+Episode 46 	 EpRet -0.122 	 EpLen 500
+Episode 47 	 EpRet -0.124 	 EpLen 500
+Episode 48 	 EpRet -0.130 	 EpLen 500
+Episode 49 	 EpRet -0.131 	 EpLen 500
+Episode 50 	 EpRet -0.112 	 EpLen 500
+Episode 51 	 EpRet -0.121 	 EpLen 500
+Episode 52 	 EpRet -0.117 	 EpLen 500
+Episode 53 	 EpRet -0.138 	 EpLen 500
+Episode 54 	 EpRet -0.132 	 EpLen 500
+Episode 55 	 EpRet -0.119 	 EpLen 500
+Episode 56 	 EpRet -0.131 	 EpLen 500
+Episode 57 	 EpRet -0.116 	 EpLen 500
+Episode 58 	 EpRet -0.118 	 EpLen 500
+Episode 59 	 EpRet -0.137 	 EpLen 500
+Episode 60 	 EpRet -0.112 	 EpLen 500
+Episode 61 	 EpRet -0.103 	 EpLen 500
+Episode 62 	 EpRet -0.109 	 EpLen 500
+Episode 63 	 EpRet -0.106 	 EpLen 500
+Episode 64 	 EpRet -0.113 	 EpLen 500
+Episode 65 	 EpRet -0.114 	 EpLen 500
+Episode 66 	 EpRet -0.118 	 EpLen 500
+Episode 67 	 EpRet -0.121 	 EpLen 500
+Episode 68 	 EpRet -0.102 	 EpLen 500
+Episode 69 	 EpRet -0.131 	 EpLen 500
+Episode 70 	 EpRet -0.113 	 EpLen 500
+Episode 71 	 EpRet -0.116 	 EpLen 500
+Episode 72 	 EpRet -0.103 	 EpLen 500
+Episode 73 	 EpRet -0.123 	 EpLen 500
+Episode 74 	 EpRet -0.116 	 EpLen 500
+Episode 75 	 EpRet -0.114 	 EpLen 500
+Episode 76 	 EpRet -0.130 	 EpLen 500
+Episode 77 	 EpRet -0.129 	 EpLen 500
+Episode 78 	 EpRet -0.129 	 EpLen 500
+Episode 79 	 EpRet -0.134 	 EpLen 500
+Episode 80 	 EpRet -0.130 	 EpLen 500
+Episode 81 	 EpRet -0.121 	 EpLen 500
+Episode 82 	 EpRet -0.109 	 EpLen 500
+Episode 83 	 EpRet -0.113 	 EpLen 500
+Episode 84 	 EpRet -0.126 	 EpLen 500
+Episode 85 	 EpRet -0.104 	 EpLen 500
+Episode 86 	 EpRet -0.141 	 EpLen 500
+Episode 87 	 EpRet -0.135 	 EpLen 500
+Episode 88 	 EpRet -0.114 	 EpLen 500
+Episode 89 	 EpRet -0.120 	 EpLen 500
+Episode 90 	 EpRet -0.112 	 EpLen 500
+Episode 91 	 EpRet -0.117 	 EpLen 500
+Episode 92 	 EpRet -0.129 	 EpLen 500
+Episode 93 	 EpRet -0.107 	 EpLen 500
+Episode 94 	 EpRet -0.100 	 EpLen 500
+Episode 95 	 EpRet -0.128 	 EpLen 500
+Episode 96 	 EpRet -0.134 	 EpLen 500
+Episode 97 	 EpRet -0.124 	 EpLen 500
+Episode 98 	 EpRet -0.117 	 EpLen 500
+Episode 99 	 EpRet -0.112 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |           -0.12 |
+|        StdEpRet |          0.0112 |
+|        MaxEpRet |          -0.095 |
+|        MinEpRet |          -0.164 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 37 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed187194/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945084/progress.txt
+Episode 0 	 EpRet -0.132 	 EpLen 500
+Episode 1 	 EpRet -0.143 	 EpLen 500
+Episode 2 	 EpRet -0.159 	 EpLen 500
+Episode 3 	 EpRet -0.201 	 EpLen 500
+Episode 4 	 EpRet -0.127 	 EpLen 500
+Episode 5 	 EpRet -0.209 	 EpLen 500
+Episode 6 	 EpRet -0.169 	 EpLen 500
+Episode 7 	 EpRet -0.261 	 EpLen 500
+Episode 8 	 EpRet -0.176 	 EpLen 500
+Episode 9 	 EpRet -0.172 	 EpLen 500
+Episode 10 	 EpRet -0.235 	 EpLen 500
+Episode 11 	 EpRet -0.156 	 EpLen 500
+Episode 12 	 EpRet -0.173 	 EpLen 500
+Episode 13 	 EpRet -0.156 	 EpLen 500
+Episode 14 	 EpRet -0.759 	 EpLen 500
+Episode 15 	 EpRet -0.114 	 EpLen 500
+Episode 16 	 EpRet -0.178 	 EpLen 500
+Episode 17 	 EpRet -0.161 	 EpLen 500
+Episode 18 	 EpRet -0.162 	 EpLen 500
+Episode 19 	 EpRet -0.155 	 EpLen 500
+Episode 20 	 EpRet -0.193 	 EpLen 500
+Episode 21 	 EpRet -0.159 	 EpLen 500
+Episode 22 	 EpRet -0.186 	 EpLen 500
+Episode 23 	 EpRet -0.197 	 EpLen 500
+Episode 24 	 EpRet -0.132 	 EpLen 500
+Episode 25 	 EpRet -0.175 	 EpLen 500
+Episode 26 	 EpRet -0.224 	 EpLen 500
+Episode 27 	 EpRet -0.150 	 EpLen 500
+Episode 28 	 EpRet -0.176 	 EpLen 500
+Episode 29 	 EpRet -0.684 	 EpLen 500
+Episode 30 	 EpRet -0.175 	 EpLen 500
+Episode 31 	 EpRet -0.188 	 EpLen 500
+Episode 32 	 EpRet -0.256 	 EpLen 500
+Episode 33 	 EpRet -0.211 	 EpLen 500
+Episode 34 	 EpRet -0.250 	 EpLen 500
+Episode 35 	 EpRet -0.143 	 EpLen 500
+Episode 36 	 EpRet -0.205 	 EpLen 500
+Episode 37 	 EpRet -0.243 	 EpLen 500
+Episode 38 	 EpRet -0.219 	 EpLen 500
+Episode 39 	 EpRet -0.196 	 EpLen 500
+Episode 40 	 EpRet -0.203 	 EpLen 500
+Episode 41 	 EpRet -0.169 	 EpLen 500
+Episode 42 	 EpRet -0.131 	 EpLen 500
+Episode 43 	 EpRet -0.129 	 EpLen 500
+Episode 44 	 EpRet -0.197 	 EpLen 500
+Episode 45 	 EpRet -0.201 	 EpLen 500
+Episode 46 	 EpRet -0.170 	 EpLen 500
+Episode 47 	 EpRet -0.272 	 EpLen 500
+Episode 48 	 EpRet -0.132 	 EpLen 500
+Episode 49 	 EpRet -0.191 	 EpLen 500
+Episode 50 	 EpRet -0.166 	 EpLen 500
+Episode 51 	 EpRet -0.203 	 EpLen 500
+Episode 52 	 EpRet -0.226 	 EpLen 500
+Episode 53 	 EpRet -0.185 	 EpLen 500
+Episode 54 	 EpRet -0.200 	 EpLen 500
+Episode 55 	 EpRet -0.157 	 EpLen 500
+Episode 56 	 EpRet -0.200 	 EpLen 500
+Episode 57 	 EpRet -0.188 	 EpLen 500
+Episode 58 	 EpRet -0.203 	 EpLen 500
+Episode 59 	 EpRet -0.119 	 EpLen 500
+Episode 60 	 EpRet -0.166 	 EpLen 500
+Episode 61 	 EpRet -0.171 	 EpLen 500
+Episode 62 	 EpRet -0.263 	 EpLen 500
+Episode 63 	 EpRet -0.296 	 EpLen 500
+Episode 64 	 EpRet -0.235 	 EpLen 500
+Episode 65 	 EpRet -0.185 	 EpLen 500
+Episode 66 	 EpRet -0.162 	 EpLen 500
+Episode 67 	 EpRet -0.123 	 EpLen 500
+Episode 68 	 EpRet -0.238 	 EpLen 500
+Episode 69 	 EpRet -0.304 	 EpLen 500
+Episode 70 	 EpRet -0.117 	 EpLen 500
+Episode 71 	 EpRet -0.159 	 EpLen 500
+Episode 72 	 EpRet -0.693 	 EpLen 500
+Episode 73 	 EpRet -0.175 	 EpLen 500
+Episode 74 	 EpRet -0.171 	 EpLen 500
+Episode 75 	 EpRet -0.249 	 EpLen 500
+Episode 76 	 EpRet -0.168 	 EpLen 500
+Episode 77 	 EpRet -0.220 	 EpLen 500
+Episode 78 	 EpRet -0.149 	 EpLen 500
+Episode 79 	 EpRet -0.207 	 EpLen 500
+Episode 80 	 EpRet -0.125 	 EpLen 500
+Episode 81 	 EpRet -0.168 	 EpLen 500
+Episode 82 	 EpRet -0.174 	 EpLen 500
+Episode 83 	 EpRet -0.151 	 EpLen 500
+Episode 84 	 EpRet -0.201 	 EpLen 500
+Episode 85 	 EpRet -0.185 	 EpLen 500
+Episode 86 	 EpRet -0.177 	 EpLen 500
+Episode 87 	 EpRet -0.213 	 EpLen 500
+Episode 88 	 EpRet -0.183 	 EpLen 500
+Episode 89 	 EpRet -0.171 	 EpLen 500
+Episode 90 	 EpRet -0.242 	 EpLen 500
+Episode 91 	 EpRet -0.141 	 EpLen 500
+Episode 92 	 EpRet -0.196 	 EpLen 500
+Episode 93 	 EpRet -0.327 	 EpLen 500
+Episode 94 	 EpRet -0.141 	 EpLen 500
+Episode 95 	 EpRet -0.143 	 EpLen 500
+Episode 96 	 EpRet -0.150 	 EpLen 500
+Episode 97 	 EpRet -0.197 	 EpLen 500
+Episode 98 	 EpRet -0.240 	 EpLen 500
+Episode 99 	 EpRet -0.179 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.202 |
+|        StdEpRet |          0.0991 |
+|        MaxEpRet |          -0.114 |
+|        MinEpRet |          -0.759 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 38 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed955013/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945177/progress.txt
+Episode 0 	 EpRet -0.095 	 EpLen 500
+Episode 1 	 EpRet -0.080 	 EpLen 500
+Episode 2 	 EpRet -0.085 	 EpLen 500
+Episode 3 	 EpRet -0.091 	 EpLen 500
+Episode 4 	 EpRet -0.081 	 EpLen 500
+Episode 5 	 EpRet -0.086 	 EpLen 500
+Episode 6 	 EpRet -0.088 	 EpLen 500
+Episode 7 	 EpRet -0.083 	 EpLen 500
+Episode 8 	 EpRet -0.086 	 EpLen 500
+Episode 9 	 EpRet -0.094 	 EpLen 500
+Episode 10 	 EpRet -0.084 	 EpLen 500
+Episode 11 	 EpRet -0.083 	 EpLen 500
+Episode 12 	 EpRet -0.089 	 EpLen 500
+Episode 13 	 EpRet -0.086 	 EpLen 500
+Episode 14 	 EpRet -0.089 	 EpLen 500
+Episode 15 	 EpRet -0.083 	 EpLen 500
+Episode 16 	 EpRet -0.110 	 EpLen 500
+Episode 17 	 EpRet -0.078 	 EpLen 500
+Episode 18 	 EpRet -0.092 	 EpLen 500
+Episode 19 	 EpRet -0.560 	 EpLen 74
+Episode 20 	 EpRet -0.103 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.087 	 EpLen 500
+Episode 23 	 EpRet -0.087 	 EpLen 500
+Episode 24 	 EpRet -0.110 	 EpLen 500
+Episode 25 	 EpRet -0.091 	 EpLen 500
+Episode 26 	 EpRet -0.090 	 EpLen 500
+Episode 27 	 EpRet -0.091 	 EpLen 500
+Episode 28 	 EpRet -0.103 	 EpLen 500
+Episode 29 	 EpRet -0.089 	 EpLen 500
+Episode 30 	 EpRet -0.087 	 EpLen 500
+Episode 31 	 EpRet -0.075 	 EpLen 500
+Episode 32 	 EpRet -0.101 	 EpLen 500
+Episode 33 	 EpRet -0.100 	 EpLen 500
+Episode 34 	 EpRet -0.108 	 EpLen 500
+Episode 35 	 EpRet -0.101 	 EpLen 500
+Episode 36 	 EpRet -0.085 	 EpLen 500
+Episode 37 	 EpRet -0.089 	 EpLen 500
+Episode 38 	 EpRet -0.075 	 EpLen 500
+Episode 39 	 EpRet -0.088 	 EpLen 500
+Episode 40 	 EpRet -0.084 	 EpLen 500
+Episode 41 	 EpRet -0.078 	 EpLen 500
+Episode 42 	 EpRet -0.089 	 EpLen 500
+Episode 43 	 EpRet -0.097 	 EpLen 500
+Episode 44 	 EpRet -0.090 	 EpLen 500
+Episode 45 	 EpRet -0.080 	 EpLen 500
+Episode 46 	 EpRet -0.085 	 EpLen 500
+Episode 47 	 EpRet -0.106 	 EpLen 500
+Episode 48 	 EpRet -0.081 	 EpLen 500
+Episode 49 	 EpRet -0.082 	 EpLen 500
+Episode 50 	 EpRet -0.091 	 EpLen 500
+Episode 51 	 EpRet -0.088 	 EpLen 500
+Episode 52 	 EpRet -0.096 	 EpLen 500
+Episode 53 	 EpRet -0.085 	 EpLen 500
+Episode 54 	 EpRet -0.083 	 EpLen 500
+Episode 55 	 EpRet -0.079 	 EpLen 500
+Episode 56 	 EpRet -0.088 	 EpLen 500
+Episode 57 	 EpRet -0.078 	 EpLen 500
+Episode 58 	 EpRet -0.084 	 EpLen 500
+Episode 59 	 EpRet -0.099 	 EpLen 500
+Episode 60 	 EpRet -0.105 	 EpLen 500
+Episode 61 	 EpRet -0.079 	 EpLen 500
+Episode 62 	 EpRet -0.095 	 EpLen 500
+Episode 63 	 EpRet -0.089 	 EpLen 500
+Episode 64 	 EpRet -0.095 	 EpLen 500
+Episode 65 	 EpRet -0.081 	 EpLen 500
+Episode 66 	 EpRet -0.085 	 EpLen 500
+Episode 67 	 EpRet -0.084 	 EpLen 500
+Episode 68 	 EpRet -0.094 	 EpLen 500
+Episode 69 	 EpRet -0.087 	 EpLen 500
+Episode 70 	 EpRet -0.108 	 EpLen 500
+Episode 71 	 EpRet -0.081 	 EpLen 500
+Episode 72 	 EpRet -0.084 	 EpLen 500
+Episode 73 	 EpRet -0.074 	 EpLen 500
+Episode 74 	 EpRet -0.082 	 EpLen 500
+Episode 75 	 EpRet -0.097 	 EpLen 500
+Episode 76 	 EpRet -0.085 	 EpLen 500
+Episode 77 	 EpRet -0.081 	 EpLen 500
+Episode 78 	 EpRet -0.096 	 EpLen 500
+Episode 79 	 EpRet -0.091 	 EpLen 500
+Episode 80 	 EpRet -0.082 	 EpLen 500
+Episode 81 	 EpRet -0.079 	 EpLen 500
+Episode 82 	 EpRet -0.108 	 EpLen 500
+Episode 83 	 EpRet -0.082 	 EpLen 500
+Episode 84 	 EpRet -0.082 	 EpLen 500
+Episode 85 	 EpRet -0.091 	 EpLen 500
+Episode 86 	 EpRet -0.092 	 EpLen 500
+Episode 87 	 EpRet -0.091 	 EpLen 500
+Episode 88 	 EpRet -0.082 	 EpLen 500
+Episode 89 	 EpRet -0.090 	 EpLen 500
+Episode 90 	 EpRet -0.092 	 EpLen 500
+Episode 91 	 EpRet -0.084 	 EpLen 500
+Episode 92 	 EpRet -0.087 	 EpLen 500
+Episode 93 	 EpRet -0.090 	 EpLen 500
+Episode 94 	 EpRet -0.086 	 EpLen 500
+Episode 95 	 EpRet -0.086 	 EpLen 500
+Episode 96 	 EpRet -0.087 	 EpLen 500
+Episode 97 	 EpRet -0.087 	 EpLen 500
+Episode 98 	 EpRet -0.084 	 EpLen 500
+Episode 99 	 EpRet -0.090 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0935 |
+|        StdEpRet |          0.0476 |
+|        MaxEpRet |          -0.074 |
+|        MinEpRet |           -0.56 |
+|           EpLen |             496 |
+-------------------------------------
+On evaluation 39 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed437030/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945270/progress.txt
+Episode 0 	 EpRet -0.252 	 EpLen 500
+Episode 1 	 EpRet -0.671 	 EpLen 202
+Episode 2 	 EpRet -0.138 	 EpLen 500
+Episode 3 	 EpRet -0.262 	 EpLen 500
+Episode 4 	 EpRet -0.213 	 EpLen 500
+Episode 5 	 EpRet -0.229 	 EpLen 500
+Episode 6 	 EpRet -0.255 	 EpLen 500
+Episode 7 	 EpRet -0.206 	 EpLen 500
+Episode 8 	 EpRet -0.270 	 EpLen 500
+Episode 9 	 EpRet -0.214 	 EpLen 500
+Episode 10 	 EpRet -0.301 	 EpLen 500
+Episode 11 	 EpRet -0.304 	 EpLen 500
+Episode 12 	 EpRet -0.260 	 EpLen 500
+Episode 13 	 EpRet -0.238 	 EpLen 500
+Episode 14 	 EpRet -0.193 	 EpLen 500
+Episode 15 	 EpRet -0.205 	 EpLen 500
+Episode 16 	 EpRet -0.235 	 EpLen 500
+Episode 17 	 EpRet -0.246 	 EpLen 500
+Episode 18 	 EpRet -0.179 	 EpLen 500
+Episode 19 	 EpRet -0.140 	 EpLen 500
+Episode 20 	 EpRet -0.303 	 EpLen 500
+Episode 21 	 EpRet -0.253 	 EpLen 500
+Episode 22 	 EpRet -0.151 	 EpLen 500
+Episode 23 	 EpRet -0.331 	 EpLen 500
+Episode 24 	 EpRet -0.276 	 EpLen 500
+Episode 25 	 EpRet -0.195 	 EpLen 500
+Episode 26 	 EpRet -0.261 	 EpLen 500
+Episode 27 	 EpRet -0.276 	 EpLen 500
+Episode 28 	 EpRet -0.240 	 EpLen 500
+Episode 29 	 EpRet -0.159 	 EpLen 500
+Episode 30 	 EpRet -0.365 	 EpLen 500
+Episode 31 	 EpRet -0.221 	 EpLen 500
+Episode 32 	 EpRet -0.301 	 EpLen 500
+Episode 33 	 EpRet -0.193 	 EpLen 500
+Episode 34 	 EpRet -0.140 	 EpLen 500
+Episode 35 	 EpRet -0.131 	 EpLen 500
+Episode 36 	 EpRet -0.373 	 EpLen 500
+Episode 37 	 EpRet -0.170 	 EpLen 500
+Episode 38 	 EpRet -0.257 	 EpLen 500
+Episode 39 	 EpRet -0.265 	 EpLen 500
+Episode 40 	 EpRet -0.593 	 EpLen 113
+Episode 41 	 EpRet -0.158 	 EpLen 500
+Episode 42 	 EpRet -0.167 	 EpLen 500
+Episode 43 	 EpRet -0.186 	 EpLen 500
+Episode 44 	 EpRet -0.260 	 EpLen 500
+Episode 45 	 EpRet -0.310 	 EpLen 500
+Episode 46 	 EpRet -0.293 	 EpLen 500
+Episode 47 	 EpRet -0.225 	 EpLen 500
+Episode 48 	 EpRet -0.123 	 EpLen 500
+Episode 49 	 EpRet -0.326 	 EpLen 500
+Episode 50 	 EpRet -0.150 	 EpLen 500
+Episode 51 	 EpRet -0.198 	 EpLen 500
+Episode 52 	 EpRet -0.209 	 EpLen 500
+Episode 53 	 EpRet -0.311 	 EpLen 500
+Episode 54 	 EpRet -0.275 	 EpLen 500
+Episode 55 	 EpRet -0.114 	 EpLen 500
+Episode 56 	 EpRet -0.233 	 EpLen 500
+Episode 57 	 EpRet -0.210 	 EpLen 500
+Episode 58 	 EpRet -0.253 	 EpLen 500
+Episode 59 	 EpRet -0.166 	 EpLen 500
+Episode 60 	 EpRet -0.206 	 EpLen 500
+Episode 61 	 EpRet -0.215 	 EpLen 500
+Episode 62 	 EpRet -0.159 	 EpLen 500
+Episode 63 	 EpRet -0.253 	 EpLen 500
+Episode 64 	 EpRet -0.178 	 EpLen 500
+Episode 65 	 EpRet -0.184 	 EpLen 500
+Episode 66 	 EpRet -0.170 	 EpLen 500
+Episode 67 	 EpRet -0.242 	 EpLen 500
+Episode 68 	 EpRet -0.208 	 EpLen 500
+Episode 69 	 EpRet -0.150 	 EpLen 500
+Episode 70 	 EpRet -0.216 	 EpLen 500
+Episode 71 	 EpRet -0.242 	 EpLen 500
+Episode 72 	 EpRet -0.197 	 EpLen 500
+Episode 73 	 EpRet -0.241 	 EpLen 500
+Episode 74 	 EpRet -0.287 	 EpLen 500
+Episode 75 	 EpRet -0.638 	 EpLen 156
+Episode 76 	 EpRet -0.216 	 EpLen 500
+Episode 77 	 EpRet -0.180 	 EpLen 500
+Episode 78 	 EpRet -0.278 	 EpLen 500
+Episode 79 	 EpRet -0.753 	 EpLen 500
+Episode 80 	 EpRet -0.141 	 EpLen 500
+Episode 81 	 EpRet -0.265 	 EpLen 500
+Episode 82 	 EpRet -0.428 	 EpLen 500
+Episode 83 	 EpRet -0.242 	 EpLen 500
+Episode 84 	 EpRet -0.289 	 EpLen 500
+Episode 85 	 EpRet -0.312 	 EpLen 500
+Episode 86 	 EpRet -0.203 	 EpLen 500
+Episode 87 	 EpRet -0.109 	 EpLen 500
+Episode 88 	 EpRet -0.152 	 EpLen 500
+Episode 89 	 EpRet -0.280 	 EpLen 500
+Episode 90 	 EpRet -0.622 	 EpLen 143
+Episode 91 	 EpRet -0.279 	 EpLen 500
+Episode 92 	 EpRet -0.240 	 EpLen 500
+Episode 93 	 EpRet -0.129 	 EpLen 500
+Episode 94 	 EpRet -0.205 	 EpLen 500
+Episode 95 	 EpRet -0.091 	 EpLen 500
+Episode 96 	 EpRet -0.228 	 EpLen 500
+Episode 97 	 EpRet -0.189 	 EpLen 500
+Episode 98 	 EpRet -0.240 	 EpLen 500
+Episode 99 	 EpRet -0.341 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.248 |
+|        StdEpRet |           0.113 |
+|        MaxEpRet |          -0.091 |
+|        MinEpRet |          -0.753 |
+|           EpLen |             486 |
+-------------------------------------
+On evaluation 40 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed402146/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945366/progress.txt
+Episode 0 	 EpRet -0.091 	 EpLen 500
+Episode 1 	 EpRet -0.095 	 EpLen 500
+Episode 2 	 EpRet -0.108 	 EpLen 500
+Episode 3 	 EpRet -0.101 	 EpLen 500
+Episode 4 	 EpRet -0.124 	 EpLen 500
+Episode 5 	 EpRet -0.070 	 EpLen 500
+Episode 6 	 EpRet -0.173 	 EpLen 500
+Episode 7 	 EpRet -0.190 	 EpLen 500
+Episode 8 	 EpRet -0.099 	 EpLen 500
+Episode 9 	 EpRet -0.116 	 EpLen 500
+Episode 10 	 EpRet -0.109 	 EpLen 500
+Episode 11 	 EpRet -0.134 	 EpLen 500
+Episode 12 	 EpRet -0.120 	 EpLen 500
+Episode 13 	 EpRet -0.104 	 EpLen 500
+Episode 14 	 EpRet -0.118 	 EpLen 500
+Episode 15 	 EpRet -0.106 	 EpLen 500
+Episode 16 	 EpRet -0.084 	 EpLen 500
+Episode 17 	 EpRet -0.136 	 EpLen 500
+Episode 18 	 EpRet -0.126 	 EpLen 500
+Episode 19 	 EpRet -0.105 	 EpLen 500
+Episode 20 	 EpRet -0.123 	 EpLen 500
+Episode 21 	 EpRet -0.112 	 EpLen 500
+Episode 22 	 EpRet -0.102 	 EpLen 500
+Episode 23 	 EpRet -0.124 	 EpLen 500
+Episode 24 	 EpRet -0.114 	 EpLen 500
+Episode 25 	 EpRet -0.128 	 EpLen 500
+Episode 26 	 EpRet -0.137 	 EpLen 500
+Episode 27 	 EpRet -0.130 	 EpLen 500
+Episode 28 	 EpRet -0.101 	 EpLen 500
+Episode 29 	 EpRet -0.141 	 EpLen 500
+Episode 30 	 EpRet -0.109 	 EpLen 500
+Episode 31 	 EpRet -0.106 	 EpLen 500
+Episode 32 	 EpRet -0.106 	 EpLen 500
+Episode 33 	 EpRet -0.121 	 EpLen 500
+Episode 34 	 EpRet -0.149 	 EpLen 500
+Episode 35 	 EpRet -0.110 	 EpLen 500
+Episode 36 	 EpRet -0.134 	 EpLen 500
+Episode 37 	 EpRet -0.096 	 EpLen 500
+Episode 38 	 EpRet -0.112 	 EpLen 500
+Episode 39 	 EpRet -0.100 	 EpLen 500
+Episode 40 	 EpRet -0.118 	 EpLen 500
+Episode 41 	 EpRet -0.115 	 EpLen 500
+Episode 42 	 EpRet -0.102 	 EpLen 500
+Episode 43 	 EpRet -0.107 	 EpLen 500
+Episode 44 	 EpRet -0.100 	 EpLen 500
+Episode 45 	 EpRet -0.099 	 EpLen 500
+Episode 46 	 EpRet -0.109 	 EpLen 500
+Episode 47 	 EpRet -0.078 	 EpLen 500
+Episode 48 	 EpRet -0.107 	 EpLen 500
+Episode 49 	 EpRet -0.086 	 EpLen 500
+Episode 50 	 EpRet -0.106 	 EpLen 500
+Episode 51 	 EpRet -0.109 	 EpLen 500
+Episode 52 	 EpRet -0.115 	 EpLen 500
+Episode 53 	 EpRet -0.117 	 EpLen 500
+Episode 54 	 EpRet -0.137 	 EpLen 500
+Episode 55 	 EpRet -0.096 	 EpLen 500
+Episode 56 	 EpRet -0.144 	 EpLen 500
+Episode 57 	 EpRet -0.104 	 EpLen 500
+Episode 58 	 EpRet -0.114 	 EpLen 500
+Episode 59 	 EpRet -0.131 	 EpLen 500
+Episode 60 	 EpRet -0.110 	 EpLen 500
+Episode 61 	 EpRet -0.096 	 EpLen 500
+Episode 62 	 EpRet -0.123 	 EpLen 500
+Episode 63 	 EpRet -0.119 	 EpLen 500
+Episode 64 	 EpRet -0.116 	 EpLen 500
+Episode 65 	 EpRet -0.111 	 EpLen 500
+Episode 66 	 EpRet -0.123 	 EpLen 500
+Episode 67 	 EpRet -0.098 	 EpLen 500
+Episode 68 	 EpRet -0.158 	 EpLen 500
+Episode 69 	 EpRet -0.101 	 EpLen 500
+Episode 70 	 EpRet -0.116 	 EpLen 500
+Episode 71 	 EpRet -0.112 	 EpLen 500
+Episode 72 	 EpRet -0.120 	 EpLen 500
+Episode 73 	 EpRet -0.082 	 EpLen 500
+Episode 74 	 EpRet -0.110 	 EpLen 500
+Episode 75 	 EpRet -0.109 	 EpLen 500
+Episode 76 	 EpRet -0.128 	 EpLen 500
+Episode 77 	 EpRet -0.105 	 EpLen 500
+Episode 78 	 EpRet -0.104 	 EpLen 500
+Episode 79 	 EpRet -0.148 	 EpLen 500
+Episode 80 	 EpRet -0.071 	 EpLen 500
+Episode 81 	 EpRet -0.105 	 EpLen 500
+Episode 82 	 EpRet -0.114 	 EpLen 500
+Episode 83 	 EpRet -0.101 	 EpLen 500
+Episode 84 	 EpRet -0.118 	 EpLen 500
+Episode 85 	 EpRet -0.074 	 EpLen 500
+Episode 86 	 EpRet -0.097 	 EpLen 500
+Episode 87 	 EpRet -0.098 	 EpLen 500
+Episode 88 	 EpRet -0.085 	 EpLen 500
+Episode 89 	 EpRet -0.132 	 EpLen 500
+Episode 90 	 EpRet -0.097 	 EpLen 500
+Episode 91 	 EpRet -0.102 	 EpLen 500
+Episode 92 	 EpRet -0.140 	 EpLen 500
+Episode 93 	 EpRet -0.111 	 EpLen 500
+Episode 94 	 EpRet -0.118 	 EpLen 500
+Episode 95 	 EpRet -0.102 	 EpLen 500
+Episode 96 	 EpRet -0.110 	 EpLen 500
+Episode 97 	 EpRet -0.126 	 EpLen 500
+Episode 98 	 EpRet -0.116 	 EpLen 500
+Episode 99 	 EpRet -0.102 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.113 |
+|        StdEpRet |          0.0192 |
+|        MaxEpRet |           -0.07 |
+|        MinEpRet |           -0.19 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 41 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed408549/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945462/progress.txt
+Episode 0 	 EpRet -0.067 	 EpLen 500
+Episode 1 	 EpRet -0.065 	 EpLen 500
+Episode 2 	 EpRet -0.073 	 EpLen 500
+Episode 3 	 EpRet -0.077 	 EpLen 500
+Episode 4 	 EpRet -0.074 	 EpLen 500
+Episode 5 	 EpRet -0.627 	 EpLen 155
+Episode 6 	 EpRet -0.079 	 EpLen 500
+Episode 7 	 EpRet -0.577 	 EpLen 96
+Episode 8 	 EpRet -0.082 	 EpLen 500
+Episode 9 	 EpRet -0.063 	 EpLen 500
+Episode 10 	 EpRet -0.571 	 EpLen 86
+Episode 11 	 EpRet -0.571 	 EpLen 85
+Episode 12 	 EpRet -0.070 	 EpLen 500
+Episode 13 	 EpRet -0.068 	 EpLen 500
+Episode 14 	 EpRet -0.067 	 EpLen 500
+Episode 15 	 EpRet -0.074 	 EpLen 500
+Episode 16 	 EpRet -0.072 	 EpLen 500
+Episode 17 	 EpRet -0.075 	 EpLen 500
+Episode 18 	 EpRet -0.073 	 EpLen 500
+Episode 19 	 EpRet -0.602 	 EpLen 137
+Episode 20 	 EpRet -0.076 	 EpLen 500
+Episode 21 	 EpRet -0.077 	 EpLen 500
+Episode 22 	 EpRet -0.073 	 EpLen 500
+Episode 23 	 EpRet -0.075 	 EpLen 500
+Episode 24 	 EpRet -0.073 	 EpLen 500
+Episode 25 	 EpRet -0.062 	 EpLen 500
+Episode 26 	 EpRet -0.077 	 EpLen 500
+Episode 27 	 EpRet -0.063 	 EpLen 500
+Episode 28 	 EpRet -0.199 	 EpLen 500
+Episode 29 	 EpRet -0.076 	 EpLen 500
+Episode 30 	 EpRet -0.077 	 EpLen 500
+Episode 31 	 EpRet -0.076 	 EpLen 500
+Episode 32 	 EpRet -0.072 	 EpLen 500
+Episode 33 	 EpRet -0.075 	 EpLen 500
+Episode 34 	 EpRet -0.064 	 EpLen 500
+Episode 35 	 EpRet -0.070 	 EpLen 500
+Episode 36 	 EpRet -0.081 	 EpLen 500
+Episode 37 	 EpRet -0.080 	 EpLen 500
+Episode 38 	 EpRet -0.072 	 EpLen 500
+Episode 39 	 EpRet -0.074 	 EpLen 500
+Episode 40 	 EpRet -0.077 	 EpLen 500
+Episode 41 	 EpRet -0.069 	 EpLen 500
+Episode 42 	 EpRet -0.072 	 EpLen 500
+Episode 43 	 EpRet -0.071 	 EpLen 500
+Episode 44 	 EpRet -0.073 	 EpLen 500
+Episode 45 	 EpRet -0.070 	 EpLen 500
+Episode 46 	 EpRet -0.073 	 EpLen 500
+Episode 47 	 EpRet -0.071 	 EpLen 500
+Episode 48 	 EpRet -0.072 	 EpLen 500
+Episode 49 	 EpRet -0.069 	 EpLen 500
+Episode 50 	 EpRet -0.069 	 EpLen 500
+Episode 51 	 EpRet -0.076 	 EpLen 500
+Episode 52 	 EpRet -0.077 	 EpLen 500
+Episode 53 	 EpRet -0.070 	 EpLen 500
+Episode 54 	 EpRet -0.073 	 EpLen 500
+Episode 55 	 EpRet -0.076 	 EpLen 500
+Episode 56 	 EpRet -0.083 	 EpLen 500
+Episode 57 	 EpRet -0.075 	 EpLen 500
+Episode 58 	 EpRet -0.061 	 EpLen 500
+Episode 59 	 EpRet -0.082 	 EpLen 500
+Episode 60 	 EpRet -0.073 	 EpLen 500
+Episode 61 	 EpRet -0.068 	 EpLen 500
+Episode 62 	 EpRet -0.074 	 EpLen 500
+Episode 63 	 EpRet -0.078 	 EpLen 500
+Episode 64 	 EpRet -0.080 	 EpLen 500
+Episode 65 	 EpRet -0.073 	 EpLen 500
+Episode 66 	 EpRet -0.076 	 EpLen 500
+Episode 67 	 EpRet -0.075 	 EpLen 500
+Episode 68 	 EpRet -0.074 	 EpLen 500
+Episode 69 	 EpRet -0.062 	 EpLen 500
+Episode 70 	 EpRet -0.071 	 EpLen 500
+Episode 71 	 EpRet -0.072 	 EpLen 500
+Episode 72 	 EpRet -0.069 	 EpLen 500
+Episode 73 	 EpRet -0.066 	 EpLen 500
+Episode 74 	 EpRet -0.073 	 EpLen 500
+Episode 75 	 EpRet -0.073 	 EpLen 500
+Episode 76 	 EpRet -0.584 	 EpLen 99
+Episode 77 	 EpRet -0.073 	 EpLen 500
+Episode 78 	 EpRet -0.080 	 EpLen 500
+Episode 79 	 EpRet -0.079 	 EpLen 500
+Episode 80 	 EpRet -0.068 	 EpLen 500
+Episode 81 	 EpRet -0.071 	 EpLen 500
+Episode 82 	 EpRet -0.073 	 EpLen 500
+Episode 83 	 EpRet -0.066 	 EpLen 500
+Episode 84 	 EpRet -0.067 	 EpLen 500
+Episode 85 	 EpRet -0.076 	 EpLen 500
+Episode 86 	 EpRet -0.075 	 EpLen 500
+Episode 87 	 EpRet -0.072 	 EpLen 500
+Episode 88 	 EpRet -0.067 	 EpLen 500
+Episode 89 	 EpRet -0.070 	 EpLen 500
+Episode 90 	 EpRet -0.074 	 EpLen 500
+Episode 91 	 EpRet -0.075 	 EpLen 500
+Episode 92 	 EpRet -0.084 	 EpLen 500
+Episode 93 	 EpRet -0.074 	 EpLen 500
+Episode 94 	 EpRet -0.074 	 EpLen 500
+Episode 95 	 EpRet -0.078 	 EpLen 500
+Episode 96 	 EpRet -0.086 	 EpLen 500
+Episode 97 	 EpRet -0.076 	 EpLen 500
+Episode 98 	 EpRet -0.081 	 EpLen 500
+Episode 99 	 EpRet -0.068 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.105 |
+|        StdEpRet |           0.123 |
+|        MaxEpRet |          -0.061 |
+|        MinEpRet |          -0.627 |
+|           EpLen |             477 |
+-------------------------------------
+On evaluation 42 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed49455/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945554/progress.txt
+Episode 0 	 EpRet -0.102 	 EpLen 500
+Episode 1 	 EpRet -0.093 	 EpLen 500
+Episode 2 	 EpRet -0.096 	 EpLen 500
+Episode 3 	 EpRet -0.095 	 EpLen 500
+Episode 4 	 EpRet -0.096 	 EpLen 500
+Episode 5 	 EpRet -0.102 	 EpLen 500
+Episode 6 	 EpRet -0.092 	 EpLen 500
+Episode 7 	 EpRet -0.101 	 EpLen 500
+Episode 8 	 EpRet -0.097 	 EpLen 500
+Episode 9 	 EpRet -0.106 	 EpLen 500
+Episode 10 	 EpRet -0.125 	 EpLen 500
+Episode 11 	 EpRet -0.118 	 EpLen 500
+Episode 12 	 EpRet -0.088 	 EpLen 500
+Episode 13 	 EpRet -0.094 	 EpLen 500
+Episode 14 	 EpRet -0.095 	 EpLen 500
+Episode 15 	 EpRet -0.101 	 EpLen 500
+Episode 16 	 EpRet -0.101 	 EpLen 500
+Episode 17 	 EpRet -0.096 	 EpLen 500
+Episode 18 	 EpRet -0.064 	 EpLen 500
+Episode 19 	 EpRet -0.105 	 EpLen 500
+Episode 20 	 EpRet -0.093 	 EpLen 500
+Episode 21 	 EpRet -0.087 	 EpLen 500
+Episode 22 	 EpRet -0.093 	 EpLen 500
+Episode 23 	 EpRet -0.081 	 EpLen 500
+Episode 24 	 EpRet -0.117 	 EpLen 500
+Episode 25 	 EpRet -0.071 	 EpLen 500
+Episode 26 	 EpRet -0.096 	 EpLen 500
+Episode 27 	 EpRet -0.102 	 EpLen 500
+Episode 28 	 EpRet -0.110 	 EpLen 500
+Episode 29 	 EpRet -0.099 	 EpLen 500
+Episode 30 	 EpRet -0.088 	 EpLen 500
+Episode 31 	 EpRet -0.102 	 EpLen 500
+Episode 32 	 EpRet -0.103 	 EpLen 500
+Episode 33 	 EpRet -0.096 	 EpLen 500
+Episode 34 	 EpRet -0.103 	 EpLen 500
+Episode 35 	 EpRet -0.085 	 EpLen 500
+Episode 36 	 EpRet -0.097 	 EpLen 500
+Episode 37 	 EpRet -0.101 	 EpLen 500
+Episode 38 	 EpRet -0.097 	 EpLen 500
+Episode 39 	 EpRet -0.100 	 EpLen 500
+Episode 40 	 EpRet -0.114 	 EpLen 500
+Episode 41 	 EpRet -0.106 	 EpLen 500
+Episode 42 	 EpRet -0.093 	 EpLen 500
+Episode 43 	 EpRet -0.080 	 EpLen 500
+Episode 44 	 EpRet -0.094 	 EpLen 500
+Episode 45 	 EpRet -0.085 	 EpLen 500
+Episode 46 	 EpRet -0.104 	 EpLen 500
+Episode 47 	 EpRet -0.094 	 EpLen 500
+Episode 48 	 EpRet -0.109 	 EpLen 500
+Episode 49 	 EpRet -0.098 	 EpLen 500
+Episode 50 	 EpRet -0.110 	 EpLen 500
+Episode 51 	 EpRet -0.104 	 EpLen 500
+Episode 52 	 EpRet -0.080 	 EpLen 500
+Episode 53 	 EpRet -0.106 	 EpLen 500
+Episode 54 	 EpRet -0.122 	 EpLen 500
+Episode 55 	 EpRet -0.090 	 EpLen 500
+Episode 56 	 EpRet -0.113 	 EpLen 500
+Episode 57 	 EpRet -0.092 	 EpLen 500
+Episode 58 	 EpRet -0.096 	 EpLen 500
+Episode 59 	 EpRet -0.077 	 EpLen 500
+Episode 60 	 EpRet -0.092 	 EpLen 500
+Episode 61 	 EpRet -0.097 	 EpLen 500
+Episode 62 	 EpRet -0.099 	 EpLen 500
+Episode 63 	 EpRet -0.109 	 EpLen 500
+Episode 64 	 EpRet -0.100 	 EpLen 500
+Episode 65 	 EpRet -0.102 	 EpLen 500
+Episode 66 	 EpRet -0.096 	 EpLen 500
+Episode 67 	 EpRet -0.115 	 EpLen 500
+Episode 68 	 EpRet -0.106 	 EpLen 500
+Episode 69 	 EpRet -0.089 	 EpLen 500
+Episode 70 	 EpRet -0.090 	 EpLen 500
+Episode 71 	 EpRet -0.093 	 EpLen 500
+Episode 72 	 EpRet -0.097 	 EpLen 500
+Episode 73 	 EpRet -0.157 	 EpLen 500
+Episode 74 	 EpRet -0.110 	 EpLen 500
+Episode 75 	 EpRet -0.090 	 EpLen 500
+Episode 76 	 EpRet -0.102 	 EpLen 500
+Episode 77 	 EpRet -0.104 	 EpLen 500
+Episode 78 	 EpRet -0.105 	 EpLen 500
+Episode 79 	 EpRet -0.087 	 EpLen 500
+Episode 80 	 EpRet -0.098 	 EpLen 500
+Episode 81 	 EpRet -0.079 	 EpLen 500
+Episode 82 	 EpRet -0.106 	 EpLen 500
+Episode 83 	 EpRet -0.088 	 EpLen 500
+Episode 84 	 EpRet -0.112 	 EpLen 500
+Episode 85 	 EpRet -0.085 	 EpLen 500
+Episode 86 	 EpRet -0.125 	 EpLen 500
+Episode 87 	 EpRet -0.092 	 EpLen 500
+Episode 88 	 EpRet -0.094 	 EpLen 500
+Episode 89 	 EpRet -0.096 	 EpLen 500
+Episode 90 	 EpRet -0.109 	 EpLen 500
+Episode 91 	 EpRet -0.087 	 EpLen 500
+Episode 92 	 EpRet -0.101 	 EpLen 500
+Episode 93 	 EpRet -0.086 	 EpLen 500
+Episode 94 	 EpRet -0.107 	 EpLen 500
+Episode 95 	 EpRet -0.096 	 EpLen 500
+Episode 96 	 EpRet -0.108 	 EpLen 500
+Episode 97 	 EpRet -0.090 	 EpLen 500
+Episode 98 	 EpRet -0.119 	 EpLen 500
+Episode 99 	 EpRet -0.096 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0987 |
+|        StdEpRet |          0.0123 |
+|        MaxEpRet |          -0.064 |
+|        MinEpRet |          -0.157 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 43 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed175968/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945649/progress.txt
+Episode 0 	 EpRet -0.099 	 EpLen 500
+Episode 1 	 EpRet -0.097 	 EpLen 500
+Episode 2 	 EpRet -0.106 	 EpLen 500
+Episode 3 	 EpRet -0.097 	 EpLen 500
+Episode 4 	 EpRet -0.124 	 EpLen 500
+Episode 5 	 EpRet -0.101 	 EpLen 500
+Episode 6 	 EpRet -0.096 	 EpLen 500
+Episode 7 	 EpRet -0.086 	 EpLen 500
+Episode 8 	 EpRet -0.090 	 EpLen 500
+Episode 9 	 EpRet -0.077 	 EpLen 500
+Episode 10 	 EpRet -0.185 	 EpLen 500
+Episode 11 	 EpRet -0.107 	 EpLen 500
+Episode 12 	 EpRet -0.099 	 EpLen 500
+Episode 13 	 EpRet -0.129 	 EpLen 500
+Episode 14 	 EpRet -0.096 	 EpLen 500
+Episode 15 	 EpRet -0.093 	 EpLen 500
+Episode 16 	 EpRet -0.078 	 EpLen 500
+Episode 17 	 EpRet -0.119 	 EpLen 500
+Episode 18 	 EpRet -0.100 	 EpLen 500
+Episode 19 	 EpRet -0.119 	 EpLen 500
+Episode 20 	 EpRet -0.154 	 EpLen 500
+Episode 21 	 EpRet -0.099 	 EpLen 500
+Episode 22 	 EpRet -0.096 	 EpLen 500
+Episode 23 	 EpRet -0.106 	 EpLen 500
+Episode 24 	 EpRet -0.143 	 EpLen 500
+Episode 25 	 EpRet -0.089 	 EpLen 500
+Episode 26 	 EpRet -0.098 	 EpLen 500
+Episode 27 	 EpRet -0.103 	 EpLen 500
+Episode 28 	 EpRet -0.109 	 EpLen 500
+Episode 29 	 EpRet -0.092 	 EpLen 500
+Episode 30 	 EpRet -0.105 	 EpLen 500
+Episode 31 	 EpRet -0.100 	 EpLen 500
+Episode 32 	 EpRet -0.110 	 EpLen 500
+Episode 33 	 EpRet -0.109 	 EpLen 500
+Episode 34 	 EpRet -0.118 	 EpLen 500
+Episode 35 	 EpRet -0.101 	 EpLen 500
+Episode 36 	 EpRet -0.094 	 EpLen 500
+Episode 37 	 EpRet -0.094 	 EpLen 500
+Episode 38 	 EpRet -0.110 	 EpLen 500
+Episode 39 	 EpRet -0.095 	 EpLen 500
+Episode 40 	 EpRet -0.095 	 EpLen 500
+Episode 41 	 EpRet -0.096 	 EpLen 500
+Episode 42 	 EpRet -0.094 	 EpLen 500
+Episode 43 	 EpRet -0.101 	 EpLen 500
+Episode 44 	 EpRet -0.111 	 EpLen 500
+Episode 45 	 EpRet -0.133 	 EpLen 500
+Episode 46 	 EpRet -0.116 	 EpLen 500
+Episode 47 	 EpRet -0.103 	 EpLen 500
+Episode 48 	 EpRet -0.091 	 EpLen 500
+Episode 49 	 EpRet -0.095 	 EpLen 500
+Episode 50 	 EpRet -0.106 	 EpLen 500
+Episode 51 	 EpRet -0.666 	 EpLen 500
+Episode 52 	 EpRet -0.084 	 EpLen 500
+Episode 53 	 EpRet -0.194 	 EpLen 500
+Episode 54 	 EpRet -0.109 	 EpLen 500
+Episode 55 	 EpRet -0.089 	 EpLen 500
+Episode 56 	 EpRet -0.094 	 EpLen 500
+Episode 57 	 EpRet -0.098 	 EpLen 500
+Episode 58 	 EpRet -0.098 	 EpLen 500
+Episode 59 	 EpRet -0.106 	 EpLen 500
+Episode 60 	 EpRet -0.120 	 EpLen 500
+Episode 61 	 EpRet -0.095 	 EpLen 500
+Episode 62 	 EpRet -0.107 	 EpLen 500
+Episode 63 	 EpRet -0.127 	 EpLen 500
+Episode 64 	 EpRet -0.116 	 EpLen 500
+Episode 65 	 EpRet -0.106 	 EpLen 500
+Episode 66 	 EpRet -0.103 	 EpLen 500
+Episode 67 	 EpRet -0.105 	 EpLen 500
+Episode 68 	 EpRet -0.110 	 EpLen 500
+Episode 69 	 EpRet -0.090 	 EpLen 500
+Episode 70 	 EpRet -0.080 	 EpLen 500
+Episode 71 	 EpRet -0.092 	 EpLen 500
+Episode 72 	 EpRet -0.117 	 EpLen 500
+Episode 73 	 EpRet -0.105 	 EpLen 500
+Episode 74 	 EpRet -0.117 	 EpLen 500
+Episode 75 	 EpRet -0.093 	 EpLen 500
+Episode 76 	 EpRet -0.137 	 EpLen 500
+Episode 77 	 EpRet -0.096 	 EpLen 500
+Episode 78 	 EpRet -0.096 	 EpLen 500
+Episode 79 	 EpRet -0.115 	 EpLen 500
+Episode 80 	 EpRet -0.091 	 EpLen 500
+Episode 81 	 EpRet -0.092 	 EpLen 500
+Episode 82 	 EpRet -0.113 	 EpLen 500
+Episode 83 	 EpRet -0.104 	 EpLen 500
+Episode 84 	 EpRet -0.131 	 EpLen 500
+Episode 85 	 EpRet -0.119 	 EpLen 500
+Episode 86 	 EpRet -0.131 	 EpLen 500
+Episode 87 	 EpRet -0.088 	 EpLen 500
+Episode 88 	 EpRet -0.102 	 EpLen 500
+Episode 89 	 EpRet -0.101 	 EpLen 500
+Episode 90 	 EpRet -0.089 	 EpLen 500
+Episode 91 	 EpRet -0.612 	 EpLen 500
+Episode 92 	 EpRet -0.121 	 EpLen 500
+Episode 93 	 EpRet -0.109 	 EpLen 500
+Episode 94 	 EpRet -0.630 	 EpLen 500
+Episode 95 	 EpRet -0.088 	 EpLen 500
+Episode 96 	 EpRet -0.103 	 EpLen 500
+Episode 97 	 EpRet -0.116 	 EpLen 500
+Episode 98 	 EpRet -0.107 	 EpLen 500
+Episode 99 	 EpRet -0.117 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.122 |
+|        StdEpRet |          0.0923 |
+|        MaxEpRet |          -0.077 |
+|        MinEpRet |          -0.666 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 44 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed377739/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945746/progress.txt
+Episode 0 	 EpRet -0.067 	 EpLen 500
+Episode 1 	 EpRet -0.063 	 EpLen 500
+Episode 2 	 EpRet -0.080 	 EpLen 500
+Episode 3 	 EpRet -0.080 	 EpLen 500
+Episode 4 	 EpRet -0.072 	 EpLen 500
+Episode 5 	 EpRet -0.081 	 EpLen 500
+Episode 6 	 EpRet -0.063 	 EpLen 500
+Episode 7 	 EpRet -0.067 	 EpLen 500
+Episode 8 	 EpRet -0.086 	 EpLen 500
+Episode 9 	 EpRet -0.068 	 EpLen 500
+Episode 10 	 EpRet -0.074 	 EpLen 500
+Episode 11 	 EpRet -0.073 	 EpLen 500
+Episode 12 	 EpRet -0.067 	 EpLen 500
+Episode 13 	 EpRet -0.075 	 EpLen 500
+Episode 14 	 EpRet -0.062 	 EpLen 500
+Episode 15 	 EpRet -0.063 	 EpLen 500
+Episode 16 	 EpRet -0.066 	 EpLen 500
+Episode 17 	 EpRet -0.116 	 EpLen 500
+Episode 18 	 EpRet -0.085 	 EpLen 500
+Episode 19 	 EpRet -0.076 	 EpLen 500
+Episode 20 	 EpRet -0.082 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.064 	 EpLen 500
+Episode 23 	 EpRet -0.071 	 EpLen 500
+Episode 24 	 EpRet -0.079 	 EpLen 500
+Episode 25 	 EpRet -0.072 	 EpLen 500
+Episode 26 	 EpRet -0.072 	 EpLen 500
+Episode 27 	 EpRet -0.083 	 EpLen 500
+Episode 28 	 EpRet -0.078 	 EpLen 500
+Episode 29 	 EpRet -0.076 	 EpLen 500
+Episode 30 	 EpRet -0.081 	 EpLen 500
+Episode 31 	 EpRet -0.080 	 EpLen 500
+Episode 32 	 EpRet -0.112 	 EpLen 500
+Episode 33 	 EpRet -0.072 	 EpLen 500
+Episode 34 	 EpRet -0.074 	 EpLen 500
+Episode 35 	 EpRet -0.072 	 EpLen 500
+Episode 36 	 EpRet -0.074 	 EpLen 500
+Episode 37 	 EpRet -0.075 	 EpLen 500
+Episode 38 	 EpRet -0.072 	 EpLen 500
+Episode 39 	 EpRet -0.081 	 EpLen 500
+Episode 40 	 EpRet -0.076 	 EpLen 500
+Episode 41 	 EpRet -0.077 	 EpLen 500
+Episode 42 	 EpRet -0.063 	 EpLen 500
+Episode 43 	 EpRet -0.073 	 EpLen 500
+Episode 44 	 EpRet -0.133 	 EpLen 500
+Episode 45 	 EpRet -0.079 	 EpLen 500
+Episode 46 	 EpRet -0.174 	 EpLen 500
+Episode 47 	 EpRet -0.068 	 EpLen 500
+Episode 48 	 EpRet -0.068 	 EpLen 500
+Episode 49 	 EpRet -0.069 	 EpLen 500
+Episode 50 	 EpRet -0.065 	 EpLen 500
+Episode 51 	 EpRet -0.076 	 EpLen 500
+Episode 52 	 EpRet -0.072 	 EpLen 500
+Episode 53 	 EpRet -0.079 	 EpLen 500
+Episode 54 	 EpRet -0.078 	 EpLen 500
+Episode 55 	 EpRet -0.075 	 EpLen 500
+Episode 56 	 EpRet -0.066 	 EpLen 500
+Episode 57 	 EpRet -0.064 	 EpLen 500
+Episode 58 	 EpRet -0.069 	 EpLen 500
+Episode 59 	 EpRet -0.067 	 EpLen 500
+Episode 60 	 EpRet -0.072 	 EpLen 500
+Episode 61 	 EpRet -0.075 	 EpLen 500
+Episode 62 	 EpRet -0.069 	 EpLen 500
+Episode 63 	 EpRet -0.071 	 EpLen 500
+Episode 64 	 EpRet -0.080 	 EpLen 500
+Episode 65 	 EpRet -0.083 	 EpLen 500
+Episode 66 	 EpRet -0.071 	 EpLen 500
+Episode 67 	 EpRet -0.106 	 EpLen 500
+Episode 68 	 EpRet -0.080 	 EpLen 500
+Episode 69 	 EpRet -0.067 	 EpLen 500
+Episode 70 	 EpRet -0.585 	 EpLen 500
+Episode 71 	 EpRet -0.074 	 EpLen 500
+Episode 72 	 EpRet -0.065 	 EpLen 500
+Episode 73 	 EpRet -0.071 	 EpLen 500
+Episode 74 	 EpRet -0.074 	 EpLen 500
+Episode 75 	 EpRet -0.069 	 EpLen 500
+Episode 76 	 EpRet -0.073 	 EpLen 500
+Episode 77 	 EpRet -0.065 	 EpLen 500
+Episode 78 	 EpRet -0.079 	 EpLen 500
+Episode 79 	 EpRet -0.595 	 EpLen 110
+Episode 80 	 EpRet -0.080 	 EpLen 500
+Episode 81 	 EpRet -0.073 	 EpLen 500
+Episode 82 	 EpRet -0.078 	 EpLen 500
+Episode 83 	 EpRet -0.087 	 EpLen 500
+Episode 84 	 EpRet -0.074 	 EpLen 500
+Episode 85 	 EpRet -0.072 	 EpLen 500
+Episode 86 	 EpRet -0.082 	 EpLen 500
+Episode 87 	 EpRet -0.079 	 EpLen 500
+Episode 88 	 EpRet -0.076 	 EpLen 500
+Episode 89 	 EpRet -0.066 	 EpLen 500
+Episode 90 	 EpRet -0.061 	 EpLen 500
+Episode 91 	 EpRet -0.125 	 EpLen 500
+Episode 92 	 EpRet -0.077 	 EpLen 500
+Episode 93 	 EpRet -0.063 	 EpLen 500
+Episode 94 	 EpRet -0.080 	 EpLen 500
+Episode 95 	 EpRet -0.067 	 EpLen 500
+Episode 96 	 EpRet -0.069 	 EpLen 500
+Episode 97 	 EpRet -0.083 	 EpLen 500
+Episode 98 	 EpRet -0.088 	 EpLen 500
+Episode 99 	 EpRet -0.083 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0873 |
+|        StdEpRet |          0.0735 |
+|        MaxEpRet |          -0.061 |
+|        MinEpRet |          -0.595 |
+|           EpLen |             496 |
+-------------------------------------
+On evaluation 45 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed533630/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945839/progress.txt
+Episode 0 	 EpRet -0.071 	 EpLen 500
+Episode 1 	 EpRet -0.063 	 EpLen 500
+Episode 2 	 EpRet -0.068 	 EpLen 500
+Episode 3 	 EpRet -0.067 	 EpLen 500
+Episode 4 	 EpRet -0.066 	 EpLen 500
+Episode 5 	 EpRet -0.067 	 EpLen 500
+Episode 6 	 EpRet -0.070 	 EpLen 500
+Episode 7 	 EpRet -0.065 	 EpLen 500
+Episode 8 	 EpRet -0.076 	 EpLen 500
+Episode 9 	 EpRet -0.065 	 EpLen 500
+Episode 10 	 EpRet -0.071 	 EpLen 500
+Episode 11 	 EpRet -0.066 	 EpLen 500
+Episode 12 	 EpRet -0.057 	 EpLen 500
+Episode 13 	 EpRet -0.074 	 EpLen 500
+Episode 14 	 EpRet -0.065 	 EpLen 500
+Episode 15 	 EpRet -0.073 	 EpLen 500
+Episode 16 	 EpRet -0.087 	 EpLen 500
+Episode 17 	 EpRet -0.065 	 EpLen 500
+Episode 18 	 EpRet -0.070 	 EpLen 500
+Episode 19 	 EpRet -0.059 	 EpLen 500
+Episode 20 	 EpRet -0.076 	 EpLen 500
+Episode 21 	 EpRet -0.074 	 EpLen 500
+Episode 22 	 EpRet -0.060 	 EpLen 500
+Episode 23 	 EpRet -0.080 	 EpLen 500
+Episode 24 	 EpRet -0.068 	 EpLen 500
+Episode 25 	 EpRet -0.068 	 EpLen 500
+Episode 26 	 EpRet -0.073 	 EpLen 500
+Episode 27 	 EpRet -0.067 	 EpLen 500
+Episode 28 	 EpRet -0.063 	 EpLen 500
+Episode 29 	 EpRet -0.059 	 EpLen 500
+Episode 30 	 EpRet -0.064 	 EpLen 500
+Episode 31 	 EpRet -0.077 	 EpLen 500
+Episode 32 	 EpRet -0.066 	 EpLen 500
+Episode 33 	 EpRet -0.063 	 EpLen 500
+Episode 34 	 EpRet -0.070 	 EpLen 500
+Episode 35 	 EpRet -0.075 	 EpLen 500
+Episode 36 	 EpRet -0.072 	 EpLen 500
+Episode 37 	 EpRet -0.071 	 EpLen 500
+Episode 38 	 EpRet -0.067 	 EpLen 500
+Episode 39 	 EpRet -0.065 	 EpLen 500
+Episode 40 	 EpRet -0.072 	 EpLen 500
+Episode 41 	 EpRet -0.063 	 EpLen 500
+Episode 42 	 EpRet -0.058 	 EpLen 500
+Episode 43 	 EpRet -0.063 	 EpLen 500
+Episode 44 	 EpRet -0.063 	 EpLen 500
+Episode 45 	 EpRet -0.064 	 EpLen 500
+Episode 46 	 EpRet -0.071 	 EpLen 500
+Episode 47 	 EpRet -0.062 	 EpLen 500
+Episode 48 	 EpRet -0.070 	 EpLen 500
+Episode 49 	 EpRet -0.061 	 EpLen 500
+Episode 50 	 EpRet -0.065 	 EpLen 500
+Episode 51 	 EpRet -0.073 	 EpLen 500
+Episode 52 	 EpRet -0.072 	 EpLen 500
+Episode 53 	 EpRet -0.077 	 EpLen 500
+Episode 54 	 EpRet -0.067 	 EpLen 500
+Episode 55 	 EpRet -0.055 	 EpLen 500
+Episode 56 	 EpRet -0.072 	 EpLen 500
+Episode 57 	 EpRet -0.062 	 EpLen 500
+Episode 58 	 EpRet -0.069 	 EpLen 500
+Episode 59 	 EpRet -0.070 	 EpLen 500
+Episode 60 	 EpRet -0.058 	 EpLen 500
+Episode 61 	 EpRet -0.066 	 EpLen 500
+Episode 62 	 EpRet -0.076 	 EpLen 500
+Episode 63 	 EpRet -0.101 	 EpLen 500
+Episode 64 	 EpRet -0.070 	 EpLen 500
+Episode 65 	 EpRet -0.060 	 EpLen 500
+Episode 66 	 EpRet -0.063 	 EpLen 500
+Episode 67 	 EpRet -0.560 	 EpLen 74
+Episode 68 	 EpRet -0.063 	 EpLen 500
+Episode 69 	 EpRet -0.068 	 EpLen 500
+Episode 70 	 EpRet -0.069 	 EpLen 500
+Episode 71 	 EpRet -0.066 	 EpLen 500
+Episode 72 	 EpRet -0.067 	 EpLen 500
+Episode 73 	 EpRet -0.061 	 EpLen 500
+Episode 74 	 EpRet -0.073 	 EpLen 500
+Episode 75 	 EpRet -0.061 	 EpLen 500
+Episode 76 	 EpRet -0.075 	 EpLen 500
+Episode 77 	 EpRet -0.066 	 EpLen 500
+Episode 78 	 EpRet -0.070 	 EpLen 500
+Episode 79 	 EpRet -0.071 	 EpLen 500
+Episode 80 	 EpRet -0.069 	 EpLen 500
+Episode 81 	 EpRet -0.071 	 EpLen 500
+Episode 82 	 EpRet -0.065 	 EpLen 500
+Episode 83 	 EpRet -0.066 	 EpLen 500
+Episode 84 	 EpRet -0.072 	 EpLen 500
+Episode 85 	 EpRet -0.063 	 EpLen 500
+Episode 86 	 EpRet -0.074 	 EpLen 500
+Episode 87 	 EpRet -0.067 	 EpLen 500
+Episode 88 	 EpRet -0.068 	 EpLen 500
+Episode 89 	 EpRet -0.060 	 EpLen 500
+Episode 90 	 EpRet -0.065 	 EpLen 500
+Episode 91 	 EpRet -0.065 	 EpLen 500
+Episode 92 	 EpRet -0.073 	 EpLen 500
+Episode 93 	 EpRet -0.073 	 EpLen 500
+Episode 94 	 EpRet -0.059 	 EpLen 500
+Episode 95 	 EpRet -0.063 	 EpLen 500
+Episode 96 	 EpRet -0.069 	 EpLen 500
+Episode 97 	 EpRet -0.068 	 EpLen 500
+Episode 98 	 EpRet -0.077 	 EpLen 500
+Episode 99 	 EpRet -0.070 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0729 |
+|        StdEpRet |          0.0494 |
+|        MaxEpRet |          -0.055 |
+|        MinEpRet |           -0.56 |
+|           EpLen |             496 |
+-------------------------------------
+On evaluation 46 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed758954/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593945936/progress.txt
+Episode 0 	 EpRet -0.168 	 EpLen 500
+Episode 1 	 EpRet -0.183 	 EpLen 500
+Episode 2 	 EpRet -0.152 	 EpLen 500
+Episode 3 	 EpRet -0.191 	 EpLen 500
+Episode 4 	 EpRet -0.175 	 EpLen 500
+Episode 5 	 EpRet -0.224 	 EpLen 500
+Episode 6 	 EpRet -0.195 	 EpLen 500
+Episode 7 	 EpRet -0.179 	 EpLen 500
+Episode 8 	 EpRet -0.117 	 EpLen 500
+Episode 9 	 EpRet -0.139 	 EpLen 500
+Episode 10 	 EpRet -0.161 	 EpLen 500
+Episode 11 	 EpRet -0.172 	 EpLen 500
+Episode 12 	 EpRet -0.154 	 EpLen 500
+Episode 13 	 EpRet -0.144 	 EpLen 500
+Episode 14 	 EpRet -0.221 	 EpLen 500
+Episode 15 	 EpRet -0.112 	 EpLen 500
+Episode 16 	 EpRet -0.145 	 EpLen 500
+Episode 17 	 EpRet -0.131 	 EpLen 500
+Episode 18 	 EpRet -0.156 	 EpLen 500
+Episode 19 	 EpRet -0.148 	 EpLen 500
+Episode 20 	 EpRet -0.220 	 EpLen 500
+Episode 21 	 EpRet -0.191 	 EpLen 500
+Episode 22 	 EpRet -0.154 	 EpLen 500
+Episode 23 	 EpRet -0.205 	 EpLen 500
+Episode 24 	 EpRet -0.105 	 EpLen 500
+Episode 25 	 EpRet -0.172 	 EpLen 500
+Episode 26 	 EpRet -0.198 	 EpLen 500
+Episode 27 	 EpRet -0.180 	 EpLen 500
+Episode 28 	 EpRet -0.187 	 EpLen 500
+Episode 29 	 EpRet -0.289 	 EpLen 500
+Episode 30 	 EpRet -0.172 	 EpLen 500
+Episode 31 	 EpRet -0.192 	 EpLen 500
+Episode 32 	 EpRet -0.149 	 EpLen 500
+Episode 33 	 EpRet -0.211 	 EpLen 500
+Episode 34 	 EpRet -0.150 	 EpLen 500
+Episode 35 	 EpRet -0.214 	 EpLen 500
+Episode 36 	 EpRet -0.127 	 EpLen 500
+Episode 37 	 EpRet -0.185 	 EpLen 500
+Episode 38 	 EpRet -0.195 	 EpLen 500
+Episode 39 	 EpRet -0.129 	 EpLen 500
+Episode 40 	 EpRet -0.172 	 EpLen 500
+Episode 41 	 EpRet -0.170 	 EpLen 500
+Episode 42 	 EpRet -0.088 	 EpLen 500
+Episode 43 	 EpRet -0.203 	 EpLen 500
+Episode 44 	 EpRet -0.193 	 EpLen 500
+Episode 45 	 EpRet -0.104 	 EpLen 500
+Episode 46 	 EpRet -0.146 	 EpLen 500
+Episode 47 	 EpRet -0.166 	 EpLen 500
+Episode 48 	 EpRet -0.199 	 EpLen 500
+Episode 49 	 EpRet -0.217 	 EpLen 500
+Episode 50 	 EpRet -0.170 	 EpLen 500
+Episode 51 	 EpRet -0.183 	 EpLen 500
+Episode 52 	 EpRet -0.154 	 EpLen 500
+Episode 53 	 EpRet -0.185 	 EpLen 500
+Episode 54 	 EpRet -0.127 	 EpLen 500
+Episode 55 	 EpRet -0.200 	 EpLen 500
+Episode 56 	 EpRet -0.197 	 EpLen 500
+Episode 57 	 EpRet -0.222 	 EpLen 500
+Episode 58 	 EpRet -0.155 	 EpLen 500
+Episode 59 	 EpRet -0.166 	 EpLen 500
+Episode 60 	 EpRet -0.101 	 EpLen 500
+Episode 61 	 EpRet -0.226 	 EpLen 500
+Episode 62 	 EpRet -0.169 	 EpLen 500
+Episode 63 	 EpRet -0.127 	 EpLen 500
+Episode 64 	 EpRet -0.104 	 EpLen 500
+Episode 65 	 EpRet -0.624 	 EpLen 500
+Episode 66 	 EpRet -0.168 	 EpLen 500
+Episode 67 	 EpRet -0.215 	 EpLen 500
+Episode 68 	 EpRet -0.164 	 EpLen 500
+Episode 69 	 EpRet -0.146 	 EpLen 500
+Episode 70 	 EpRet -0.186 	 EpLen 500
+Episode 71 	 EpRet -0.109 	 EpLen 500
+Episode 72 	 EpRet -0.179 	 EpLen 500
+Episode 73 	 EpRet -0.112 	 EpLen 500
+Episode 74 	 EpRet -0.266 	 EpLen 500
+Episode 75 	 EpRet -0.172 	 EpLen 500
+Episode 76 	 EpRet -0.154 	 EpLen 500
+Episode 77 	 EpRet -0.131 	 EpLen 500
+Episode 78 	 EpRet -0.211 	 EpLen 500
+Episode 79 	 EpRet -0.228 	 EpLen 500
+Episode 80 	 EpRet -0.202 	 EpLen 500
+Episode 81 	 EpRet -0.123 	 EpLen 500
+Episode 82 	 EpRet -0.153 	 EpLen 500
+Episode 83 	 EpRet -0.124 	 EpLen 500
+Episode 84 	 EpRet -0.206 	 EpLen 500
+Episode 85 	 EpRet -0.128 	 EpLen 500
+Episode 86 	 EpRet -0.147 	 EpLen 500
+Episode 87 	 EpRet -0.155 	 EpLen 500
+Episode 88 	 EpRet -0.151 	 EpLen 500
+Episode 89 	 EpRet -0.140 	 EpLen 500
+Episode 90 	 EpRet -0.160 	 EpLen 500
+Episode 91 	 EpRet -0.178 	 EpLen 500
+Episode 92 	 EpRet -0.164 	 EpLen 500
+Episode 93 	 EpRet -0.185 	 EpLen 500
+Episode 94 	 EpRet -0.149 	 EpLen 500
+Episode 95 	 EpRet -0.145 	 EpLen 500
+Episode 96 	 EpRet -0.165 	 EpLen 500
+Episode 97 	 EpRet -0.127 	 EpLen 500
+Episode 98 	 EpRet -0.177 	 EpLen 500
+Episode 99 	 EpRet -0.108 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.172 |
+|        StdEpRet |          0.0582 |
+|        MaxEpRet |          -0.088 |
+|        MinEpRet |          -0.624 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 47 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed996752/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593946033/progress.txt
+Episode 0 	 EpRet -0.149 	 EpLen 500
+Episode 1 	 EpRet -0.107 	 EpLen 500
+Episode 2 	 EpRet -0.085 	 EpLen 500
+Episode 3 	 EpRet -0.103 	 EpLen 500
+Episode 4 	 EpRet -0.111 	 EpLen 500
+Episode 5 	 EpRet -0.100 	 EpLen 500
+Episode 6 	 EpRet -0.092 	 EpLen 500
+Episode 7 	 EpRet -0.099 	 EpLen 500
+Episode 8 	 EpRet -0.105 	 EpLen 500
+Episode 9 	 EpRet -0.089 	 EpLen 500
+Episode 10 	 EpRet -0.102 	 EpLen 500
+Episode 11 	 EpRet -0.139 	 EpLen 500
+Episode 12 	 EpRet -0.121 	 EpLen 500
+Episode 13 	 EpRet -0.096 	 EpLen 500
+Episode 14 	 EpRet -0.088 	 EpLen 500
+Episode 15 	 EpRet -0.088 	 EpLen 500
+Episode 16 	 EpRet -0.092 	 EpLen 500
+Episode 17 	 EpRet -0.094 	 EpLen 500
+Episode 18 	 EpRet -0.093 	 EpLen 500
+Episode 19 	 EpRet -0.094 	 EpLen 500
+Episode 20 	 EpRet -0.128 	 EpLen 500
+Episode 21 	 EpRet -0.101 	 EpLen 500
+Episode 22 	 EpRet -0.133 	 EpLen 500
+Episode 23 	 EpRet -0.109 	 EpLen 500
+Episode 24 	 EpRet -0.100 	 EpLen 500
+Episode 25 	 EpRet -0.091 	 EpLen 500
+Episode 26 	 EpRet -0.092 	 EpLen 500
+Episode 27 	 EpRet -0.107 	 EpLen 500
+Episode 28 	 EpRet -0.101 	 EpLen 500
+Episode 29 	 EpRet -0.092 	 EpLen 500
+Episode 30 	 EpRet -0.089 	 EpLen 500
+Episode 31 	 EpRet -0.098 	 EpLen 500
+Episode 32 	 EpRet -0.208 	 EpLen 500
+Episode 33 	 EpRet -0.092 	 EpLen 500
+Episode 34 	 EpRet -0.109 	 EpLen 500
+Episode 35 	 EpRet -0.117 	 EpLen 500
+Episode 36 	 EpRet -0.124 	 EpLen 500
+Episode 37 	 EpRet -0.093 	 EpLen 500
+Episode 38 	 EpRet -0.092 	 EpLen 500
+Episode 39 	 EpRet -0.092 	 EpLen 500
+Episode 40 	 EpRet -0.111 	 EpLen 500
+Episode 41 	 EpRet -0.136 	 EpLen 500
+Episode 42 	 EpRet -0.078 	 EpLen 500
+Episode 43 	 EpRet -0.094 	 EpLen 500
+Episode 44 	 EpRet -0.100 	 EpLen 500
+Episode 45 	 EpRet -0.091 	 EpLen 500
+Episode 46 	 EpRet -0.113 	 EpLen 500
+Episode 47 	 EpRet -0.138 	 EpLen 500
+Episode 48 	 EpRet -0.088 	 EpLen 500
+Episode 49 	 EpRet -0.087 	 EpLen 500
+Episode 50 	 EpRet -0.187 	 EpLen 500
+Episode 51 	 EpRet -0.110 	 EpLen 500
+Episode 52 	 EpRet -0.102 	 EpLen 500
+Episode 53 	 EpRet -0.115 	 EpLen 500
+Episode 54 	 EpRet -0.089 	 EpLen 500
+Episode 55 	 EpRet -0.085 	 EpLen 500
+Episode 56 	 EpRet -0.106 	 EpLen 500
+Episode 57 	 EpRet -0.083 	 EpLen 500
+Episode 58 	 EpRet -0.101 	 EpLen 500
+Episode 59 	 EpRet -0.145 	 EpLen 500
+Episode 60 	 EpRet -0.169 	 EpLen 500
+Episode 61 	 EpRet -0.091 	 EpLen 500
+Episode 62 	 EpRet -0.129 	 EpLen 500
+Episode 63 	 EpRet -0.105 	 EpLen 500
+Episode 64 	 EpRet -0.159 	 EpLen 500
+Episode 65 	 EpRet -0.091 	 EpLen 500
+Episode 66 	 EpRet -0.088 	 EpLen 500
+Episode 67 	 EpRet -0.106 	 EpLen 500
+Episode 68 	 EpRet -0.180 	 EpLen 500
+Episode 69 	 EpRet -0.085 	 EpLen 500
+Episode 70 	 EpRet -0.126 	 EpLen 500
+Episode 71 	 EpRet -0.098 	 EpLen 500
+Episode 72 	 EpRet -0.085 	 EpLen 500
+Episode 73 	 EpRet -0.080 	 EpLen 500
+Episode 74 	 EpRet -0.150 	 EpLen 500
+Episode 75 	 EpRet -0.084 	 EpLen 500
+Episode 76 	 EpRet -0.096 	 EpLen 500
+Episode 77 	 EpRet -0.113 	 EpLen 500
+Episode 78 	 EpRet -0.090 	 EpLen 500
+Episode 79 	 EpRet -0.094 	 EpLen 500
+Episode 80 	 EpRet -0.166 	 EpLen 500
+Episode 81 	 EpRet -0.097 	 EpLen 500
+Episode 82 	 EpRet -0.118 	 EpLen 500
+Episode 83 	 EpRet -0.080 	 EpLen 500
+Episode 84 	 EpRet -0.103 	 EpLen 500
+Episode 85 	 EpRet -0.092 	 EpLen 500
+Episode 86 	 EpRet -0.093 	 EpLen 500
+Episode 87 	 EpRet -0.104 	 EpLen 500
+Episode 88 	 EpRet -0.116 	 EpLen 500
+Episode 89 	 EpRet -0.087 	 EpLen 500
+Episode 90 	 EpRet -0.106 	 EpLen 500
+Episode 91 	 EpRet -0.088 	 EpLen 500
+Episode 92 	 EpRet -0.106 	 EpLen 500
+Episode 93 	 EpRet -0.095 	 EpLen 500
+Episode 94 	 EpRet -0.096 	 EpLen 500
+Episode 95 	 EpRet -0.084 	 EpLen 500
+Episode 96 	 EpRet -0.105 	 EpLen 500
+Episode 97 	 EpRet -0.117 	 EpLen 500
+Episode 98 	 EpRet -0.101 	 EpLen 500
+Episode 99 	 EpRet -0.092 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |          -0.106 |
+|        StdEpRet |          0.0241 |
+|        MaxEpRet |          -0.078 |
+|        MinEpRet |          -0.208 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 48 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed882669/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593946129/progress.txt
+Episode 0 	 EpRet -0.087 	 EpLen 500
+Episode 1 	 EpRet -0.083 	 EpLen 500
+Episode 2 	 EpRet -0.084 	 EpLen 500
+Episode 3 	 EpRet -0.092 	 EpLen 500
+Episode 4 	 EpRet -0.070 	 EpLen 500
+Episode 5 	 EpRet -0.098 	 EpLen 500
+Episode 6 	 EpRet -0.086 	 EpLen 500
+Episode 7 	 EpRet -0.079 	 EpLen 500
+Episode 8 	 EpRet -0.095 	 EpLen 500
+Episode 9 	 EpRet -0.093 	 EpLen 500
+Episode 10 	 EpRet -0.085 	 EpLen 500
+Episode 11 	 EpRet -0.093 	 EpLen 500
+Episode 12 	 EpRet -0.094 	 EpLen 500
+Episode 13 	 EpRet -0.084 	 EpLen 500
+Episode 14 	 EpRet -0.083 	 EpLen 500
+Episode 15 	 EpRet -0.085 	 EpLen 500
+Episode 16 	 EpRet -0.088 	 EpLen 500
+Episode 17 	 EpRet -0.084 	 EpLen 500
+Episode 18 	 EpRet -0.081 	 EpLen 500
+Episode 19 	 EpRet -0.081 	 EpLen 500
+Episode 20 	 EpRet -0.090 	 EpLen 500
+Episode 21 	 EpRet -0.131 	 EpLen 500
+Episode 22 	 EpRet -0.089 	 EpLen 500
+Episode 23 	 EpRet -0.096 	 EpLen 500
+Episode 24 	 EpRet -0.089 	 EpLen 500
+Episode 25 	 EpRet -0.092 	 EpLen 500
+Episode 26 	 EpRet -0.094 	 EpLen 500
+Episode 27 	 EpRet -0.078 	 EpLen 500
+Episode 28 	 EpRet -0.090 	 EpLen 500
+Episode 29 	 EpRet -0.084 	 EpLen 500
+Episode 30 	 EpRet -0.090 	 EpLen 500
+Episode 31 	 EpRet -0.084 	 EpLen 500
+Episode 32 	 EpRet -0.089 	 EpLen 500
+Episode 33 	 EpRet -0.094 	 EpLen 500
+Episode 34 	 EpRet -0.091 	 EpLen 500
+Episode 35 	 EpRet -0.097 	 EpLen 500
+Episode 36 	 EpRet -0.085 	 EpLen 500
+Episode 37 	 EpRet -0.093 	 EpLen 500
+Episode 38 	 EpRet -0.098 	 EpLen 500
+Episode 39 	 EpRet -0.090 	 EpLen 500
+Episode 40 	 EpRet -0.080 	 EpLen 500
+Episode 41 	 EpRet -0.079 	 EpLen 500
+Episode 42 	 EpRet -0.081 	 EpLen 500
+Episode 43 	 EpRet -0.091 	 EpLen 500
+Episode 44 	 EpRet -0.079 	 EpLen 500
+Episode 45 	 EpRet -0.075 	 EpLen 500
+Episode 46 	 EpRet -0.095 	 EpLen 500
+Episode 47 	 EpRet -0.083 	 EpLen 500
+Episode 48 	 EpRet -0.084 	 EpLen 500
+Episode 49 	 EpRet -0.077 	 EpLen 500
+Episode 50 	 EpRet -0.085 	 EpLen 500
+Episode 51 	 EpRet -0.091 	 EpLen 500
+Episode 52 	 EpRet -0.105 	 EpLen 500
+Episode 53 	 EpRet -0.085 	 EpLen 500
+Episode 54 	 EpRet -0.090 	 EpLen 500
+Episode 55 	 EpRet -0.084 	 EpLen 500
+Episode 56 	 EpRet -0.092 	 EpLen 500
+Episode 57 	 EpRet -0.082 	 EpLen 500
+Episode 58 	 EpRet -0.089 	 EpLen 500
+Episode 59 	 EpRet -0.101 	 EpLen 500
+Episode 60 	 EpRet -0.087 	 EpLen 500
+Episode 61 	 EpRet -0.088 	 EpLen 500
+Episode 62 	 EpRet -0.085 	 EpLen 500
+Episode 63 	 EpRet -0.090 	 EpLen 500
+Episode 64 	 EpRet -0.109 	 EpLen 500
+Episode 65 	 EpRet -0.083 	 EpLen 500
+Episode 66 	 EpRet -0.081 	 EpLen 500
+Episode 67 	 EpRet -0.084 	 EpLen 500
+Episode 68 	 EpRet -0.077 	 EpLen 500
+Episode 69 	 EpRet -0.079 	 EpLen 500
+Episode 70 	 EpRet -0.095 	 EpLen 500
+Episode 71 	 EpRet -0.077 	 EpLen 500
+Episode 72 	 EpRet -0.071 	 EpLen 500
+Episode 73 	 EpRet -0.088 	 EpLen 500
+Episode 74 	 EpRet -0.097 	 EpLen 500
+Episode 75 	 EpRet -0.089 	 EpLen 500
+Episode 76 	 EpRet -0.102 	 EpLen 500
+Episode 77 	 EpRet -0.086 	 EpLen 500
+Episode 78 	 EpRet -0.086 	 EpLen 500
+Episode 79 	 EpRet -0.088 	 EpLen 500
+Episode 80 	 EpRet -0.085 	 EpLen 500
+Episode 81 	 EpRet -0.094 	 EpLen 500
+Episode 82 	 EpRet -0.088 	 EpLen 500
+Episode 83 	 EpRet -0.083 	 EpLen 500
+Episode 84 	 EpRet -0.085 	 EpLen 500
+Episode 85 	 EpRet -0.082 	 EpLen 500
+Episode 86 	 EpRet -0.089 	 EpLen 500
+Episode 87 	 EpRet -0.086 	 EpLen 500
+Episode 88 	 EpRet -0.079 	 EpLen 500
+Episode 89 	 EpRet -0.082 	 EpLen 500
+Episode 90 	 EpRet -0.084 	 EpLen 500
+Episode 91 	 EpRet -0.083 	 EpLen 500
+Episode 92 	 EpRet -0.102 	 EpLen 500
+Episode 93 	 EpRet -0.078 	 EpLen 500
+Episode 94 	 EpRet -0.083 	 EpLen 500
+Episode 95 	 EpRet -0.082 	 EpLen 500
+Episode 96 	 EpRet -0.087 	 EpLen 500
+Episode 97 	 EpRet -0.084 	 EpLen 500
+Episode 98 	 EpRet -0.105 	 EpLen 500
+Episode 99 	 EpRet -0.099 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0878 |
+|        StdEpRet |         0.00838 |
+|        MaxEpRet |           -0.07 |
+|        MinEpRet |          -0.131 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 49 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed178646/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593946227/progress.txt
+Episode 0 	 EpRet -0.143 	 EpLen 500
+Episode 1 	 EpRet -0.124 	 EpLen 500
+Episode 2 	 EpRet -0.136 	 EpLen 500
+Episode 3 	 EpRet -0.153 	 EpLen 500
+Episode 4 	 EpRet -0.145 	 EpLen 500
+Episode 5 	 EpRet -0.121 	 EpLen 500
+Episode 6 	 EpRet -0.128 	 EpLen 500
+Episode 7 	 EpRet -0.132 	 EpLen 500
+Episode 8 	 EpRet -0.145 	 EpLen 500
+Episode 9 	 EpRet -0.127 	 EpLen 500
+Episode 10 	 EpRet -0.135 	 EpLen 500
+Episode 11 	 EpRet -0.142 	 EpLen 500
+Episode 12 	 EpRet -0.130 	 EpLen 500
+Episode 13 	 EpRet -0.123 	 EpLen 500
+Episode 14 	 EpRet -0.112 	 EpLen 500
+Episode 15 	 EpRet -0.149 	 EpLen 500
+Episode 16 	 EpRet -0.133 	 EpLen 500
+Episode 17 	 EpRet -0.136 	 EpLen 500
+Episode 18 	 EpRet -0.132 	 EpLen 500
+Episode 19 	 EpRet -0.148 	 EpLen 500
+Episode 20 	 EpRet -0.134 	 EpLen 500
+Episode 21 	 EpRet -0.145 	 EpLen 500
+Episode 22 	 EpRet -0.144 	 EpLen 500
+Episode 23 	 EpRet -0.134 	 EpLen 500
+Episode 24 	 EpRet -0.130 	 EpLen 500
+Episode 25 	 EpRet -0.639 	 EpLen 500
+Episode 26 	 EpRet -0.138 	 EpLen 500
+Episode 27 	 EpRet -0.126 	 EpLen 500
+Episode 28 	 EpRet -0.145 	 EpLen 500
+Episode 29 	 EpRet -0.139 	 EpLen 500
+Episode 30 	 EpRet -0.135 	 EpLen 500
+Episode 31 	 EpRet -0.142 	 EpLen 500
+Episode 32 	 EpRet -0.157 	 EpLen 500
+Episode 33 	 EpRet -0.147 	 EpLen 500
+Episode 34 	 EpRet -0.147 	 EpLen 500
+Episode 35 	 EpRet -0.150 	 EpLen 500
+Episode 36 	 EpRet -0.120 	 EpLen 500
+Episode 37 	 EpRet -0.138 	 EpLen 500
+Episode 38 	 EpRet -0.124 	 EpLen 500
+Episode 39 	 EpRet -0.132 	 EpLen 500
+Episode 40 	 EpRet -0.127 	 EpLen 500
+Episode 41 	 EpRet -0.143 	 EpLen 500
+Episode 42 	 EpRet -0.112 	 EpLen 500
+Episode 43 	 EpRet -0.137 	 EpLen 500
+Episode 44 	 EpRet -0.118 	 EpLen 500
+Episode 45 	 EpRet -0.131 	 EpLen 500
+Episode 46 	 EpRet -0.155 	 EpLen 500
+Episode 47 	 EpRet -0.126 	 EpLen 500
+Episode 48 	 EpRet -0.128 	 EpLen 500
+Episode 49 	 EpRet -0.116 	 EpLen 500
+Episode 50 	 EpRet -0.137 	 EpLen 500
+Episode 51 	 EpRet -0.140 	 EpLen 500
+Episode 52 	 EpRet -0.140 	 EpLen 500
+Episode 53 	 EpRet -0.146 	 EpLen 500
+Episode 54 	 EpRet -0.144 	 EpLen 500
+Episode 55 	 EpRet -0.133 	 EpLen 500
+Episode 56 	 EpRet -0.159 	 EpLen 500
+Episode 57 	 EpRet -0.136 	 EpLen 500
+Episode 58 	 EpRet -0.115 	 EpLen 500
+Episode 59 	 EpRet -0.156 	 EpLen 500
+Episode 60 	 EpRet -0.125 	 EpLen 500
+Episode 61 	 EpRet -0.125 	 EpLen 500
+Episode 62 	 EpRet -0.131 	 EpLen 500
+Episode 63 	 EpRet -0.134 	 EpLen 500
+Episode 64 	 EpRet -0.160 	 EpLen 500
+Episode 65 	 EpRet -0.139 	 EpLen 500
+Episode 66 	 EpRet -0.134 	 EpLen 500
+Episode 67 	 EpRet -0.121 	 EpLen 500
+Episode 68 	 EpRet -0.127 	 EpLen 500
+Episode 69 	 EpRet -0.110 	 EpLen 500
+Episode 70 	 EpRet -0.131 	 EpLen 500
+Episode 71 	 EpRet -0.140 	 EpLen 500
+Episode 72 	 EpRet -0.119 	 EpLen 500
+Episode 73 	 EpRet -0.122 	 EpLen 500
+Episode 74 	 EpRet -0.118 	 EpLen 500
+Episode 75 	 EpRet -0.127 	 EpLen 500
+Episode 76 	 EpRet -0.134 	 EpLen 500
+Episode 77 	 EpRet -0.124 	 EpLen 500
+Episode 78 	 EpRet -0.150 	 EpLen 500
+Episode 79 	 EpRet -0.142 	 EpLen 500
+Episode 80 	 EpRet -0.123 	 EpLen 500
+Episode 81 	 EpRet -0.139 	 EpLen 500
+Episode 82 	 EpRet -0.148 	 EpLen 500
+Episode 83 	 EpRet -0.130 	 EpLen 500
+Episode 84 	 EpRet -0.134 	 EpLen 500
+Episode 85 	 EpRet -0.133 	 EpLen 500
+Episode 86 	 EpRet -0.139 	 EpLen 500
+Episode 87 	 EpRet -0.117 	 EpLen 500
+Episode 88 	 EpRet -0.141 	 EpLen 500
+Episode 89 	 EpRet -0.130 	 EpLen 500
+Episode 90 	 EpRet -0.120 	 EpLen 500
+Episode 91 	 EpRet -0.146 	 EpLen 500
+Episode 92 	 EpRet -0.140 	 EpLen 500
+Episode 93 	 EpRet -0.137 	 EpLen 500
+Episode 94 	 EpRet -0.136 	 EpLen 500
+Episode 95 	 EpRet -0.120 	 EpLen 500
+Episode 96 	 EpRet -0.142 	 EpLen 500
+Episode 97 	 EpRet -0.144 	 EpLen 500
+Episode 98 	 EpRet -0.131 	 EpLen 500
+Episode 99 	 EpRet -0.133 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |           -0.14 |
+|        StdEpRet |          0.0514 |
+|        MaxEpRet |           -0.11 |
+|        MinEpRet |          -0.639 |
+|           EpLen |             500 |
+-------------------------------------
+On evaluation 50 / 50.
+
+
+Loading from /content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe4000_gam0.99_lam0.99_tkl0.01_tpi80_tvi80_cr0.2_seed840480/pyt_save/model.pt.
+
+
+Logging data to /tmp/experiments/1593946326/progress.txt
+Episode 0 	 EpRet -0.086 	 EpLen 500
+Episode 1 	 EpRet -0.072 	 EpLen 500
+Episode 2 	 EpRet -0.087 	 EpLen 500
+Episode 3 	 EpRet -0.101 	 EpLen 500
+Episode 4 	 EpRet -0.084 	 EpLen 500
+Episode 5 	 EpRet -0.074 	 EpLen 500
+Episode 6 	 EpRet -0.107 	 EpLen 500
+Episode 7 	 EpRet -0.085 	 EpLen 500
+Episode 8 	 EpRet -0.078 	 EpLen 500
+Episode 9 	 EpRet -0.081 	 EpLen 500
+Episode 10 	 EpRet -0.129 	 EpLen 500
+Episode 11 	 EpRet -0.081 	 EpLen 500
+Episode 12 	 EpRet -0.068 	 EpLen 500
+Episode 13 	 EpRet -0.073 	 EpLen 500
+Episode 14 	 EpRet -0.077 	 EpLen 500
+Episode 15 	 EpRet -0.102 	 EpLen 500
+Episode 16 	 EpRet -0.118 	 EpLen 500
+Episode 17 	 EpRet -0.074 	 EpLen 500
+Episode 18 	 EpRet -0.082 	 EpLen 500
+Episode 19 	 EpRet -0.065 	 EpLen 500
+Episode 20 	 EpRet -0.090 	 EpLen 500
+Episode 21 	 EpRet -0.083 	 EpLen 500
+Episode 22 	 EpRet -0.102 	 EpLen 500
+Episode 23 	 EpRet -0.083 	 EpLen 500
+Episode 24 	 EpRet -0.077 	 EpLen 500
+Episode 25 	 EpRet -0.143 	 EpLen 500
+Episode 26 	 EpRet -0.107 	 EpLen 500
+Episode 27 	 EpRet -0.069 	 EpLen 500
+Episode 28 	 EpRet -0.084 	 EpLen 500
+Episode 29 	 EpRet -0.096 	 EpLen 500
+Episode 30 	 EpRet -0.153 	 EpLen 500
+Episode 31 	 EpRet -0.079 	 EpLen 500
+Episode 32 	 EpRet -0.091 	 EpLen 500
+Episode 33 	 EpRet -0.096 	 EpLen 500
+
+/usr/local/lib/python3.6/dist-packages/scipy/integrate/_ivp/rk.py:503: RuntimeWarning: invalid value encountered in double_scalars
+  return np.abs(h) * err5_norm_2 / np.sqrt(denom * len(scale))
+
+Episode 34 	 EpRet -0.093 	 EpLen 500
+Episode 35 	 EpRet -0.095 	 EpLen 500
+Episode 36 	 EpRet -0.099 	 EpLen 500
+Episode 37 	 EpRet -0.072 	 EpLen 500
+Episode 38 	 EpRet -0.083 	 EpLen 500
+Episode 39 	 EpRet -0.109 	 EpLen 500
+Episode 40 	 EpRet -0.076 	 EpLen 500
+Episode 41 	 EpRet -0.077 	 EpLen 500
+Episode 42 	 EpRet -0.080 	 EpLen 500
+Episode 43 	 EpRet -0.100 	 EpLen 500
+Episode 44 	 EpRet -0.079 	 EpLen 500
+Episode 45 	 EpRet -0.086 	 EpLen 500
+Episode 46 	 EpRet -0.111 	 EpLen 500
+Episode 47 	 EpRet -0.079 	 EpLen 500
+Episode 48 	 EpRet -0.104 	 EpLen 500
+Episode 49 	 EpRet -0.089 	 EpLen 500
+Episode 50 	 EpRet -0.080 	 EpLen 500
+Episode 51 	 EpRet -0.085 	 EpLen 500
+Episode 52 	 EpRet -0.113 	 EpLen 500
+Episode 53 	 EpRet -0.118 	 EpLen 500
+Episode 54 	 EpRet -0.078 	 EpLen 500
+Episode 55 	 EpRet -0.074 	 EpLen 500
+Episode 56 	 EpRet -0.076 	 EpLen 500
+Episode 57 	 EpRet -0.084 	 EpLen 500
+Episode 58 	 EpRet -0.065 	 EpLen 500
+Episode 59 	 EpRet -0.092 	 EpLen 500
+Episode 60 	 EpRet -0.075 	 EpLen 500
+Episode 61 	 EpRet -0.085 	 EpLen 500
+Episode 62 	 EpRet -0.090 	 EpLen 500
+Episode 63 	 EpRet -0.085 	 EpLen 500
+Episode 64 	 EpRet -0.090 	 EpLen 500
+Episode 65 	 EpRet -0.090 	 EpLen 500
+Episode 66 	 EpRet -0.092 	 EpLen 500
+Episode 67 	 EpRet -0.075 	 EpLen 500
+Episode 68 	 EpRet -0.090 	 EpLen 500
+Episode 69 	 EpRet -0.087 	 EpLen 500
+Episode 70 	 EpRet -0.081 	 EpLen 500
+Episode 71 	 EpRet -0.079 	 EpLen 500
+Episode 72 	 EpRet -0.093 	 EpLen 500
+Episode 73 	 EpRet -0.068 	 EpLen 500
+Episode 74 	 EpRet -0.084 	 EpLen 500
+Episode 75 	 EpRet -0.084 	 EpLen 500
+Episode 76 	 EpRet -0.098 	 EpLen 500
+Episode 77 	 EpRet -0.083 	 EpLen 500
+Episode 78 	 EpRet -0.087 	 EpLen 500
+Episode 79 	 EpRet -0.091 	 EpLen 500
+Episode 80 	 EpRet -0.081 	 EpLen 500
+Episode 81 	 EpRet -0.074 	 EpLen 500
+Episode 82 	 EpRet -0.083 	 EpLen 500
+Episode 83 	 EpRet -0.072 	 EpLen 500
+Episode 84 	 EpRet -0.080 	 EpLen 500
+Episode 85 	 EpRet -0.077 	 EpLen 500
+Episode 86 	 EpRet -0.122 	 EpLen 500
+Episode 87 	 EpRet -0.124 	 EpLen 500
+Episode 88 	 EpRet -0.087 	 EpLen 500
+Episode 89 	 EpRet -0.125 	 EpLen 500
+Episode 90 	 EpRet -0.081 	 EpLen 500
+Episode 91 	 EpRet -0.073 	 EpLen 500
+Episode 92 	 EpRet -0.086 	 EpLen 500
+Episode 93 	 EpRet -0.081 	 EpLen 500
+Episode 94 	 EpRet -0.081 	 EpLen 500
+Episode 95 	 EpRet -0.072 	 EpLen 500
+Episode 96 	 EpRet -0.081 	 EpLen 500
+Episode 97 	 EpRet -0.077 	 EpLen 500
+Episode 98 	 EpRet -0.087 	 EpLen 500
+Episode 99 	 EpRet -0.095 	 EpLen 500
+-------------------------------------
+|    AverageEpRet |         -0.0882 |
+|        StdEpRet |           0.016 |
+|        MaxEpRet |          -0.065 |
+|        MinEpRet |          -0.153 |
+|           EpLen |             500 |
+-------------------------------------
+

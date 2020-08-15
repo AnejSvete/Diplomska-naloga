@@ -1,0 +1,514 @@
+The found policy is good enough. stopping.
+It took us 31 epochs!
+SUCCESSFUL episodes: 174, UNSUCCESSFUL episodes: 322
+Success ratio = 0.35080645161290325
+All rewards statistics:
+count    496.000000
+mean      -0.438177
+std        0.247779
+min       -0.961000
+25%       -0.576250
+50%       -0.533000
+75%       -0.125750
+max       -0.059000
+dtype: float64
+All episode length statistics:
+count    496.00000
+mean     191.96371
+std      152.25681
+min       21.00000
+25%       43.75000
+50%      209.50000
+75%      272.00000
+max      500.00000
+dtype: float64
+Successful rewards statistics:
+count    174.000000
+mean      -0.126971
+std        0.071900
+min       -0.440000
+25%       -0.138250
+50%       -0.099000
+75%       -0.081000
+max       -0.059000
+dtype: float64
+Successful episode length statistics:
+count    174.000000
+mean     305.034483
+std      101.251641
+min      209.000000
+25%      231.000000
+50%      250.500000
+75%      386.000000
+max      500.000000
+dtype: float64
+
+
+
+
+
+Plotting from...
+==================================================
+
+/content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe500_gam0.99_lam0.99_tkl0.01_tpi100_tvi80_cr0.1_seed278168
+
+==================================================
+            Epoch  ...  Performance
+count   31.000000  ...    31.000000
+unique        NaN  ...          NaN
+top           NaN  ...          NaN
+freq          NaN  ...          NaN
+mean    15.000000  ...    -0.347468
+std      9.092121  ...     0.180003
+min      0.000000  ...    -0.537307
+25%      7.500000  ...    -0.517225
+50%     15.000000  ...    -0.416310
+75%     22.500000  ...    -0.148118
+max     30.000000  ...    -0.063400
+
+[11 rows x 24 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31 entries, 0 to 30
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Epoch              31 non-null     int64  
+ 1   AverageEpRet       31 non-null     float64
+ 2   StdEpRet           31 non-null     float64
+ 3   MaxEpRet           31 non-null     float64
+ 4   MinEpRet           31 non-null     float64
+ 5   EpLen              31 non-null     float64
+ 6   AverageVVals       31 non-null     float64
+ 7   StdVVals           31 non-null     float64
+ 8   MaxVVals           31 non-null     float64
+ 9   MinVVals           31 non-null     float64
+ 10  TotalEnvInteracts  31 non-null     int64  
+ 11  LossPi             31 non-null     float64
+ 12  LossV              31 non-null     float64
+ 13  DeltaLossPi        31 non-null     float64
+ 14  DeltaLossV         31 non-null     float64
+ 15  Entropy            31 non-null     float64
+ 16  KL                 31 non-null     float64
+ 17  ClipFrac           31 non-null     float64
+ 18  StopIter           31 non-null     float64
+ 19  Time               31 non-null     float64
+ 20  Unit               31 non-null     int64  
+ 21  Condition1         31 non-null     object 
+ 22  Condition2         31 non-null     object 
+ 23  Performance        31 non-null     float64
+dtypes: float64(19), int64(3), object(2)
+memory usage: 5.9+ KB
+/usr/local/lib/python3.6/dist-packages/seaborn/timeseries.py:183: UserWarning: The tsplot function is deprecated and will be removed or replaced (in a substantially altered version) in a future release.
+  warnings.warn(msg, UserWarning)
+
+The found policy is good enough. stopping.
+It took us 30 epochs!
+SUCCESSFUL episodes: 162, UNSUCCESSFUL episodes: 318
+Success ratio = 0.3375
+All rewards statistics:
+count    480.000000
+mean      -0.448715
+std        0.224177
+min       -0.878000
+25%       -0.575000
+50%       -0.540000
+75%       -0.224500
+max       -0.056000
+dtype: float64
+All episode length statistics:
+count    480.000000
+mean     200.797917
+std      169.874812
+min       18.000000
+25%       48.000000
+50%      152.500000
+75%      302.250000
+max      500.000000
+dtype: float64
+Successful rewards statistics:
+count    162.000000
+mean      -0.159519
+std        0.086426
+min       -0.385000
+25%       -0.225750
+50%       -0.129500
+75%       -0.084250
+max       -0.056000
+dtype: float64
+Successful episode length statistics:
+count    162.000000
+mean     352.901235
+std      121.506854
+min      206.000000
+25%      234.250000
+50%      307.000000
+75%      481.250000
+max      500.000000
+dtype: float64
+
+
+
+
+
+Plotting from...
+==================================================
+
+/content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe500_gam0.99_lam0.99_tkl0.01_tpi80_tvi100_cr0.1_seed632981
+
+==================================================
+            Epoch  ...  Performance
+count   30.000000  ...    30.000000
+unique        NaN  ...          NaN
+top           NaN  ...          NaN
+freq          NaN  ...          NaN
+mean    14.500000  ...    -0.318154
+std      8.803408  ...     0.188278
+min      0.000000  ...    -0.563029
+25%      7.250000  ...    -0.521386
+50%     14.500000  ...    -0.318512
+75%     21.750000  ...    -0.129057
+max     29.000000  ...    -0.074903
+
+[11 rows x 24 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 30 entries, 0 to 29
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Epoch              30 non-null     int64  
+ 1   AverageEpRet       30 non-null     float64
+ 2   StdEpRet           30 non-null     float64
+ 3   MaxEpRet           30 non-null     float64
+ 4   MinEpRet           30 non-null     float64
+ 5   EpLen              30 non-null     float64
+ 6   AverageVVals       30 non-null     float64
+ 7   StdVVals           30 non-null     float64
+ 8   MaxVVals           30 non-null     float64
+ 9   MinVVals           30 non-null     float64
+ 10  TotalEnvInteracts  30 non-null     int64  
+ 11  LossPi             30 non-null     float64
+ 12  LossV              30 non-null     float64
+ 13  DeltaLossPi        30 non-null     float64
+ 14  DeltaLossV         30 non-null     float64
+ 15  Entropy            30 non-null     float64
+ 16  KL                 30 non-null     float64
+ 17  ClipFrac           30 non-null     float64
+ 18  StopIter           30 non-null     float64
+ 19  Time               30 non-null     float64
+ 20  Unit               30 non-null     int64  
+ 21  Condition1         30 non-null     object 
+ 22  Condition2         30 non-null     object 
+ 23  Performance        30 non-null     float64
+dtypes: float64(19), int64(3), object(2)
+memory usage: 5.8+ KB
+/usr/local/lib/python3.6/dist-packages/seaborn/timeseries.py:183: UserWarning: The tsplot function is deprecated and will be removed or replaced (in a substantially altered version) in a future release.
+  warnings.warn(msg, UserWarning)
+
+The found policy is good enough. stopping.
+It took us 31 epochs!
+SUCCESSFUL episodes: 187, UNSUCCESSFUL episodes: 309
+Success ratio = 0.37701612903225806
+All rewards statistics:
+count    496.000000
+mean      -0.415468
+std        0.219342
+min       -0.908000
+25%       -0.565000
+50%       -0.532000
+75%       -0.158000
+max       -0.056000
+dtype: float64
+All episode length statistics:
+count    496.000000
+mean     171.443548
+std      130.851342
+min       15.000000
+25%       46.000000
+50%      135.000000
+75%      283.500000
+max      500.000000
+dtype: float64
+Successful rewards statistics:
+count    187.000000
+mean      -0.145503
+std        0.052416
+min       -0.396000
+25%       -0.170000
+50%       -0.136000
+75%       -0.112000
+max       -0.056000
+dtype: float64
+Successful episode length statistics:
+count    187.000000
+mean     302.106952
+std       59.964320
+min      206.000000
+25%      263.000000
+50%      291.000000
+75%      324.500000
+max      500.000000
+dtype: float64
+
+
+
+
+
+Plotting from...
+==================================================
+
+/content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe500_gam0.99_lam0.99_tkl0.01_tpi80_tvi100_cr0.1_seed7328167
+
+==================================================
+            Epoch  ...  Performance
+count   31.000000  ...    31.000000
+unique        NaN  ...          NaN
+top           NaN  ...          NaN
+freq          NaN  ...          NaN
+mean    15.000000  ...    -0.293149
+std      9.092121  ...     0.163452
+min      0.000000  ...    -0.535082
+25%      7.500000  ...    -0.473906
+50%     15.000000  ...    -0.204817
+75%     22.500000  ...    -0.149614
+max     30.000000  ...    -0.116892
+
+[11 rows x 24 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31 entries, 0 to 30
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Epoch              31 non-null     int64  
+ 1   AverageEpRet       31 non-null     float64
+ 2   StdEpRet           31 non-null     float64
+ 3   MaxEpRet           31 non-null     float64
+ 4   MinEpRet           31 non-null     float64
+ 5   EpLen              31 non-null     float64
+ 6   AverageVVals       31 non-null     float64
+ 7   StdVVals           31 non-null     float64
+ 8   MaxVVals           31 non-null     float64
+ 9   MinVVals           31 non-null     float64
+ 10  TotalEnvInteracts  31 non-null     int64  
+ 11  LossPi             31 non-null     float64
+ 12  LossV              31 non-null     float64
+ 13  DeltaLossPi        31 non-null     float64
+ 14  DeltaLossV         31 non-null     float64
+ 15  Entropy            31 non-null     float64
+ 16  KL                 31 non-null     float64
+ 17  ClipFrac           31 non-null     float64
+ 18  StopIter           31 non-null     float64
+ 19  Time               31 non-null     float64
+ 20  Unit               31 non-null     int64  
+ 21  Condition1         31 non-null     object 
+ 22  Condition2         31 non-null     object 
+ 23  Performance        31 non-null     float64
+dtypes: float64(19), int64(3), object(2)
+memory usage: 5.9+ KB
+/usr/local/lib/python3.6/dist-packages/seaborn/timeseries.py:183: UserWarning: The tsplot function is deprecated and will be removed or replaced (in a substantially altered version) in a future release.
+  warnings.warn(msg, UserWarning)
+
+The found policy is good enough. stopping.
+It took us 33 epochs!
+SUCCESSFUL episodes: 114, UNSUCCESSFUL episodes: 414
+Success ratio = 0.2159090909090909
+All rewards statistics:
+count    528.000000
+mean      -0.511756
+std        0.202713
+min       -0.999000
+25%       -0.654000
+50%       -0.551000
+75%       -0.519000
+max       -0.090000
+dtype: float64
+All episode length statistics:
+count    528.000000
+mean     176.727273
+std      123.510301
+min       16.000000
+25%       44.750000
+50%      186.000000
+75%      280.000000
+max      500.000000
+dtype: float64
+Successful rewards statistics:
+count    114.000000
+mean      -0.153342
+std        0.043469
+min       -0.391000
+25%       -0.173250
+50%       -0.150000
+75%       -0.124500
+max       -0.090000
+dtype: float64
+Successful episode length statistics:
+count    114.000000
+mean     303.175439
+std       42.029540
+min      240.000000
+25%      274.500000
+50%      300.000000
+75%      323.250000
+max      500.000000
+dtype: float64
+
+
+
+
+
+Plotting from...
+==================================================
+
+/content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe500_gam0.99_lam0.99_tkl0.01_tpi100_tvi80_cr0.1_seed7328167
+
+==================================================
+           Epoch  ...  Performance
+count   33.00000  ...    33.000000
+unique       NaN  ...          NaN
+top          NaN  ...          NaN
+freq         NaN  ...          NaN
+mean    16.00000  ...    -0.370782
+std      9.66954  ...     0.139027
+min      0.00000  ...    -0.546666
+25%      8.00000  ...    -0.528791
+50%     16.00000  ...    -0.361217
+75%     24.00000  ...    -0.237283
+max     32.00000  ...    -0.178857
+
+[11 rows x 24 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 33 entries, 0 to 32
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Epoch              33 non-null     int64  
+ 1   AverageEpRet       33 non-null     float64
+ 2   StdEpRet           33 non-null     float64
+ 3   MaxEpRet           33 non-null     float64
+ 4   MinEpRet           33 non-null     float64
+ 5   EpLen              33 non-null     float64
+ 6   AverageVVals       33 non-null     float64
+ 7   StdVVals           33 non-null     float64
+ 8   MaxVVals           33 non-null     float64
+ 9   MinVVals           33 non-null     float64
+ 10  TotalEnvInteracts  33 non-null     int64  
+ 11  LossPi             33 non-null     float64
+ 12  LossV              33 non-null     float64
+ 13  DeltaLossPi        33 non-null     float64
+ 14  DeltaLossV         33 non-null     float64
+ 15  Entropy            33 non-null     float64
+ 16  KL                 33 non-null     float64
+ 17  ClipFrac           33 non-null     float64
+ 18  StopIter           33 non-null     float64
+ 19  Time               33 non-null     float64
+ 20  Unit               33 non-null     int64  
+ 21  Condition1         33 non-null     object 
+ 22  Condition2         33 non-null     object 
+ 23  Performance        33 non-null     float64
+dtypes: float64(19), int64(3), object(2)
+memory usage: 6.3+ KB
+/usr/local/lib/python3.6/dist-packages/seaborn/timeseries.py:183: UserWarning: The tsplot function is deprecated and will be removed or replaced (in a substantially altered version) in a future release.
+  warnings.warn(msg, UserWarning)
+
+The found policy is good enough. stopping.
+It took us 30 epochs!
+SUCCESSFUL episodes: 141, UNSUCCESSFUL episodes: 339
+Success ratio = 0.29375
+All rewards statistics:
+count    480.000000
+mean      -0.451592
+std        0.210095
+min       -0.925000
+25%       -0.574000
+50%       -0.540000
+75%       -0.194000
+max       -0.072000
+dtype: float64
+All episode length statistics:
+count    480.000000
+mean     149.002083
+std      126.733615
+min       17.000000
+25%       45.000000
+50%       87.500000
+75%      264.250000
+max      500.000000
+dtype: float64
+Successful rewards statistics:
+count    141.000000
+mean      -0.143695
+std        0.052337
+min       -0.396000
+25%       -0.168000
+50%       -0.132000
+75%       -0.109000
+max       -0.072000
+dtype: float64
+Successful episode length statistics:
+count    141.000000
+mean     295.099291
+std       54.594650
+min      222.000000
+25%      259.000000
+50%      282.000000
+75%      319.000000
+max      500.000000
+dtype: float64
+
+
+
+
+
+Plotting from...
+==================================================
+
+/content/spinningup/data/obstacle/ppo_plr0.005_vlr0.01_spe500_gam0.99_lam0.99_tkl0.01_tpi80_tvi100_cr0.2_seed632981
+
+==================================================
+            Epoch  ...  Performance
+count   30.000000  ...    30.000000
+unique        NaN  ...          NaN
+top           NaN  ...          NaN
+freq          NaN  ...          NaN
+mean    14.500000  ...    -0.301768
+std      8.803408  ...     0.170139
+min      0.000000  ...    -0.538490
+25%      7.250000  ...    -0.493762
+50%     14.500000  ...    -0.275537
+75%     21.750000  ...    -0.127643
+max     29.000000  ...    -0.103072
+
+[11 rows x 24 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 30 entries, 0 to 29
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   Epoch              30 non-null     int64  
+ 1   AverageEpRet       30 non-null     float64
+ 2   StdEpRet           30 non-null     float64
+ 3   MaxEpRet           30 non-null     float64
+ 4   MinEpRet           30 non-null     float64
+ 5   EpLen              30 non-null     float64
+ 6   AverageVVals       30 non-null     float64
+ 7   StdVVals           30 non-null     float64
+ 8   MaxVVals           30 non-null     float64
+ 9   MinVVals           30 non-null     float64
+ 10  TotalEnvInteracts  30 non-null     int64  
+ 11  LossPi             30 non-null     float64
+ 12  LossV              30 non-null     float64
+ 13  DeltaLossPi        30 non-null     float64
+ 14  DeltaLossV         30 non-null     float64
+ 15  Entropy            30 non-null     float64
+ 16  KL                 30 non-null     float64
+ 17  ClipFrac           30 non-null     float64
+ 18  StopIter           30 non-null     float64
+ 19  Time               30 non-null     float64
+ 20  Unit               30 non-null     int64  
+ 21  Condition1         30 non-null     object 
+ 22  Condition2         30 non-null     object 
+ 23  Performance        30 non-null     float64
+dtypes: float64(19), int64(3), object(2)
+memory usage: 5.8+ KB
+/usr/local/lib/python3.6/dist-packages/seaborn/timeseries.py:183: UserWarning: The tsplot function is deprecated and will be removed or replaced (in a substantially altered version) in a future release.
+  warnings.warn(msg, UserWarning)
